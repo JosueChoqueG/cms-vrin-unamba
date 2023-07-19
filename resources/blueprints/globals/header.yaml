@@ -1,0 +1,96 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: sitio_logo
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              max_files: 1
+              display: 'Sitio Logo'
+              type: assets
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              show_set_alt: true
+              hide_display: false
+          -
+            handle: sitio_menu
+            field:
+              antlers: true
+              default: |-
+                <ul class="nav">
+                                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                                          <li class="scroll-to-section"><a href="#services">Services</a></li>
+                                          <li class="scroll-to-section"><a href="#courses">Courses</a></li>
+                                          <li class="has-sub">
+                                              <a href="javascript:void(0)">Pages</a>
+                                              <ul class="sub-menu">
+                                                  <li><a href="about-us.html">About Us</a></li>
+                                                  <li><a href="our-services.html">Our Services</a></li>
+                                                  <li><a href="contact-us.html">Contact Us</a></li>
+                                              </ul>
+                                          </li>
+                                          <li class="scroll-to-section"><a href="#testimonials">Testimonials</a></li> 
+                                          <li class="scroll-to-section"><a href="#contact-section">Contact Us</a></li> 
+                                      </ul>        
+                                      <a class='menu-trigger'>
+                                          <span>Menu</span>
+                                      </a>
+              display: 'Sitio Menu'
+              type: textarea
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: sitio_nombre
+            field:
+              input_type: text
+              antlers: false
+              display: 'Sitio Nombre'
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  template:
+    display: Template
+    sections:
+      -
+        fields:
+          -
+            handle: navbar_template
+            field:
+              antlers: true
+              display: 'Navbar Template'
+              type: textarea
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  header_extra:
+    display: 'Header Extra'
+    sections:
+      -
+        fields:
+          -
+            handle: header_extra
+            field:
+              antlers: true
+              display: header_extra
+              type: textarea
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible

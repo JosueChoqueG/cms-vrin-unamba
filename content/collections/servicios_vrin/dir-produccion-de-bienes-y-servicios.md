@@ -1,0 +1,8 @@
+---
+id: 1e3b24d4-9278-439d-93c6-321861d2fa45
+blueprint: servicios_vrin
+title: 'Dir. Producción de Bienes y Servicios'
+imagen_servicio: a_home_otros/logo-direccion-produccion-bienes-servicios.png
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1689782597
+---

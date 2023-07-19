@@ -1,0 +1,8 @@
+---
+id: 5490b387-1402-4b01-bac8-8978f5bec44a
+blueprint: servicios_vrin
+title: 'Unidades de Investigación'
+imagen_servicio: a_home_otros/unidades-investigacion.png
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1689782846
+---

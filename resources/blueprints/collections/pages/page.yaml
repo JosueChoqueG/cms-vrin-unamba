@@ -1,0 +1,1096 @@
+title: Page
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: texto_bienvenida
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Texto Bienvenida'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: content
+            field:
+              type: markdown
+              display: Content
+              localizable: true
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current
+              localizable: true
+              max_items: 1
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+  block_types:
+    display: 'Block Types'
+    sections:
+      -
+        fields:
+          -
+            handle: block_types
+            field:
+              collapse: false
+              previews: true
+              sets:
+                main:
+                  display: Main
+                  instructions: null
+                  icon: null
+                  sets:
+                    servicios_vrin:
+                      display: 'Servicios VRIN'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: title_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 1'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: TESTIMONIALS
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            default: |-
+                              <section class="testimonials" id="testimonials">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <div class="section-heading">
+                                          <h6>{{title_1}}</h6>
+                                          <h4>{{title_2}}</h4>
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-12">
+                                        <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
+                              	          
+                              	          {{collection:testimonials}}  
+                                          <div class="item">
+                                            {{content}}
+                                              <h4>{{title}}</h4>
+                                              <span>{{designation}}</span>
+                                              <img src="{{icon}}" alt="{{title}}">
+                                          </div>
+                                          
+                                          {{/collection:testimonials}}  
+                                    
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+                            display: Template
+                            type: textarea
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                    contador_estado:
+                      display: 'Contador Estado'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: estado_1
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Estado 1'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: contador1
+                          field:
+                            type: integer
+                            display: Contador1
+                            icon: integer
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: contador_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Contador 1'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: estado_2
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Estado 2'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: contador2
+                          field:
+                            type: integer
+                            display: Contador2
+                            icon: integer
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: contador_2
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Contador 2'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: estado_3
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Estado 3'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: contador3
+                          field:
+                            type: integer
+                            display: Contador3
+                            icon: integer
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: contador_3
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Contador 3'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            type: textarea
+                            display: Template
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                    acerca_vicerrector:
+                      display: 'Acerca Vicerrector'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: imagen_vicerrector
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Imagen Vicerrector'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: nombre_vicerrector
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Nombre Vicerrector'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            type: textarea
+                            display: Template
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                    home_hero:
+                      display: 'Home Hero'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: hero_image
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            max_files: 1
+                            display: 'Hero Image'
+                            type: assets
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: welcome_text
+                          field:
+                            input_type: text
+                            antlers: false
+                            default: 'Welcome to Edutel'
+                            display: 'Welcome Text'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: heading
+                          field:
+                            input_type: text
+                            antlers: false
+                            default: 'Best Place To Learn Graphic <em>Design!'
+                            display: Heading
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: button_text
+                          field:
+                            input_type: text
+                            antlers: false
+                            default: 'Join Us Now!'
+                            display: 'Button Text'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: button_link
+                          field:
+                            display: 'Button Link'
+                            type: link
+                            icon: link
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            default: |-
+                              <!-- ***** Main Banner Area Start ***** -->
+                                <section class="main-banner" id="top">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-lg-6 align-self-center">
+                                        <div class="header-text">
+                                          <h6>{{welcome_text}}</h6>
+                                          <h2>{{heading}}</em></h2>
+                                          <div class="main-button-gradient">
+                                            <div class="scroll-to-section"><a href="{{button_link}}">{{button_text}}</a></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <div class="right-image">
+                                          <img src="{{hero_image}}" alt="{{heading}}">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+                                <!-- ***** Main Banner Area End ***** -->
+                            display: Template
+                            type: textarea
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                    highlight_box:
+                      display: 'Highlight Box'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: image
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            max_files: 1
+                            display: Image
+                            type: assets
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: title_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 1'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Get the sale right now!'
+                        -
+                          handle: title_2
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 2'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Up to 50% OFF For 1+ courses'
+                        -
+                          handle: description
+                          field:
+                            antlers: false
+                            display: Description
+                            type: textarea
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: "Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave."
+                        -
+                          handle: button_text
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Button Text'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Get Now'
+                        -
+                          handle: button_link
+                          field:
+                            display: 'Button Link'
+                            type: link
+                            icon: link
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: link_target
+                          field:
+                            options:
+                              _blank: Blank
+                              _self: Self
+                            multiple: false
+                            clearable: false
+                            searchable: true
+                            taggable: false
+                            push_tags: false
+                            cast_booleans: false
+                            display: 'Link Target'
+                            type: select
+                            icon: select
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: _blank
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            default: |-
+                              <section class="simple-cta">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-lg-5 offset-lg-1">
+                                        <div class="left-image">
+                                          <img src="{{image}}" alt="{{title_1}}">
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-5 align-self-center">
+                                        <h6>{{title_1}}</h6>
+                                        <h4>{{title_2}}</h4>
+                                        <p>{{description}}</p>
+                                        <div class="white-button">
+                                          <a href="{{button_link}}" target="{{link_target}}">{{button_text}}</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+                            display: Template
+                            type: textarea
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                    get_info:
+                      display: 'Get Info'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: image_left
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            max_files: 1
+                            display: 'Image Left'
+                            type: assets
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: title_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 1'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'GET INFO'
+                        -
+                          handle: title_2
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 2'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Read More <em>About Us</em>'
+                        -
+                          handle: description
+                          field:
+                            restrict: false
+                            automatic_line_breaks: true
+                            automatic_links: false
+                            escape_markup: false
+                            smartypants: false
+                            antlers: false
+                            display: Description
+                            type: markdown
+                            icon: markdown
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: |-
+                              You are allowed 100% to download and use our templates from TemplateMo for your commercial or business websites. You are not allowed to redistribute this template ZIP file on any other website without a permission from us.
+
+                              There are some unethical people on this planet earth who copied our templates so easily without any permission from us and then reposted on their websites. Their Karma will hit them really hard. Yeah, that is right.
+                        -
+                          handle: strategy_1_icon
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            max_files: 1
+                            display: 'Strategy 1 Icon'
+                            type: assets
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: strategy_1_text
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Strategy 1 Text'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Best Strategy'
+                        -
+                          handle: strategy_1_data
+                          field:
+                            restrict: false
+                            automatic_line_breaks: true
+                            automatic_links: false
+                            escape_markup: false
+                            smartypants: false
+                            antlers: false
+                            display: 'Strategy 1 Data'
+                            type: markdown
+                            icon: markdown
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.'
+                        -
+                          handle: strategy_2_icon
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            max_files: 1
+                            display: 'Strategy 2 Icon'
+                            type: assets
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: strategy_2_text
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Strategy 2 Text'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Creative Ideas'
+                        -
+                          handle: strategy_2_data
+                          field:
+                            restrict: false
+                            automatic_line_breaks: true
+                            automatic_links: false
+                            escape_markup: false
+                            smartypants: false
+                            antlers: false
+                            display: 'Strategy 2 Data'
+                            type: markdown
+                            icon: markdown
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.'
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            default: |-
+                              <section class="get-info">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-lg-6">
+                                        <div class="left-image">
+                                          <img src="{{image_left}}" alt="{{title_1}}">
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-6 align-self-center">
+                                        <div class="section-heading">
+                                          <h6>{{title_1}}</h6>
+                                          <h4>{{title_2}}</h4>
+                                          {{description}}
+                                        </div>
+                                        <div class="row">
+                                          <div class="col-lg-6">
+                                            <div class="info-item">
+                                              <div class="icon">
+                                                <img src="{{strategy_1_icon}}" alt="{{strategy_1_text}}">
+                                              </div>
+                                              <h4>{{strategy_1_text}}</h4>
+                                              {{strategy_1_data}}
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-6">
+                                            <div class="info-item">
+                                              <div class="icon">
+                                                <img src="{{strategy_2_icon}}" alt="{{strategy_2_text}}">
+                                              </div>
+                                              <h4>{{strategy_2_text}}</h4>
+                                              {{strategy_2_data}}
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+                            display: Template
+                            type: textarea
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                    team_members:
+                      display: 'Team Members'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: title_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 1'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'OUR TEAM'
+                        -
+                          handle: title_2
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 2'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Our Team <em>Members</em>'
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            default: |-
+                              <section class="our-team">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-lg-6 offset-lg-3">
+                                        <div class="section-heading">
+                                          <h6>{{title_1}}</h6>
+                                          <h4>{{title_2}}</h4>
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-10 offset-lg-1">
+                                        <div class="naccs">
+                                          <div class="tabs">
+                                            <div class="row">
+                                              <div class="col-lg-12">
+                                                <div class="menu">
+                              	                  
+                              	                {{collection:team_members}}  
+                              	                  
+                              	                  
+                                                  <div class="{{ if first }} active {{/if}}">
+                                                    <img src="{{member_small_image}}" alt="{{title}}">
+                                                    <h4>{{title}}</h4>
+                                                    <span>{{designation}}</span>
+                                                  </div>
+                                                  
+                                                  {{/collection:team_members}} 
+                                                  
+                                                  
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-12">
+                                                <ul class="nacc">
+                              	                  
+                              	                  
+                              	               {{collection:team_members}}    
+                              	                  
+                                                  <li class="{{ if first }} active {{/if}}">
+                                                    <div>
+                                                      <div class="left-content">
+                                                        <h4>{{title}}</h4>
+                                                        {{content}}
+                                                        
+                                                        
+                                                      </div>
+                                                      <div class="right-image">
+                                                        <img src="{{member_big_image}}" alt="{{title}}">
+                                                      </div>
+                                                    </div>
+                                                  </li>
+                                                 
+                                                  {{/collection:team_members}} 
+                                                 
+                                                
+                                                   
+                                                  </ul>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+                            display: Template
+                            type: textarea
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                    video_highlight:
+                      display: 'Video Highlight'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: title_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 1'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Our Office'
+                        -
+                          handle: title_2
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 2'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Get Closer To EduWell'
+                        -
+                          handle: description
+                          field:
+                            restrict: false
+                            automatic_line_breaks: true
+                            automatic_links: false
+                            escape_markup: false
+                            smartypants: false
+                            antlers: false
+                            display: Description
+                            type: markdown
+                            icon: markdown
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: |-
+                              <p>Trust fund nocore broklyn humblebrag mustache
+                                            pork kitsch, bicycle rights hexagon schlitz keytar palo is
+                                            santo drinking vinegar fam ramps. <br><br>Four dollar toast and
+                                            edison bulb vinyl, listicle hashtag pug scenester typewrit
+                                            er yuccie street artboard or whatever to fill place.</p>
+                                          <ul>
+                                            <li>- Selfies you probably haven't heard of them.</li>
+                                            <li>- Tousled cold-pressed chicharrones yuccie.</li>
+                                            <li>- Pabst iPhone chartreuse shabby chic tumeric.</li>
+                                            <li>- Scenester normcore mumblecore snackwave.</li>
+                                          </ul>
+                        -
+                          handle: video_thumbnail
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            max_files: 1
+                            display: 'Video Thumbnail'
+                            type: assets
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: button_link
+                          field:
+                            display: 'Button Link'
+                            type: link
+                            icon: link
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: button_label
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Button Label'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'Read More'
+                        -
+                          handle: button_target
+                          field:
+                            options:
+                              _blank: Blank
+                              _self: Self
+                            multiple: false
+                            clearable: false
+                            searchable: true
+                            taggable: false
+                            push_tags: false
+                            cast_booleans: false
+                            default: _self
+                            display: 'Button Target'
+                            type: select
+                            icon: select
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: video_url
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Video URL'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: 'https://www.youtube.com/channel/UCp7T2WyMWuKIEEQyr6EqLuw'
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            display: Template
+                            type: textarea
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            default: |-
+                              <section class="contact-us our-office">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-lg-4">
+                                        <div class="left-info">
+                                          <div class="section-heading">
+                                            <h6>{{title_1}}</h6>
+                                            <h4>{{title_2}}</h4>
+                                          </div>
+                                          {{description}}
+                                          <div class="main-button-gradient">
+                                            <a href="{{button_link}}" target="{{button_target}}">{{button_label}}</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-8">
+                                        <div id="video">
+                                          <div class="thumb">
+                                            <img src="{{video_thumbnail}}" alt="{{title_2}}">
+                                            <div class="play-button">
+                                              <a rel="nofollow" href="{{video_url}}" target="_blank"><i class="fa fa-play"></i></a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                     
+                                    </div>
+                                  </div>
+                                </section>
+                    more_info_about_us:
+                      display: 'More Info About Us'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: title_1
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 1'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: title_2
+                          field:
+                            input_type: text
+                            antlers: false
+                            display: 'Title 2'
+                            type: text
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: description
+                          field:
+                            restrict: false
+                            automatic_line_breaks: true
+                            automatic_links: false
+                            escape_markup: false
+                            smartypants: false
+                            antlers: false
+                            display: Description
+                            type: markdown
+                            icon: markdown
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: line_items
+                          field:
+                            fields:
+                              -
+                                handle: label_1
+                                field:
+                                  input_type: text
+                                  antlers: false
+                                  display: 'Label 1'
+                                  type: text
+                                  icon: text
+                                  listable: hidden
+                                  instructions_position: above
+                                  visibility: visible
+                              -
+                                handle: label_2
+                                field:
+                                  input_type: text
+                                  antlers: false
+                                  display: 'Label 2'
+                                  type: text
+                                  icon: text
+                                  listable: hidden
+                                  instructions_position: above
+                                  visibility: visible
+                            mode: table
+                            reorderable: true
+                            display: 'Line Items'
+                            type: grid
+                            icon: grid
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            display: Template
+                            type: textarea
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+              display: 'Block Types'
+              type: replicator
+              icon: replicator
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              fullscreen: true
+              hide_display: false

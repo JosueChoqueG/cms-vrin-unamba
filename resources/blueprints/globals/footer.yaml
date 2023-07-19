@@ -1,0 +1,104 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: gmap_iframe
+        field:
+          antlers: false
+          display: 'Gmap Iframe'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: phone_number
+        field:
+          input_type: text
+          antlers: false
+          display: 'Phone Number'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: mobile_number
+        field:
+          input_type: text
+          antlers: false
+          display: 'Mobile Number'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: contact_us_heading
+        field:
+          input_type: text
+          antlers: false
+          display: 'Contact Us Heading'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: sub_heading
+        field:
+          input_type: text
+          antlers: false
+          display: 'Sub Heading'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: description
+        field:
+          antlers: false
+          display: Description
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: social_media_icons
+        field:
+          antlers: false
+          display: 'Social Media Icons'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  template:
+    display: Template
+    fields:
+      -
+        handle: footer_template
+        field:
+          antlers: true
+          display: 'Footer Template'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+  footer_extra:
+    display: 'Footer Extra'
+    fields:
+      -
+        handle: footer_extra
+        field:
+          antlers: true
+          display: 'Footer Extra'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible

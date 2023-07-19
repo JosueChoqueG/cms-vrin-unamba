@@ -1,0 +1,8 @@
+---
+id: fcb890a5-1b5f-441d-8d06-6f40a810f132
+blueprint: servicios_vrin
+title: 'Docentes Investigadores'
+imagen_servicio: a_home_otros/docentes-investigadores.png
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1689782638
+---

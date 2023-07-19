@@ -1,0 +1,8 @@
+---
+id: 37a8bd79-4a50-4691-a437-9b6129cc3c70
+blueprint: servicios_vrin
+title: 'Líneas de Investigación'
+imagen_servicio: a_home_otros/lineas-de-investigacion.png
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1689782781
+---

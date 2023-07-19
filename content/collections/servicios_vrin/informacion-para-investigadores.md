@@ -1,0 +1,8 @@
+---
+id: 92eb4251-c8d5-47f5-8457-6fb537cfe6c1
+blueprint: servicios_vrin
+title: 'Informacion Para Investigadores'
+imagen_servicio: a_home_otros/logo-informacion-para-investigadores.png
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1689782818
+---

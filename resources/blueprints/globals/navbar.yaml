@@ -1,0 +1,51 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: menu_sitio
+            field:
+              antlers: true
+              type: textarea
+              display: 'Menu Sitio'
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  template:
+    display: Template
+    sections:
+      -
+        display: 'New Section'
+        fields:
+          -
+            handle: logo_vrin
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Logo VRIN'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: template_navbar
+            field:
+              antlers: true
+              type: textarea
+              display: 'Template Navbar'
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false

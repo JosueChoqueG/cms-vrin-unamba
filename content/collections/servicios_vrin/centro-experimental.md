@@ -1,0 +1,8 @@
+---
+id: 7e585bde-b5cc-4924-85e5-7f82d1d7d0ba
+blueprint: servicios_vrin
+title: 'Centro Experimental'
+imagen_servicio: a_home_otros/logo-centros-experimentales.png
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1689782551
+---

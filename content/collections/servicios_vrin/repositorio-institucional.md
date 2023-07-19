@@ -1,0 +1,8 @@
+---
+id: 540b22d9-f4f7-4e38-aa35-3d7e6791babe
+blueprint: servicios_vrin
+title: 'Repositorio Institucional'
+imagen_servicio: a_home_otros/repositori.png
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1689782373
+---
