@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689799325
+updated_at: 1689810383
 block_types:
   -
     id: lka0v9ms
@@ -190,6 +190,53 @@ block_types:
           </div>
       </div>
       <!-- fin acerca de vicerrector -->
+  -
+    id: lkabqlir
+    titulo_seccion_blog: 'Eventos Vicerrectorado de Investigación'
+    template: |-
+      <!-- inicio blog/evento -->
+      <div class="cd-section" id="blogs">
+          <div class="blogs-2" id="blogs-2">
+              <div class="container text-center">
+                  <div class="row">
+                      <div class="col-md-12 ml-auto mr-auto">
+                          <h2 class="title">Eventos Vicerrectorado de Investigación</h2>
+                          <br>
+      					
+                          <div class="row">
+      					{{ collection:blog limit="3" }}
+                              <div class="col-md-4">
+                                  <div class="card card-plain card-blog">
+                                      <div class="card-header card-header-image">
+                                          <a href="{{url}}">
+                                          <img class="img img-raised" src="{{imagen_principal}}">
+                                          </a>
+                                          <div class="colored-shadow"
+                                              style="background-image: url(&quot;./assets/img/blog/III-concurso.jpg&quot;); opacity: 1;"></div>
+                                      </div>
+                                      <div class="card-body ">
+                                          <h6 class="card-category text-danger">{{direccion_o_vrin}}</h6>
+                                          <h4 class="card-title">
+                                              <a href="{{url}}">{{title}}</a>
+                                          </h4>
+                                          <p class="card-description">
+                                              {{content}}
+                                              <a href="{{url}}">Leer más </a>
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+      						{{ /collection:blog }}
+                          </div>
+      					
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- fin blog/evento -->
+    type: blog
+    enabled: true
 texto_bienvenida: 'Vicerrectorado de Investigación'
 ---
 ## Bienvenido a la página web del VRIN!

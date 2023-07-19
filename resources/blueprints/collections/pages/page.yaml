@@ -1086,6 +1086,34 @@ tabs:
                             listable: hidden
                             instructions_position: above
                             visibility: visible
+                    blog:
+                      display: Blog
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: titulo_seccion_blog
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Titulo seccion blog'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            type: textarea
+                            display: Template
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
               display: 'Block Types'
               type: replicator
               icon: replicator
