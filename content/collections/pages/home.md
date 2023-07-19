@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689796995
+updated_at: 1689799325
 block_types:
   -
     id: lka0v9ms
@@ -114,8 +114,8 @@ block_types:
               <b>{{contador_3}}</b>
           </div>
       </div>
-      <!---==end secction count status ==-->
       </div>
+      <!---==end secction count status ==-->
   -
     id: lka55qtw
     template_vicerrector: |-
@@ -190,35 +190,6 @@ block_types:
           </div>
       </div>
       <!-- fin acerca de vicerrector -->
-  -
-    id: lk5vcdy8
-    title_1: 'Get the sale right now!'
-    title_2: 'Up to 50% OFF For 1+ courses'
-    description: "Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave."
-    button_text: 'Get Now'
-    link_target: _blank
-    template: |-
-      <section class="simple-cta">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-5 offset-lg-1">
-                <div class="left-image">
-                  <img src="{{image}}" alt="{{title_1}}">
-                </div>
-              </div>
-              <div class="col-lg-5 align-self-center">
-                <h6>{{title_1}}</h6>
-                <h4>{{title_2}}</h4>
-                <p>{{description}}</p>
-                <div class="white-button">
-                  <a href="{{button_link}}" target="{{link_target}}">{{button_text}}</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-    type: highlight_box
-    enabled: true
 texto_bienvenida: 'Vicerrectorado de Investigación'
 ---
 ## Bienvenido a la página web del VRIN!
