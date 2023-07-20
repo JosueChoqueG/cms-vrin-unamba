@@ -11,10 +11,10 @@ data:
                 <i class="material-icons">apps</i> Direcciones
                 </a>
                 <div class="dropdown-menu dropdown-with-icons">
-                    <a href="incubadora" class="dropdown-item"> Dirección de Incubadora de Empresas</a>
+                    <a href="direcciones:incubadora" class="dropdown-item"> Dirección de Incubadora de Empresas</a>
                     <a href="innovacion" class="dropdown-item">Dirección de Innovación y Transferencia Tecnológica</a>
                     <a href="produccion" class="dropdown-item">Dirección de Producción de Bienes y Servicios</a>
-                    <a href="investigacion" class="dropdown-item">Dirección de Institutos de Investigación</a>
+                    <a href="institutos" class="dropdown-item">Dirección de Institutos de Investigación</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -25,14 +25,14 @@ data:
                 <div class="dropdown-menu dropdown-with-icons">
                     <a href="docentes-renacyt" class="dropdown-item"> Docentes RENACYT</a>
                     <a href="docentes-investigadores" class="dropdown-item">Lista de Docentes Investigadores</a>
-                    <a href="alumnos-investigacion" class="dropdown-item">Alumnos Investigadores</a>
+                    <a href="alumnos-investigadores" class="dropdown-item">Alumnos Investigadores</a>
                 </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/reglamentos">REGLAMENTOS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contacto">CONTACTOS</a>
+                <a class="nav-link" href="/contactos">CONTACTOS</a>
             </li>
             <li class="nav-item">
                 <a class="btn btn-primary btn-round" href="/repositorio" role="button">REPOSITORIO</a>
