@@ -18,7 +18,7 @@ data:
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="eventos">Eventos</a>
+                <a class="nav-link" href="/eventos">Eventos</a>
             </li>
             <li class="dropdown nav-item">
                 <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">INVESTIGACIÓN </a>
@@ -29,13 +29,13 @@ data:
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="reglamentos">REGLAMENTOS</a>
+                <a class="nav-link" href="/reglamentos">REGLAMENTOS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contacto">CONTACTOS</a>
+                <a class="nav-link" href="/contacto">CONTACTOS</a>
             </li>
             <li class="nav-item">
-                <a class="btn btn-primary btn-round" href="repositorio-institucional" role="button">REPOSITORIO</a>
+                <a class="btn btn-primary btn-round" href="/repositorio" role="button">REPOSITORIO</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" rel="tooltip" title data-placement="bottom" href="https://www.facebook.com/unambaoficial" target="_blank" data-original-title="Siguenos en Facebook" >

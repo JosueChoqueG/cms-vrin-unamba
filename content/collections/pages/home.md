@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689810383
+updated_at: 1689813165
 block_types:
   -
     id: lka0v9ms
@@ -207,9 +207,9 @@ block_types:
       					{{ collection:blog limit="3" }}
                               <div class="col-md-4">
                                   <div class="card card-plain card-blog">
-                                      <div class="card-header card-header-image">
+                                      <div class=" card-header card-header-image ">
                                           <a href="{{url}}">
-                                          <img class="img img-raised" src="{{imagen_principal}}">
+                                          <img class=" img img-raised" src="{{imagen_principal}}">
                                           </a>
                                           <div class="colored-shadow"
                                               style="background-image: url(&quot;./assets/img/blog/III-concurso.jpg&quot;); opacity: 1;"></div>
