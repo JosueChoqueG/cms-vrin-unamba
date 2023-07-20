@@ -340,6 +340,86 @@ tabs:
                             instructions_position: above
                             visibility: visible
                             hide_display: false
+                    blog:
+                      display: Blog
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: titulo_seccion_blog
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Titulo seccion blog'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            type: textarea
+                            display: Template
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                    info_contacto:
+                      display: 'Info contacto'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: direccion
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Direccion
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: correo_vrin
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Correo VRIN'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: horario_atencion
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Horario Atencion'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            type: textarea
+                            display: Template
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
                     home_hero:
                       display: 'Home Hero'
                       instructions: null
@@ -1028,120 +1108,6 @@ tabs:
                                     </div>
                                   </div>
                                 </section>
-                    more_info_about_us:
-                      display: 'More Info About Us'
-                      instructions: null
-                      icon: null
-                      fields:
-                        -
-                          handle: title_1
-                          field:
-                            input_type: text
-                            antlers: false
-                            display: 'Title 1'
-                            type: text
-                            icon: text
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                        -
-                          handle: title_2
-                          field:
-                            input_type: text
-                            antlers: false
-                            display: 'Title 2'
-                            type: text
-                            icon: text
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                        -
-                          handle: description
-                          field:
-                            restrict: false
-                            automatic_line_breaks: true
-                            automatic_links: false
-                            escape_markup: false
-                            smartypants: false
-                            antlers: false
-                            display: Description
-                            type: markdown
-                            icon: markdown
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                        -
-                          handle: line_items
-                          field:
-                            fields:
-                              -
-                                handle: label_1
-                                field:
-                                  input_type: text
-                                  antlers: false
-                                  display: 'Label 1'
-                                  type: text
-                                  icon: text
-                                  listable: hidden
-                                  instructions_position: above
-                                  visibility: visible
-                              -
-                                handle: label_2
-                                field:
-                                  input_type: text
-                                  antlers: false
-                                  display: 'Label 2'
-                                  type: text
-                                  icon: text
-                                  listable: hidden
-                                  instructions_position: above
-                                  visibility: visible
-                            mode: table
-                            reorderable: true
-                            display: 'Line Items'
-                            type: grid
-                            icon: grid
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                        -
-                          handle: template
-                          field:
-                            antlers: true
-                            display: Template
-                            type: textarea
-                            icon: textarea
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                    blog:
-                      display: Blog
-                      instructions: null
-                      icon: null
-                      fields:
-                        -
-                          handle: titulo_seccion_blog
-                          field:
-                            input_type: text
-                            antlers: false
-                            type: text
-                            display: 'Titulo seccion blog'
-                            icon: text
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            hide_display: false
-                        -
-                          handle: template
-                          field:
-                            antlers: true
-                            type: textarea
-                            display: Template
-                            icon: textarea
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            hide_display: false
               display: 'Block Types'
               type: replicator
               icon: replicator

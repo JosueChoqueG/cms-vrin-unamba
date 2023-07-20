@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689863492
+updated_at: 1689872606
 block_types:
   -
     id: lka0v9ms
@@ -209,7 +209,7 @@ block_types:
                                   <div class="card card-plain card-blog">
                                       <div class=" card-header card-header-image ">
                                           <a href="{{url}}">
-                                          <img class=" img img-raised" src="{{imagen_principal}}">
+                                          <img class=" img img-raised" src="{{imagen_principal}}" alt="">
                                           </a>
                                           <div class="colored-shadow"
                                               style="background-image: url(&quot;./assets/img/blog/III-concurso.jpg&quot;); opacity: 1;"></div>
@@ -236,6 +236,89 @@ block_types:
       </div>
       <!-- fin blog/evento -->
     type: blog
+    enabled: true
+  -
+    id: lkbe8ld0
+    direccion: 'Av. Inca Garcilazo de la Vega, Abancay'
+    correo_vrin: vrin@unamba.edu.pe
+    horario_atencion: '7:30 am - 13:00 pm y 14:00 pm - 15:30 pm'
+    template: |-
+      <!---==inicio contacto ==-->
+      <div class="cd-section header-filter" id="contactus">
+      	<div class="contactus-1 section-image" style="background-image: url('./assets/a_home_otros/bg6.jpg')">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-md-8 info info-horizontal">
+      					<h2 class="title" style="color: white">Vicerrectorado de Investigación</h2>
+      					<h5 class="description fs-3" style="color: #e6e0e0">Información de Contacto</h5>
+      					<div class="icon icon-primary">
+      						<i class="material-icons">pin_drop</i>
+      					</div>
+      					<div class="description">
+      						<h4 class="info-title" style="color: white">Encuentra nuestra oficina</h4>
+      						<h5 style="color: #e6e0e0">{{direccion}} <br>
+      							2° Piso Biblioteca General
+      						</h5>
+      					</div>
+      					<div class="icon icon-primary">
+      						<i class="material-icons">phone</i>
+      					</div>
+      					<div class="description" style="color: #e6e0e0">
+      						<h4 class="info-title" style="color: white">Contactanos</h4>
+      						<h5> {{correo_vrin}} 
+      							<br>Lunes a Viernes
+      							<br> Horario de atención: {{horario_atencion}}
+      						</h5>
+      					</div>
+      				</div>
+      				<div class="col-md-5 ml-auto">
+      					<div class="card card-contact">
+      						<br>
+      						<form id="contact-form" method="post">
+      							<div class="card-header card-header-raised card-header-primary text-center">
+      								<h4 class="card-title">Contactanos</h4>
+      							</div>
+      							<div class="card-body">
+      								<div class="row">
+      									<div class="col-md-6">
+      										<div class="form-group label-floating is-empty bmd-form-group">
+      											<label class="bmd-label-floating">Tu nombre</label>
+      											<input type="text" name="name" class="form-control">
+      											<span class="material-input"></span>
+      										</div>
+      									</div>
+      									<div class="col-md-6">
+      										<div class="form-group label-floating is-empty bmd-form-group">
+      											<label class="bmd-label-floating">Apellidos</label>
+      											<input type="text" name="name" class="form-control">
+      											<span class="material-input"></span>
+      										</div>
+      									</div>
+      								</div>
+      								<div class="form-group label-floating is-empty bmd-form-group">
+      									<label class="bmd-label-floating">Correo electronico</label>
+      									<input type="email" name="email" class="form-control">
+      									<span class="material-input"></span>
+      								</div>
+      								<div class="form-group label-floating is-empty bmd-form-group">
+      									<label for="exampleMessage1" class="bmd-label-floating">Mensaje</label>
+      									<textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
+      									<span class="material-input"></span>
+      								</div>
+      							</div>
+      							<div class="card-footer justify-content-between">
+      								
+      								<button type="button" id="form-submit" class="btn btn-primary pull-right">Enviar mensaje</button>
+      							</div>
+      						</form>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+      <!-- fin contacto -->
+    type: info_contacto
     enabled: true
 texto_bienvenida: 'Vicerrectorado de Investigación'
 titulo_pagina: 'Vicerrectorado de Investigación - VRIN UNAMBA'
