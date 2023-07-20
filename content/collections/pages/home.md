@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689813165
+updated_at: 1689863492
 block_types:
   -
     id: lka0v9ms
@@ -238,5 +238,8 @@ block_types:
     type: blog
     enabled: true
 texto_bienvenida: 'Vicerrectorado de Investigación'
+titulo_pagina: 'Vicerrectorado de Investigación - VRIN UNAMBA'
+imagen_fondo:
+  - a_home_otros/bg4.jpg
 ---
 ## Bienvenido a la página web del VRIN!

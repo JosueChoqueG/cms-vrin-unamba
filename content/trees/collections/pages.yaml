@@ -3,29 +3,29 @@ tree:
     entry: home
   -
     entry: fd5dbc1f-8df6-40d2-a2a6-2f8f6eeb6ee0
-    children:
-      -
-        entry: fdcd248b-7441-4525-9340-fe4adcac426d
-      -
-        entry: 27710e9b-8865-48a8-a23d-1f44e115a480
-      -
-        entry: 1e240fc8-59d5-4701-aeab-d14dd9afe51c
-      -
-        entry: 070293c2-becf-464f-9928-dd5642843d0d
+  -
+    entry: fdcd248b-7441-4525-9340-fe4adcac426d
+  -
+    entry: 27710e9b-8865-48a8-a23d-1f44e115a480
+  -
+    entry: 1e240fc8-59d5-4701-aeab-d14dd9afe51c
+  -
+    entry: 070293c2-becf-464f-9928-dd5642843d0d
   -
     entry: 3a97b207-65ca-404e-beb8-4c582916489a
   -
     entry: e6d91574-ad46-4926-8e10-ca027ac32df4
-    children:
-      -
-        entry: ebd9a7db-b27e-4ec7-9daf-021719964f20
-      -
-        entry: 9fd45702-7689-4991-93d5-6c15d837ab57
-      -
-        entry: f3775bf4-df55-47c2-9b8a-137cd6f78377
+  -
+    entry: ebd9a7db-b27e-4ec7-9daf-021719964f20
+  -
+    entry: 9fd45702-7689-4991-93d5-6c15d837ab57
+  -
+    entry: f3775bf4-df55-47c2-9b8a-137cd6f78377
   -
     entry: 87b3fbc4-779b-49e6-bf44-69b5f2a37cb8
   -
     entry: 56e9d0cd-b9fd-4e98-88b4-431c0dc410c9
   -
     entry: 2cd468c6-8f21-48bd-ab42-ccd7ecf9f5f6
+  -
+    entry: 53ef08f0-fdfe-4eaf-a04c-4e51c7e83bf8

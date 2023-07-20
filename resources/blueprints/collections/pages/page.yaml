@@ -13,6 +13,18 @@ tabs:
               validate:
                 - required
           -
+            handle: titulo_pagina
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Titulo Pagina'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
             handle: texto_bienvenida
             field:
               input_type: text
@@ -63,6 +75,22 @@ tabs:
               max_items: 1
               listable: false
               localizable: true
+          -
+            handle: imagen_fondo
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Imagen Fondo'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
   block_types:
     display: 'Block Types'
     sections:
