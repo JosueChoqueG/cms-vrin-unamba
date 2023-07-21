@@ -5,13 +5,13 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689872606
+updated_at: 1689917694
 block_types:
   -
     id: lka0v9ms
     title_1: 'Servicios VRIN'
     template: |-
-      <h2 class="title">{{title_1}}</h2>
+      <h2 class="title" style="text-align:center">{{title_1}}</h2>
       <div class="section ">
           <div class="team">
               <div class="row">

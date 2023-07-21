@@ -2,7 +2,7 @@
 	"version": 3,
 	"file": "kit-free.css",
 	"sources": [
-		"../scss/kit-free.scss",
+		"../scss/kit-free.scss", 
 		"../scss/partials/kit/core/_variables.scss",
 		"../scss/partials/kit/core/variables/_colors.scss",
 		"../scss/partials/kit/core/variables/_shadow.scss",

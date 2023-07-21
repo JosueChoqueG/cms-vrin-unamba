@@ -593,6 +593,36 @@ tabs:
                             visibility: visible
                             hide_display: false
                         -
+                          handle: titulo_documento
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Titulo Documento'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: documento
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Documento
+                            icon: assets
+                            instructions: 'Suba documento pdf'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
                           handle: template
                           field:
                             antlers: true

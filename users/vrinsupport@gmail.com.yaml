@@ -2,3 +2,7 @@ super: true
 name: vrin
 id: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 password_hash: $2y$10$a9KTPbgF3nR93rlNi3S9vO/3Kn1j4zBqYHstACgBIX/8nstznFQ6y
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

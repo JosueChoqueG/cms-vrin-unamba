@@ -6,6 +6,71 @@ texto_bienvenida: 'Dirección de Incubadora de Empresas'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689864647
+updated_at: 1689917537
 titulo_pagina: 'Dirección de Incubadora de Empresas - VRIN UNAMBA'
+block_types:
+  -
+    id: lkc3kwq7
+    nombre_completo: 'MSc. Víctor Hugo Sarmiento Casavilca'
+    cargo_direccion: 'Director de Incubadora de Empresas'
+    correo: INCUBADORASDEEMPRESAS@UNAMBA.EDU.PE
+    direccion_oficina: '2° PISO DE LA BIBLIOTECA GENERAL.'
+    horario: '8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.'
+    imagen: direcciones/incubadora/incubadora.png
+    template: |-
+      <div class="section">
+          <div class="row justify-content-center">
+              <div class="col-md-5 ">
+                  <div class="card-profile ">
+                      <div class=" card-header-image mr-auto ml-auto ">
+                          <a href="#">
+                          <img class="img rounded-circle" src="{{imagen}}">
+                          </a>
+                      </div>
+                      <div class="card-body ">
+                          <h4 class="card-title">{{nombre_completo}}<br>
+                              {{cargo_direccion}}
+                          </h4>
+                          <b>Correo: <small class="text-muted h6">{{correo}}</small> <br>
+                          Oficina: <small class="text-muted h6">{{direccion_oficina}}</small><br>
+                          Horario: <small class="text-muted h6">{{horario}}</small></b>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card card-profile card-plain">
+                      <div class="row">
+                          <div class="col-md-11">
+                              <div class="card-body">
+                                  <h5 class="description">
+                                      La Dirección de Incubadora de Empresas es el órgano de línea dependiente del Vicerrectorado de
+                                      Investigación, responsable de dirigir, coordinar y promover la iniciativa de los estudiantes para
+                                      la creación de pequeñas y microempresas de propiedad de los estudiantes.
+                                  </h5>
+                                  <h4 class="card-title">Funciones de Dirección de Incubadora de Empresas.</h4>
+                                  <button type="button" class="btn btn-primary" data-toggle="modal"
+                                      data-target="#exampleModalScrollable">
+                                  VER FUNCIONES
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!--pdf-->
+              <div class="pdf-container">
+                  <h4 class="pdf-title h4">{{titulo_documento}}
+                  </h4>
+                  <div class="pdf-wrapper">
+                      <iframe
+                          src="{{documento}}"
+                          width="100%" height="560px"></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
+    type: director_direcciones_vrin
+    enabled: true
+    titulo_documento: 'GANADORES DEL II CONCURSO DE INVESTIGACIÓN, DESARROLLO E INNOVACIÓN EMPRESARIAL 2022.'
+    documento: direcciones/incubadora/desarrollo-e-innovacion-empresarial-2022-1.pdf
 ---
