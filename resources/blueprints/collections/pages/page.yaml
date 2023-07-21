@@ -633,6 +633,75 @@ tabs:
                             instructions_position: above
                             visibility: visible
                             hide_display: false
+                    jefes_produccion_bienes_y_servicios:
+                      display: 'Jefes Producción Bienes y Servicios'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: imagen
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Imagen
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: nombre_completo
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Nombre Completo'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: direccion_oficina
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Direccion Oficina'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: horario
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Horario
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            type: textarea
+                            display: Template
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
               display: 'Block Types'
               type: replicator
               icon: replicator
