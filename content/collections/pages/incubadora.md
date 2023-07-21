@@ -6,7 +6,7 @@ texto_bienvenida: 'Dirección de Incubadora de Empresas'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689917537
+updated_at: 1689921682
 titulo_pagina: 'Dirección de Incubadora de Empresas - VRIN UNAMBA'
 block_types:
   -
@@ -23,9 +23,7 @@ block_types:
               <div class="col-md-5 ">
                   <div class="card-profile ">
                       <div class=" card-header-image mr-auto ml-auto ">
-                          <a href="#">
                           <img class="img rounded-circle" src="{{imagen}}">
-                          </a>
                       </div>
                       <div class="card-body ">
                           <h4 class="card-title">{{nombre_completo}}<br>
