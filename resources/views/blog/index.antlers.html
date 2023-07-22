@@ -1,0 +1,52 @@
+<!-- component -->
+<div class="container">
+         <div class="section">
+             {{ collection:blog paginate="3" as="blog"}}
+             <div class="row">
+                 {{blog}}
+                 <div class="col-md-4">
+                     <div class="card card-plain card-blog">
+                         <div class="card-header card-header-image" id="zoom">
+                             <a href="{{url}}">
+                             <img class="img img-raised" src="{{imagen_principal}}" alt="">
+                             </a>
+                         </div>
+                         <div class="card-body">
+                             <h6 class="card-category text-info">{{direccion_o_vrin}}</h6>
+                             <h4 class="card-title">
+                                 <a href="#pablo">{{title}}</a>
+                             </h4>
+                             <p class="card-description">
+                                 {{content}}<a href="#pablo"> Read More </a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+                 {{/blog}}
+             </div>
+             {{paginate}}
+             <nav aria-label="...">
+                 <ul class="pagination justify-content-center">
+                     <li class="page-item ">
+                         <a class="page-link" href="{{ prev_page }}">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left w-6 h-6">
+                                 <polyline points="15 18 9 12 15 6"></polyline>
+                             </svg>
+                         </a>
+                     </li>
+                     <li class="page-item active">
+                         <a class="page-link" href="#">{{total_items}} <span class="sr-only"></span></a>
+                     </li>
+                     <li class="page-item">
+                         <a class="page-link" href="{{ next_page }}">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-6 h-6">
+                                 <polyline points="9 18 15 12 9 6"></polyline>
+                             </svg>
+                         </a>
+                     </li>
+                 </ul>
+             </nav>
+             {{ /paginate }}
+             {{ /collection:blog }}
+         </div>
+     </div>  

@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689918636
+updated_at: 1690009016
 block_types:
   -
     id: lka0v9ms
@@ -19,7 +19,7 @@ block_types:
                   <div class="feat-item mb-md50 col-lg-4">
                       <div class="text-center">
                           <figure>
-                              <a href="repositorio-institucional.html">
+                              <a href="{{enlace}}" {{abrir_en_otra_pagina}}>
                               <img src="{{imagen_servicio}}" alt="">
                               </a>
                           </figure>
@@ -85,7 +85,7 @@ block_types:
           <div class="sm-block" id="block1">
               <div class="icon-img-wrapper">
                   <div class="eb-counter-image-wrapper">
-                      <a title="docentes" target="_blank" href="investigacion/lista-de-docentes-renacyt-2">
+                      <a title="docentes" target="_blank" href="/docentes-renacyt">
                       <img class="eb-counter-image" alt="" src="{{estado_1}}">
                       </a>
                   </div>
@@ -96,7 +96,7 @@ block_types:
           <div class="sm-block" id="block2">
               <div class="icon-img-wrapper">
                   <div class="eb-counter-image-wrapper">
-                      <a title="docentes" target="_blank" href="https://vrin.unamba.edu.pe/lista-de-docentes-renacyt-2">
+                      <a title="docentes" target="_blank" href="docentes-renacyt">
                       <img class="eb-counter-image" alt="" src="{{estado_2}}"/></a>
                   </div>
               </div>
@@ -106,8 +106,8 @@ block_types:
           <div class="sm-block" id="block3">
               <div class="icon-img-wrapper">
                   <div class="eb-counter-image-wrapper">
-                      <a title="docentes" target="_blank" href="lineas-de-investigacion">
-                      <img class="eb-counter-image" alt="" src="{{estado_2}}"/></a>
+                      <a title="docentes" target="_blank" href="/lineas-investigacion">
+                      <img class="eb-counter-image" alt="" src="{{estado_3}}"/></a>
                   </div>
               </div>
               <h1><span class="block-no">{{contador1}}</span></h1>
@@ -154,7 +154,7 @@ block_types:
       <!-- fin acerca de vicerrector -->
     type: acerca_vicerrector
     enabled: true
-    imagen_vicerrector: a_home_otros/vicerrector.png
+    imagen_vicerrector: a_home_otros/vicerrectora-hilda.jpg
     nombre_vicerrector: 'Dr. Hilda Huayhua Mamani'
     template: |-
       <!---==inicio acerca de vicerrector ==-->
@@ -182,14 +182,15 @@ block_types:
                           <div class="card card-contact">
                               <img src="{{imagen_vicerrector}}" alt="viverrector-investigacion">
                           </div>
-                          <h5 class="description fs-3" style="color: #e6e0e0">Dr. Hilda Huayhua Mamani</h5>
-                          <h4 class="title" style="color: #e6e0e0">Vicerrectora de Investigación</h4>
+                          <h5 class="description fs-3" style="color: #e6e0e0">{{nombre_vicerrector}}</h5>
+                          <h4 class="title" style="color: #e6e0e0">{{cargo}}</h4>
                       </div>
                   </div>
               </div>
           </div>
       </div>
       <!-- fin acerca de vicerrector -->
+    cargo: 'Vicerrectora de Investigación'
   -
     id: lkabqlir
     titulo_seccion_blog: 'Eventos Vicerrectorado de Investigación'
@@ -324,5 +325,19 @@ texto_bienvenida: 'Vicerrectorado de Investigación'
 titulo_pagina: 'Vicerrectorado de Investigación - VRIN UNAMBA'
 imagen_fondo:
   - a_home_otros/bg4.jpg
+template_imagen_fondo:
+  code: |-
+    <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/a_home_otros/bg4.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="brand">
+                        <h1 class="title">{{texto_bienvenida}}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  mode: htmlmixed
 ---
 ## Bienvenido a la página web del VRIN!

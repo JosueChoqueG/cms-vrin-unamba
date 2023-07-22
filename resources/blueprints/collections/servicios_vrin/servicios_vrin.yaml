@@ -29,6 +29,33 @@ tabs:
               instructions_position: above
               visibility: visible
               hide_display: false
+          -
+            handle: enlace
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Enlace
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: abrir_en_otra_pagina
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Abrir en otra pagina'
+              icon: text
+              instructions: |-
+                Opcional Abrir en otra pagina 
+                target="_blank"
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
   sidebar:
     display: Sidebar
     sections:
@@ -39,3 +66,11 @@ tabs:
             field:
               type: slug
               localizable: true
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required

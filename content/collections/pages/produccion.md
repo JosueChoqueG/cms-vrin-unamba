@@ -6,7 +6,7 @@ texto_bienvenida: 'Dirección de Producción de Bienes y Servicios'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689998631
+updated_at: 1690009221
 titulo_pagina: 'Dirección de Producción de Bienes y Servicios - VRIN UNAMBA'
 block_types:
   -
@@ -228,4 +228,18 @@ block_types:
     type: Director_jefes_produccion_bienes_y_servicios
     enabled: true
     cargo_director: 'Directora de Producción de Bienes y Servicios'
+template_imagen_fondo:
+  code: |-
+    <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/a_home_otros/bg4.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="brand">
+                        <h1 class="title">{{texto_bienvenida}}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  mode: htmlmixed
 ---

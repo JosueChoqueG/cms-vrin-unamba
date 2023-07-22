@@ -75,22 +75,6 @@ tabs:
               max_items: 1
               listable: false
               localizable: true
-          -
-            handle: imagen_fondo
-            field:
-              mode: list
-              container: assets
-              restrict: false
-              allow_uploads: true
-              show_filename: true
-              show_set_alt: true
-              type: assets
-              display: 'Imagen Fondo'
-              icon: assets
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              hide_display: false
   block_types:
     display: 'Block Types'
     sections:
@@ -324,6 +308,18 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Nombre Vicerrector'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: cargo
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Cargo
                             icon: text
                             listable: hidden
                             instructions_position: above
@@ -1004,7 +1000,7 @@ tabs:
                       icon: null
                       fields:
                         -
-                          handle: imagen
+                          handle: imagen1
                           field:
                             mode: list
                             container: assets
@@ -1013,12 +1009,13 @@ tabs:
                             show_filename: true
                             show_set_alt: true
                             type: assets
-                            display: Imagen
+                            display: Imagen1
                             icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             hide_display: false
+                            max_files: 1
                         -
                           handle: template
                           field:
@@ -1042,4 +1039,24 @@ tabs:
     display: 'Bloque Extras'
     sections:
       -
-        display: 'New Section'
+        display: Imagen_fondo
+        fields:
+          -
+            handle: template_imagen_fondo
+            field:
+              theme: material
+              mode: htmlmixed
+              mode_selectable: true
+              indent_type: tabs
+              indent_size: 4
+              key_map: default
+              line_numbers: true
+              line_wrapping: true
+              antlers: true
+              type: code
+              display: 'Template imagen fondo'
+              icon: code
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false

@@ -7,31 +7,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
         <title>{{ titulo_pagina ?? site:name }}</title>
-
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-        
         <!-- Additional CSS vrinstyle -->
         <link rel="stylesheet" href="vrinstyle/css/material-kit.css">
         <link rel="stylesheet" href="vrinstyle/css/estado.css">
-
-        {{header:header_extra}}
-
     </head>
-    {{navbar:template_navbar}}
     <body class="index-page sidebar-collapse">
-        <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/a_home_otros/bg4.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto">
-                        <div class="brand">
-                            <h1 class="title">{{texto_bienvenida}}</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+        {{navbar:template_navbar}}
+        {{template_imagen_fondo}}
         <div class="main main-raised">
             <div class="container"><br>
                 {{ template_content }}
@@ -153,7 +137,6 @@
         </div>
         {{# Fin Modal Institutos de Investigacion #}}
         {{footer:footer_template}}
-
         <!-- core JavaScript -->
         <script src="/vrinstyle/js/core/jquery.min.js" type="text/javascript"></script>
         <script src="/vrinstyle/js/core/popper.min.js" type="text/javascript"></script>
@@ -167,6 +150,5 @@
         <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
         <script src="/vrinstyle/js/material-kit.js" type="text/javascript"></script>
         {{footer:footer_extra}}
-
     </body>
 </html>

@@ -1,7 +1,8 @@
 title: Blog
-template: default
+template: blog/show
 layout: layout
 revisions: false
+route: '/blog/{slug}'
 date: true
 sort_dir: desc
 date_behavior:

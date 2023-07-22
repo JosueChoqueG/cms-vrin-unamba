@@ -6,7 +6,7 @@ texto_bienvenida: 'Dirección de Incubadora de Empresas'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689922251
+updated_at: 1690009190
 titulo_pagina: 'Dirección de Incubadora de Empresas - VRIN UNAMBA'
 block_types:
   -
@@ -71,4 +71,18 @@ block_types:
     enabled: true
     titulo_documento: 'GANADORES DEL II CONCURSO DE INVESTIGACIÓN, DESARROLLO E INNOVACIÓN EMPRESARIAL 2022.'
     documento: direcciones/incubadora/desarrollo-e-innovacion-empresarial-2022-1.pdf
+template_imagen_fondo:
+  code: |-
+    <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/a_home_otros/bg4.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="brand">
+                        <h1 class="title">{{texto_bienvenida}}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  mode: htmlmixed
 ---

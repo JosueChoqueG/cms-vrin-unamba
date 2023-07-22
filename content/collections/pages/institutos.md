@@ -6,7 +6,7 @@ texto_bienvenida: 'Dirección de Institutos de Investigación'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1689924575
+updated_at: 1690009234
 titulo_pagina: 'Dirección de Institutos de Investigación - VRIN UNAMBA'
 block_types:
   -
@@ -60,4 +60,18 @@ block_types:
       </div>
     type: director_direcciones_vrin
     enabled: true
+template_imagen_fondo:
+  code: |-
+    <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/a_home_otros/bg4.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="brand">
+                        <h1 class="title">{{texto_bienvenida}}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  mode: htmlmixed
 ---

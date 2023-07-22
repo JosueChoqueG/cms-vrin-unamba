@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 //    'title' => 'Example'
 // ]);
 
+Route::get('/blog', function () {
+         return view('blog.index');
+})->name('eventos');

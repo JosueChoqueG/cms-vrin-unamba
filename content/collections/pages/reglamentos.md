@@ -6,7 +6,7 @@ texto_bienvenida: 'Reglamentos - Vicerrectorado de Investigacion'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690000357
+updated_at: 1690009429
 block_types:
   -
     id: lkdih7d4
@@ -137,4 +137,16 @@ block_types:
       mode: htmlmixed
     type: template
     enabled: true
+template_imagen_fondo:
+  code: |-
+    <div class="page-header header-filter "  data-parallax="true" style="background-image: url('/assets/a_home_otros/reglamento.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto ">
+                    <h1 class="title">Reglamentos</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+  mode: htmlmixed
 ---
