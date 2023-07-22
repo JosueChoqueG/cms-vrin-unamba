@@ -633,13 +633,25 @@ tabs:
                             instructions_position: above
                             visibility: visible
                             hide_display: false
-                    jefes_produccion_bienes_y_servicios:
-                      display: 'Jefes Producción Bienes y Servicios'
+                    Director_jefes_produccion_bienes_y_servicios:
+                      display: 'Director Jefes Producción Bienes y Servicios'
                       instructions: null
                       icon: null
                       fields:
                         -
-                          handle: imagen
+                          handle: director_produccion
+                          field:
+                            input_type: hidden
+                            antlers: false
+                            type: text
+                            display: 'Director Produccion'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: imagen_director
                           field:
                             max_files: 1
                             mode: list
@@ -649,19 +661,31 @@ tabs:
                             show_filename: true
                             show_set_alt: true
                             type: assets
-                            display: Imagen
+                            display: 'Imagen Director'
                             icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             hide_display: false
                         -
-                          handle: nombre_completo
+                          handle: nombre_director
                           field:
                             input_type: text
                             antlers: false
                             type: text
-                            display: 'Nombre Completo'
+                            display: 'Nombre Director'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: cargo_director
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Cargo Director'
                             icon: text
                             listable: hidden
                             instructions_position: above
@@ -680,13 +704,317 @@ tabs:
                             visibility: visible
                             hide_display: false
                         -
-                          handle: horario
+                          handle: centro_de_idiomas
+                          field:
+                            input_type: hidden
+                            antlers: false
+                            type: text
+                            display: 'Centro De Idiomas'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: imagen_ci
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Imagen CI'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: nombre_ci
                           field:
                             input_type: text
                             antlers: false
                             type: text
-                            display: Horario
+                            display: 'Nombre CI'
                             icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: direccion_oficina_ci
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Direccion Oficina CI'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: horario_ci
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Horario CI'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: centro_informatica_internet
+                          field:
+                            input_type: hidden
+                            antlers: false
+                            type: text
+                            display: 'Centro Informatica internet'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: imagen_cii
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Imagen CII'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: nombre_cii
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Nombre_CII
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: direccion_oficina_cii
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Direccion Oficina CII'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: horario_cii
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Horario CII'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: centros_experimentales
+                          field:
+                            input_type: hidden
+                            antlers: false
+                            type: text
+                            display: 'Centros Experimentales'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: imagen_ce
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Imagen CE'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: nombre_ce
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Nombre CE'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: direccion_oficina_ce
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Direccion Oficina CE'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: horario_ce
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Horario CE'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: centro_pre-universitario
+                          field:
+                            input_type: hidden
+                            antlers: false
+                            type: text
+                            display: 'Centro Pre-Universitario'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: imagen_cpu
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Imagen CPU'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: nombre_cpu
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Nombre CPU'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: direccion_oficina_cpu
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Direccion Oficina CPU'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: horario_cpu
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Horario CPU'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            antlers: true
+                            type: textarea
+                            display: Template
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                    template:
+                      display: Template
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: template
+                          field:
+                            theme: material
+                            mode: htmlmixed
+                            mode_selectable: true
+                            indent_type: tabs
+                            indent_size: 4
+                            key_map: default
+                            line_numbers: true
+                            line_wrapping: true
+                            antlers: true
+                            type: code
+                            display: Template
+                            icon: code
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                    entradas_multiples:
+                      display: 'Entradas Multiples'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: imagen
+                          field:
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Imagen
+                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -710,3 +1038,8 @@ tabs:
               visibility: visible
               fullscreen: true
               hide_display: false
+  bloque_extras:
+    display: 'Bloque Extras'
+    sections:
+      -
+        display: 'New Section'

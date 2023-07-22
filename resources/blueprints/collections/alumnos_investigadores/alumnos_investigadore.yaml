@@ -1,0 +1,84 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: responsable
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Responsable
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: asesor
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Asesor
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: proyecto
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Proyecto
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: escuela
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Escuela
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: monto
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Monto
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+title: 'Alumnos Inv.'
