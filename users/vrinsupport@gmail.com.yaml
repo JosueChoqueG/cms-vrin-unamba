@@ -18,3 +18,10 @@ preferences:
         - responsable
         - slug
         - status
+    doc_renacyt:
+      columns:
+        - title
+        - imagen_docente
+        - slug
+        - date
+        - status

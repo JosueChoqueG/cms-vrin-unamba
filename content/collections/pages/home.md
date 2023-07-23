@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690097241
+updated_at: 1690110402
 block_types:
   -
     id: lka0v9ms
@@ -17,7 +17,7 @@ block_types:
               <div class="row">
                   {{collection:servicios_vrin }}
                   <div class="feat-item mb-md50 col-lg-4 ">
-                      <div class="text-center reveal zoom-in">
+                      <div class="text-center reveal zoom-in ">
                           <figure>
                               <a href="{{enlace}}" {{abrir_en_otra_pagina}}>
                               <img src="{{imagen_servicio}}" alt="">
@@ -208,7 +208,7 @@ block_types:
       					{{ collection:blog limit="3" }}
                               <div class="col-md-4">
                                   <div class="card card-plain card-blog">
-                                      <div class=" card-header card-header-image ">
+                                      <div class=" card-header card-header-image bg-image hover-zoom">
                                           <a href="{{url}}">
                                           <img class=" img img-raised" src="{{imagen_principal}}" alt="">
                                           </a>
