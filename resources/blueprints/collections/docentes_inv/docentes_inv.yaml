@@ -1,0 +1,108 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+              instructions: 'Nombre de Investigador'
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              input_type: text
+              antlers: false
+              hide_display: false
+          -
+            handle: 'n'
+            field:
+              type: integer
+              display: N°
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: grado_profesional
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Grado Profesional'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: departamento_academico
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Departamento Académico'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: nombre_proyecto
+            field:
+              type: markdown
+              localizable: true
+              display: 'Nombre Proyecto'
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              restrict: false
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              automatic_line_breaks: true
+              automatic_links: false
+              escape_markup: false
+              heading_anchors: false
+              smartypants: false
+              table_of_contents: false
+              antlers: false
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: link
+            field:
+              type: link
+              display: Link
+              icon: link
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+title: 'Docentes Inv'

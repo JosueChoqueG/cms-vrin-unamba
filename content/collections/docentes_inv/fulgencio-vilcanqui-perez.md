@@ -1,0 +1,11 @@
+---
+id: 43e64dcd-2b21-4568-9775-345336a8409b
+blueprint: docentes_inv
+'n': 22
+grado_profesional: Dr
+title: 'Fulgencio Vilcanqui Perez'
+departamento_academico: 'Departamento Académico de Ingeniería Agroindustrial'
+nombre_proyecto: 'Valores nutricionales y propiedades funcionales de semillas germinadas de tarwi (lupinos mutabilis Sweet)y Amaranto (Amaranthus hybridus).'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690100001
+---

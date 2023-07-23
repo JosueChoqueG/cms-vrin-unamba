@@ -6,3 +6,15 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
+    docentes_inv:
+      after_save: create_another
+      columns:
+        - title
+        - slug
+        - status
+    alumnos_investigadores:
+      columns:
+        - title
+        - responsable
+        - slug
+        - status

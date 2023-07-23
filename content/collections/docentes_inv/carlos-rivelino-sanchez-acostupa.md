@@ -1,0 +1,11 @@
+---
+id: 7e90ad14-184f-4023-b322-20633d4a84a5
+blueprint: docentes_inv
+'n': 8
+grado_profesional: ing
+title: 'Carlos Rivelino Sanchez Acostupa'
+departamento_academico: 'Departamento Académico de Humanidades'
+nombre_proyecto: 'Construcción de la Historia de Abancay. Desde sus orígenes hasta el siglo XXI'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099675
+---

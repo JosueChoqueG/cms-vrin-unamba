@@ -1,0 +1,11 @@
+---
+id: ecba27ea-2171-4420-8294-df8946c1f8be
+blueprint: docentes_inv
+'n': 3
+grado_profesional: Mag
+title: 'Delmer Zea Gonzales'
+departamento_academico: 'Departamento Académico de Medicina Veterinaria y Zootecnia'
+nombre_proyecto: 'Gonadotropina coriónica humana y la condición corporal en la maduración In vitro de ovocitos de vacas criollas para la preservación de la biodiversidad ganadera'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099521
+---

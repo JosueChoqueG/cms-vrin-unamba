@@ -1,0 +1,11 @@
+---
+id: ad3b7ff4-4635-4dd4-8d63-c39312b3f13b
+blueprint: docentes_inv
+'n': 31
+grado_profesional: Mag
+title: 'Freddy Barrios Sánchez'
+departamento_academico: 'Departamento académico de Ciencias Básicas'
+nombre_proyecto: 'Aplicación del módulo de NTICs: LATEX, R y GitHub en el aprendizaje de edición de tesis en alumnos del noveno y décimo ciclo de Facultad de Ingeniería de la Universidad Nacional Micaela Bastidas de Apurímac 2022.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690100193
+---

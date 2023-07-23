@@ -19,5 +19,31 @@
          text-align: center;
      }
 /**      zoom         */
+.reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .zoom-in {
+    position: relative;
+    transform: scale(.6);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  
+  .reveal.active1 {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .zoom-in.active2 {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.4s ease;
+  }
 
-/** fin zoom*/
+
+  .animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

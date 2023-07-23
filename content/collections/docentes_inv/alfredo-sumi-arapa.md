@@ -1,0 +1,11 @@
+---
+id: 9b1be050-88c6-4802-868a-fcfbb5e74f93
+blueprint: docentes_inv
+'n': 9
+grado_profesional: Lic
+title: 'Alfredo Sumi Arapa'
+departamento_academico: 'Departamento Académico de Humanidades'
+nombre_proyecto: 'La Huaylia expresión de resistencia cultural en la provincia de Antabamba, 2018.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099700
+---

@@ -1,0 +1,11 @@
+---
+id: 02b791cb-8f9c-493e-aa7a-e79f71adfa41
+blueprint: docentes_inv
+'n': 10
+grado_profesional: Mag
+title: 'Evelyn Naida Luque Ochoa'
+departamento_academico: 'Departamento Académico de Ingeniería Informática y Sistemas'
+nombre_proyecto: 'Concepción de laboratorio de computación y neurociencia cognitiva: electroencefalograma (EEG)'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099730
+---

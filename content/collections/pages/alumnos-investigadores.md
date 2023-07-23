@@ -6,7 +6,7 @@ texto_bienvenida: 'Alumnos Investigadores'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690004295
+updated_at: 1690098281
 titulo_pagina: 'Alumnos Investigadores - VRIN UNAMBA'
 block_types:
   -
@@ -69,4 +69,18 @@ block_types:
           </div>
       </div>
     imagen1: a_home_otros/alumnosi.png
+template_imagen_fondo:
+  code: |-
+    <div class="page-header header-filter " data-parallax="true" style="background-image: linear-gradient(195deg, rgb(22 191 105), rgb(85, 8, 116), rgb(167 13 131), rgb(18 3 16), #ff980000, rgb(12 135 11));">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <div class="brand">
+                        <h1 class="title">{{texto_bienvenida}}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  mode: htmlmixed
 ---

@@ -5,19 +5,19 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690009016
+updated_at: 1690097241
 block_types:
   -
     id: lka0v9ms
     title_1: 'Servicios VRIN'
     template: |-
-      <h2 class="title" style="text-align:center">{{title_1}}</h2>
+      <h2 class="title animate-pulse" style="text-align:center">{{title_1}}</h2>
       <div class="section ">
-          <div class="team">
+          <div class="team ">
               <div class="row">
                   {{collection:servicios_vrin }}
-                  <div class="feat-item mb-md50 col-lg-4">
-                      <div class="text-center">
+                  <div class="feat-item mb-md50 col-lg-4 ">
+                      <div class="text-center reveal zoom-in">
                           <figure>
                               <a href="{{enlace}}" {{abrir_en_otra_pagina}}>
                               <img src="{{imagen_servicio}}" alt="">
@@ -198,10 +198,10 @@ block_types:
       <!-- inicio blog/evento -->
       <div class="cd-section" id="blogs">
           <div class="blogs-2" id="blogs-2">
-              <div class="container text-center">
+              <div class="container ">
                   <div class="row">
                       <div class="col-md-12 ml-auto mr-auto">
-                          <h2 class="title">Eventos Vicerrectorado de Investigación</h2>
+                          <h2 class="title" style="text-align:center">{{titulo_seccion_blog}}</h2>
                           <br>
       					
                           <div class="row">
@@ -213,10 +213,10 @@ block_types:
                                           <img class=" img img-raised" src="{{imagen_principal}}" alt="">
                                           </a>
                                           <div class="colored-shadow"
-                                              style="background-image: url(&quot;./assets/img/blog/III-concurso.jpg&quot;); opacity: 1;"></div>
+                                              style="background-image: url(&quot;{{imagen_principal}}&quot;); opacity: 1;"></div>
                                       </div>
                                       <div class="card-body ">
-                                          <h6 class="card-category text-danger">{{direccion_o_vrin}}</h6>
+                                          <h6 class="card-category text-danger" style="text-align:center">{{direccion_o_vrin}}</h6>
                                           <h4 class="card-title">
                                               <a href="{{url}}">{{title}}</a>
                                           </h4>

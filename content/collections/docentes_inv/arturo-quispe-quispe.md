@@ -1,0 +1,11 @@
+---
+id: 09cf62a9-33e9-435b-b46a-fe1a827eaf1d
+blueprint: docentes_inv
+'n': 12
+grado_profesional: Lic
+title: 'Arturo Quispe Quispe'
+departamento_academico: 'Departamento académico de Ciencias Básicas'
+nombre_proyecto: 'Calculo de las funciones de respuesta para el litio (Li) en términos de los parámetros de Landau.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099774
+---

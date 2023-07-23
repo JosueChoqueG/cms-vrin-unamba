@@ -1,0 +1,11 @@
+---
+id: 12a309ff-7c9a-4f13-af01-d1f5cd0aa153
+blueprint: docentes_inv
+'n': 5
+grado_profesional: MSc
+title: 'Ludwing Angel Cardenas Villanueva'
+departamento_academico: 'Departamento Académico de Medicina Veterinaria y Zootecnia'
+nombre_proyecto: 'Efecto de la inclusión de Harina de Pisonay (Erythrina sp ) con diferente edad de rebrote sobre las características productivas de pollos de engorde.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099580
+---

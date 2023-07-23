@@ -1,0 +1,11 @@
+---
+id: 9db9b96b-5470-459c-a126-7e84fc4f24fa
+blueprint: docentes_inv
+'n': 27
+grado_profesional: Ing
+title: 'Jaime Guevara Rios'
+departamento_academico: 'Departamento Académico de Ingeniería de Minas'
+nombre_proyecto: 'Diseño de una cámara termográfica de bajo costo para mejorar la satisfacción del usuario en el monitoreo de polines de la faja transportadora en minería, Chalhuahuacho, 2019.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690100110
+---

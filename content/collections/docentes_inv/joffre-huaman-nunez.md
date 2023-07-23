@@ -1,0 +1,11 @@
+---
+id: bc9a1343-3468-4fcf-a371-1f45597dbdb1
+blueprint: docentes_inv
+'n': 14
+grado_profesional: Dr
+title: 'Joffre Huaman Nuñez'
+departamento_academico: 'Departamento académico de Ciencias Básicas'
+nombre_proyecto: 'Estrategia didáctica basada en la modelación matemática y desarrollo del pensamiento variacional en estudiantes de Ingeniería de la región Apurímac año 2019'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099824
+---

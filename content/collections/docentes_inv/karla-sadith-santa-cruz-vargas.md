@@ -1,0 +1,11 @@
+---
+id: eef1b80b-c567-4291-8984-b39431916c1e
+blueprint: docentes_inv
+'n': 33
+grado_profesional: Mtra
+title: 'Karla Sadith Santa Cruz Vargas'
+departamento_academico: 'Departamento de Ciencias Sociales y Comisión de Posgrado'
+nombre_proyecto: 'Gestión municipal y participación ciudadana en la gobernabilidad local del distrito de Tamburco, durante el periodo 2019 – 2021.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690100232
+---

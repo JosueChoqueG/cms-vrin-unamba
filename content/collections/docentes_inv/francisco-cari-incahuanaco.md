@@ -1,0 +1,11 @@
+---
+id: de9a14c9-4c24-4efd-8f3a-2a6dc4360c85
+blueprint: docentes_inv
+'n': 18
+grado_profesional: Mag
+title: 'Francisco Cari Incahuanaco'
+departamento_academico: 'Departamento Académico de Ingeniería Informática y Sistemas'
+nombre_proyecto: 'Tutoría virtual en la formación académica y humana de estudiantes de la UNAMBA ,2018.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099911
+---

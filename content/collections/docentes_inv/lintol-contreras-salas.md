@@ -1,0 +1,11 @@
+---
+id: 4bd2384e-190f-4e62-b46b-1abaadd84b3b
+blueprint: docentes_inv
+'n': 25
+grado_profesional: Mag
+title: 'Lintol Contreras Salas'
+departamento_academico: 'Departamento Académico de Ingeniería Informática y Sistemas'
+nombre_proyecto: 'Diseño y construcción de una estación meteorológica de bajo costo para mejorar el monitoreo de las condiciones climáticas, Abancay, 2019.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690100062
+---

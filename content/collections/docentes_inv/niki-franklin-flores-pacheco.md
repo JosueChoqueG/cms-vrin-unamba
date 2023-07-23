@@ -1,0 +1,11 @@
+---
+id: b7409a9b-d819-4889-92d3-2eb6e553292c
+blueprint: docentes_inv
+'n': 15
+grado_profesional: Ing
+title: 'Niki Franklin Flores Pacheco'
+departamento_academico: 'Departamento Académico de Ingeniería Agroecológica'
+nombre_proyecto: 'Identificación de especies de mosca de la fruta Diptera: Tephritidae y nivel de infestación en plantas frutícolas de diversos pisos ecológicos de la microcuenca de Vilcabamba, provincia de Grau.'
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690099847
+---
