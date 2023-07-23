@@ -1,7 +1,9 @@
+
 <!-- component -->
 <div class="container">
          <div class="section">
              {{ collection:blog paginate="3" as="blog"}}
+             
              <div class="row">
                  {{blog}}
                  <div class="col-md-4">
@@ -14,10 +16,10 @@
                          <div class="card-body">
                              <h6 class="card-category text-info">{{direccion_o_vrin}}</h6>
                              <h4 class="card-title">
-                                 <a href="#pablo">{{title}}</a>
+                                 <a href="{{url}}">{{title}}</a>
                              </h4>
                              <p class="card-description">
-                                 {{content}}<a href="#pablo"> Read More </a>
+                                 {{content}}<a href="{{url}}"> Leer más </a>
                              </p>
                          </div>
                      </div>

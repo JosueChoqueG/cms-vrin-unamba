@@ -1,6 +1,6 @@
 title: Blog
 template: blog/show
-layout: layout
+layout: evento
 revisions: false
 route: '/blog/{slug}'
 date: true

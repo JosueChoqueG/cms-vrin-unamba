@@ -1,13 +1,17 @@
 ---
-id: 3a97b207-65ca-404e-beb8-4c582916489a
+id: 81fd5627-08dd-41ae-a4c1-fa544f89683f
 blueprint: page
-title: Eventos
-texto_bienvenida: Eventos
+title: 'Vista Blog'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690065111
-template: blog/index
-titulo_pagina: 'Eventos - VRIN UNAMBA'
+template: home
+block_types:
+  -
+    id: lkefoj1q
+    template:
+      code: '{{title}}'
+      mode: htmlmixed
+    type: template
+    enabled: true
 template_imagen_fondo:
   code: |-
     <div class="page-header header-filter"  data-parallax="true" style="background-image: url('/assets/a_home_otros/eventos.webp');">
@@ -20,13 +24,8 @@ template_imagen_fondo:
         </div>
       </div>
   mode: htmlmixed
-block_types:
-  -
-    id: lkefs74w
-    template:
-      code: null
-      mode: htmlmixed
-    type: template
-    enabled: true
+updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+updated_at: 1690061358
+titulo_pagina: 'Eventos realizados por VRIN'
+texto_bienvenida: 'Eventos realizados por VRIN'
 ---
-aerhgah

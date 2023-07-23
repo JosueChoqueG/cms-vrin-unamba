@@ -43,6 +43,18 @@ tabs:
               hide_display: false
               default:
                 - 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+          -
+            handle: template
+            field:
+              hide_partials: true
+              blueprint: false
+              type: template
+              display: Template
+              icon: template
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
   sidebar:
     display: Sidebar
     sections:
@@ -78,4 +90,15 @@ tabs:
               default: now
               validate:
                 - required
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              mode: single
+              inline: false
+              full_width: false
+              columns: 1
+              rows: 1
+              time_enabled: false
+              time_seconds_enabled: false
+              hide_display: false
 title: Blog
