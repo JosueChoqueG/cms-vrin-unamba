@@ -76,7 +76,7 @@ tabs:
               listable: false
               localizable: true
   block_types:
-    display: 'Block Types'
+    display: 'Tipo Bloques'
     sections:
       -
         fields:
@@ -1027,7 +1027,7 @@ tabs:
                             instructions_position: above
                             visibility: visible
                             hide_display: false
-              display: 'Block Types'
+              display: 'Tipo Bloques'
               type: replicator
               icon: replicator
               listable: hidden
@@ -1055,6 +1055,31 @@ tabs:
               antlers: true
               type: code
               display: 'Template imagen fondo'
+              icon: code
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  modals:
+    display: Modals
+    sections:
+      -
+        display: 'New Section'
+        fields:
+          -
+            handle: modal
+            field:
+              theme: material
+              mode: htmlmixed
+              mode_selectable: true
+              indent_type: tabs
+              indent_size: 4
+              key_map: default
+              line_numbers: true
+              line_wrapping: true
+              antlers: true
+              type: code
+              display: Modal
               icon: code
               listable: hidden
               instructions_position: above
