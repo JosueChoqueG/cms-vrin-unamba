@@ -18,7 +18,7 @@ data:
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="eventos">Eventos</a>
+                <a class="nav-link" href="/eventos">Eventos</a>
             </li>
             <li class="dropdown nav-item">
                 <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">INVESTIGACIÓN </a>
@@ -32,7 +32,7 @@ data:
                 <a class="nav-link" href="/reglamentos">REGLAMENTOS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contactos">CONTACTOS</a>
+                <a class="nav-link" href="#">CONTACTOS</a>
             </li>
             <li class="nav-item">
                 <a class="btn btn-primary btn-round" href="/repositorio-institucional" role="button">REPOSITORIO</a>

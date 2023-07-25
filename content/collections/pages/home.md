@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690110402
+updated_at: 1690299135
 block_types:
   -
     id: lka0v9ms
@@ -38,7 +38,7 @@ block_types:
     contador1: 32
     contador_1: 'DOCENTES RENACYT'
     estado_2: a_home_otros/grupos.png
-    contador2: 14
+    contador2: 18
     contador_2: 'GRUPOS DE INVESTIGACIÓN'
     estado_3: a_home_otros/lineas.png
     contador3: 20
@@ -100,7 +100,7 @@ block_types:
                       <img class="eb-counter-image" alt="" src="{{estado_2}}"/></a>
                   </div>
               </div>
-              <h1><span class="block-no">{{contador1}}</span></h1>
+              <h1><span class="block-no">{{contador2}}</span></h1>
               <b>{{contador_2}}</b>
           </div>
           <div class="sm-block" id="block3">
@@ -110,7 +110,7 @@ block_types:
                       <img class="eb-counter-image" alt="" src="{{estado_3}}"/></a>
                   </div>
               </div>
-              <h1><span class="block-no">{{contador1}}</span></h1>
+              <h1><span class="block-no">{{contador3}}</span></h1>
               <b>{{contador_3}}</b>
           </div>
       </div>
@@ -338,6 +338,9 @@ template_imagen_fondo:
             </div>
         </div>
     </div>
+  mode: htmlmixed
+modal:
+  code: null
   mode: htmlmixed
 ---
 ## Bienvenido a la página web del VRIN!

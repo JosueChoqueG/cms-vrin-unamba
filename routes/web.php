@@ -22,6 +22,6 @@ Route::get('/blog', function () {
 })->name('eventos');
 
 Route::get('/blog', function () {
-          return view('blog.show');
+           return view('blog.show');
 })->name('vista');
 

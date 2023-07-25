@@ -7,7 +7,6 @@ preferences:
     pages:
       after_save: continue_editing
     docentes_inv:
-      after_save: create_another
       columns:
         - title
         - slug
