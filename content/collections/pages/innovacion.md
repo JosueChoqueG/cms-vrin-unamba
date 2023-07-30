@@ -6,7 +6,7 @@ texto_bienvenida: 'Innovación y Transferencia Tecnológica'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690009206
+updated_at: 1690700570
 titulo_pagina: 'Dirección de Innovación y Transferencia Tecnológica - VRIN UNAMBA'
 block_types:
   -
@@ -154,5 +154,37 @@ template_imagen_fondo:
             </div>
         </div>
     </div>
+  mode: htmlmixed
+modal:
+  code: |-
+    {{# Inicio Modal Innovacion y Transferencia Tecnológica #}}
+    <div class="modal fade" id="exampleModalScrollable1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <b class="modal-title h3" id="exampleModalScrollableTitle">Funciones de la Dirección de Innovación y Transferencia Tecnológica</b>
+                </div>
+                <div class="modal-body">
+                    <div id="global_modal">
+                        <div id="mensajess">
+                            <p class="h4">a) Diseñar y proponer al Vicerrectorado de Investigación las normas, reglamentos y directivas para el cumplimiento de los objetivos del Sistema Nacional de Ciencia, Tecnología e Innovación.</p>
+                            <p class="h4">b) Promover la producción intelectual y cultural generada en el proceso de innovación y transferencia tecnológica.</p>
+                            <p class="h4">c) Generar capacidades para la innovación y transferencia tecnológica; orientadas a la atención de las necesidades y oportunidades del sector productivo de la región y del país.</p>
+                            <p class="h4">d) Prestar a todo el personal de la Universidad, servicios relacionados con la propiedad intelectual.</p>
+                            <p class="h4">e) Gestionar y administrar el software de similitud de la UNAMBA.</p>
+                            <p class="h4">f) Gestionar y administrar el banco del acceso a las revistas y libros de investigación.</p>
+                            <p class="h4">g) Monitorear al repositorio Institucional.</p>
+                            <p class="h4">h) Sistematizar la información transferible generada por las unidades de investigación y promover su difusión.</p>
+                            <p class="h4">i) Otras funciones que le asigne el Vicerrectorado de Investigación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{# Fin Modal Innovacion y Transferencia Tecnológica #}}
   mode: htmlmixed
 ---

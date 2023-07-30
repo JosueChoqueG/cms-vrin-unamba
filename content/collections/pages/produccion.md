@@ -6,7 +6,7 @@ texto_bienvenida: 'Dirección de Producción de Bienes y Servicios'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690009221
+updated_at: 1690700714
 titulo_pagina: 'Dirección de Producción de Bienes y Servicios - VRIN UNAMBA'
 block_types:
   -
@@ -241,5 +241,38 @@ template_imagen_fondo:
             </div>
         </div>
     </div>
+  mode: htmlmixed
+modal:
+  code: |-
+    {{# Inicio Modal Produccion Bienes y Servicios #}}
+    <div class="modal fade" id="exampleModalScrollable2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <b class="modal-title h3" id="exampleModalScrollableTitle">Funciones Dirección de Producción de Bienes y Servicios</b>
+                </div>
+                <div class="modal-body">
+                    <div id="global_modal">
+                        <div id="mensajess">
+                            <p class="h4">b) Gestionar el desarrollo de los Centros Experimentales de la universidad vinculados con la actividad agropecuaria de la región.</p>
+                            <p class="h4">c) Proponer y recomendar al Vicerrectorado de Investigación alianzas estratégicas con Instituciones públicas y privadas, nacionales y extranjeras, para la producción de bienes y servicios que generen recursos económicos.</p>
+                            <p class="h4">d) Planificar, organizar y ejecutar acciones de asesoramiento y asistencia técnica para generar recursos.</p>
+                            <p class="h4">e) Coordinar acciones conjuntas con los docentes, a fin de desarrollar programas de producción.</p>
+                            <p class="h4">f) Proponer al Vicerrectorado de Investigación las políticas, reglamentos y/o normas de funcionamiento de la Dirección de Producción de Bienes y Servicios.</p>
+                            <p class="h4">g) Promover la capacitación y especialización docentes y de estudiantes de la Facultad para dirigir las labores de asesoramiento y consultoría profesional.</p>
+                            <p class="h4">h) Proponer proyectos de investigación orientados a la producción de bienes y servicios rentables, que puedan ejecutarse con criterios empresariales a nivel de la UNAMBA en coordinación con el Vicerrectorado de Investigación.</p>
+                            <p class="h4">i) Proponer la creación de Centros de Producción de Bienes y Servicios.</p>
+                            <p class="h4">j) Elaborar y presentar al Vicerrectorado de Investigación la información de la Dirección, parala Memoria Anual.</p>
+                            <p class="h4">k) Otras funciones que le asigne el Vicerrectorado de Investigación en el ámbito de su competencia.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{# Fin Modal Produccion Bienes y Servicios #}}
   mode: htmlmixed
 ---

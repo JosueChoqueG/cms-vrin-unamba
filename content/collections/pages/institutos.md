@@ -6,7 +6,7 @@ texto_bienvenida: 'Dirección de Institutos de Investigación'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690009234
+updated_at: 1690700774
 titulo_pagina: 'Dirección de Institutos de Investigación - VRIN UNAMBA'
 block_types:
   -
@@ -73,5 +73,36 @@ template_imagen_fondo:
             </div>
         </div>
     </div>
+  mode: htmlmixed
+modal:
+  code: |-
+    {{# Inicio Modal Institutos de Investigacion #}}
+    <div class="modal fade" id="exampleModalScrollable3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <b class="modal-title h3" id="exampleModalScrollableTitle">Funciones Dirección de Instituto de Investigación</b>
+                </div>
+                <div class="modal-body">
+                    <div id="global_modal">
+                        <div id="mensajess">
+                            <p class="h4">a) Proponer al Vicerrectorado de Investigación las políticas, reglamentos y/o normas de funcionamiento de los Institutos de Investigación.</p>
+                            <p class="h4">b) Ejecutar proyectos de investigación en base a las líneas establecidas por el Vicerrectorado de Investigación.</p>
+                            <p class="h4">c) Organizar actividades de difusión del conocimiento y los resultados de las investigaciones.</p>
+                            <p class="h4">d) Promover y gestionar la generación de conocimientos.</p>
+                            <p class="h4">e) Gestionar la participación en fondos de investigación.</p>
+                            <p class="h4">f) Promover entre los miembros de la comunidad universitaria el desarrollo de trabajos de investigación para ser publicados.</p>
+                            <p class="h4">g) Administrar un registro de las publicaciones oficiales realizadas por la universidad.</p>
+                            <p class="h4">h) Otras funciones que le asigne el Vicerrectorado de Investigación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{# Fin Modal Institutos de Investigacion #}}
   mode: htmlmixed
 ---
