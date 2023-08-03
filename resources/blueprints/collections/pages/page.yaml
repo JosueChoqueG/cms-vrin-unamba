@@ -133,7 +133,7 @@ tabs:
                       icon: null
                       fields:
                         -
-                          handle: estado_1
+                          handle: icono_docentes_renacyt
                           field:
                             max_files: 1
                             mode: list
@@ -143,36 +143,24 @@ tabs:
                             show_filename: true
                             show_set_alt: true
                             type: assets
-                            display: 'Estado 1'
+                            display: 'Icono Docentes RENACYT'
                             icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             hide_display: false
                         -
-                          handle: contador1
+                          handle: contador_docentes_renacyt
                           field:
                             type: integer
-                            display: Contador1
+                            display: 'Contador Docentes RENACYT'
                             icon: integer
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             hide_display: false
                         -
-                          handle: contador_1
-                          field:
-                            input_type: text
-                            antlers: false
-                            type: text
-                            display: 'Contador 1'
-                            icon: text
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            hide_display: false
-                        -
-                          handle: estado_2
+                          handle: icono_grupos_de_investigacion
                           field:
                             max_files: 1
                             mode: list
@@ -182,36 +170,24 @@ tabs:
                             show_filename: true
                             show_set_alt: true
                             type: assets
-                            display: 'Estado 2'
+                            display: 'Icono Grupos de Investigación'
                             icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             hide_display: false
                         -
-                          handle: contador2
+                          handle: contador_grupos_de_investigacion
                           field:
                             type: integer
-                            display: Contador2
+                            display: 'Contador Grupos de Investigación'
                             icon: integer
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             hide_display: false
                         -
-                          handle: contador_2
-                          field:
-                            input_type: text
-                            antlers: false
-                            type: text
-                            display: 'Contador 2'
-                            icon: text
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            hide_display: false
-                        -
-                          handle: estado_3
+                          handle: icono_lineas_de_investigacion
                           field:
                             max_files: 1
                             mode: list
@@ -221,30 +197,18 @@ tabs:
                             show_filename: true
                             show_set_alt: true
                             type: assets
-                            display: 'Estado 3'
+                            display: 'Icono Lineas de Investigación'
                             icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             hide_display: false
                         -
-                          handle: contador3
+                          handle: contador_lineas_de_investigacion
                           field:
                             type: integer
-                            display: Contador3
+                            display: 'Contador Lineas de Investigación'
                             icon: integer
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            hide_display: false
-                        -
-                          handle: contador_3
-                          field:
-                            input_type: text
-                            antlers: false
-                            type: text
-                            display: 'Contador 3'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible

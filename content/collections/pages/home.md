@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691048402
+updated_at: 1691055065
 block_types:
   -
     id: lka0v9ms
@@ -88,36 +88,42 @@ block_types:
               <div class="icon-img-wrapper">
                   <div class="eb-counter-image-wrapper">
                       <a title="docentes" target="_blank" href="/docentes-renacyt">
-                      <img class="eb-counter-image" alt="" src="{{estado_1}}">
+                      <img class=" eb-counter-image" alt="" src="{{icono_docentes_renacyt}}">
                       </a>
                   </div>
               </div>
-              <h1><span class="block-no">{{contador1}}</span></h1>
-              <b >{{contador_1}}</b>
+              <h1><span class="block-no">{{contador_docentes_renacyt}}</span></h1>
+              <b >DOCENTES RENACYT</b>
           </div>
           <div class="sm-block" id="block2">
               <div class="icon-img-wrapper">
                   <div class="eb-counter-image-wrapper">
                       <a title="docentes" target="_blank" href="docentes-renacyt">
-                      <img class="eb-counter-image" alt="" src="{{estado_2}}"/></a>
+                      <img class="eb-counter-image" alt="" src="{{icono_grupos_de_investigacion}}"/></a>
                   </div>
               </div>
-              <h1><span class="block-no">{{contador2}}</span></h1>
-              <b>{{contador_2}}</b>
+              <h1><span class="block-no">{{contador_grupos_de_investigacion}}</span></h1>
+              <b>GRUPOS DE INVESTIGACIÓN</b>
           </div>
           <div class="sm-block" id="block3">
               <div class="icon-img-wrapper">
                   <div class="eb-counter-image-wrapper">
                       <a title="docentes" target="_blank" href="/lineas-investigacion">
-                      <img class="eb-counter-image" alt="" src="{{estado_3}}"/></a>
+                      <img class="eb-counter-image" alt="" src="{{icono_lineas_de_investigacion}}"/></a>
                   </div>
               </div>
-              <h1><span class="block-no">{{contador3}}</span></h1>
-              <b>{{contador_3}}</b>
+              <h1><span class="block-no">{{contador_lineas_de_investigacion}}</span></h1>
+              <b>LINEAS DE INVESTIGACIÓN</b>
           </div>
       </div>
       </div>
       <!---==end secction count status ==-->
+    contador_docentes_renacyt: 32
+    contador_grupos_de_investigacion: 18
+    contador_lineas_de_investigacion: 20
+    icono_docentes_renacyt: a_home_otros/inves.png
+    icono_grupos_de_investigacion: a_home_otros/grupos.png
+    icono_lineas_de_investigacion: a_home_otros/lineas.png
   -
     id: lka55qtw
     template_vicerrector: |-
@@ -329,15 +335,69 @@ imagen_fondo:
   - a_home_otros/bg4.jpg
 template_imagen_fondo:
   code: |-
-    <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/a_home_otros/bg4.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 ml-auto mr-auto">
-                    <div class="brand">
-                        <h1 class="title">{{texto_bienvenida}}</h1>
+    <div class="header-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <div class="page-header header-filter" data-parallax="true" style="background-image: url('./assets/a_home_otros/bg4.jpg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+                                    <h1 class="title">{{texto_bienvenida}}</h1>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    			<div class="carousel-item">
+                    <div class="page-header header-filter" data-parallax="true" style="background-image: url('./assets/a_home_otros/vrin_facebook.png');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 text-left">
+                                    <h1 class="title">Direcciones</h1>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="page-header header-filter" style="background-image: url('./assets/img/dg3.jpg');">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7 ml-auto text-right">
+                                    <h1 class="title">New Collection 50% Off</h1>
+                                    
+                                    <br>
+                                    <div class="buttons">
+                                        <a href="#pablo" class="btn btn-white btn-link btn-lg">
+                                        <i class="material-icons">share</i> Share Offer
+                                        </a>
+                                        <a href="#pablo" class="btn btn-danger btn-lg">
+                                        <i class="material-icons">shopping_cart</i> Shop Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <i class="material-icons">keyboard_arrow_left</i>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <i class="material-icons">keyboard_arrow_right</i>
+            <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
   mode: htmlmixed
