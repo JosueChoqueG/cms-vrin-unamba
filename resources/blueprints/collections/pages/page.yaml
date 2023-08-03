@@ -107,45 +107,26 @@ tabs:
                             listable: hidden
                             instructions_position: above
                             visibility: visible
-                            default: TESTIMONIALS
+                            hide_display: false
                         -
                           handle: template
                           field:
+                            theme: material
+                            mode: htmlmixed
+                            mode_selectable: true
+                            indent_type: tabs
+                            indent_size: 4
+                            key_map: default
+                            line_numbers: true
+                            line_wrapping: true
                             antlers: true
-                            default: |-
-                              <section class="testimonials" id="testimonials">
-                                  <div class="container">
-                                    <div class="row">
-                                      <div class="col-lg-12">
-                                        <div class="section-heading">
-                                          <h6>{{title_1}}</h6>
-                                          <h4>{{title_2}}</h4>
-                                        </div>
-                                      </div>
-                                      <div class="col-lg-12">
-                                        <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
-                              	          
-                              	          {{collection:testimonials}}  
-                                          <div class="item">
-                                            {{content}}
-                                              <h4>{{title}}</h4>
-                                              <span>{{designation}}</span>
-                                              <img src="{{icon}}" alt="{{title}}">
-                                          </div>
-                                          
-                                          {{/collection:testimonials}}  
-                                    
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </section>
+                            type: code
                             display: Template
-                            type: textarea
-                            icon: textarea
+                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
+                            hide_display: false
                     contador_estado:
                       display: 'Contador Estado'
                       instructions: null
@@ -962,10 +943,18 @@ tabs:
                         -
                           handle: template
                           field:
+                            theme: material
+                            mode: htmlmixed
+                            mode_selectable: true
+                            indent_type: tabs
+                            indent_size: 4
+                            key_map: default
+                            line_numbers: true
+                            line_wrapping: true
                             antlers: true
-                            type: textarea
+                            type: code
                             display: Template
-                            icon: textarea
+                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -1023,6 +1012,66 @@ tabs:
                             type: textarea
                             display: Template
                             icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            theme: material
+                            mode: htmlmixed
+                            mode_selectable: true
+                            indent_type: tabs
+                            indent_size: 4
+                            key_map: default
+                            line_numbers: true
+                            line_wrapping: true
+                            antlers: true
+                            type: code
+                            display: Template
+                            icon: code
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                    centro_experimental:
+                      display: 'Centro experimental'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: imagenes_pachachaca
+                          field:
+                            max_files: 3
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Imagenes pachachaca'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: template
+                          field:
+                            theme: material
+                            mode: htmlmixed
+                            mode_selectable: true
+                            indent_type: tabs
+                            indent_size: 4
+                            key_map: default
+                            line_numbers: true
+                            line_wrapping: true
+                            antlers: true
+                            type: code
+                            display: Template
+                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible

@@ -6,7 +6,7 @@ texto_bienvenida: 'Docentes Investigadores'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690102045
+updated_at: 1691040588
 titulo_pagina: 'Docentes Investigadores - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -27,12 +27,12 @@ block_types:
     id: lkf66ib4
     template:
       code: |-
-        <div class="section">
-            <div class="row">
+        <div class="section ">
+            <div class="row ">
                 <!---------tabla--------->
-                <table class="table">
+                <table class="table table-responsive-sm ">
                     <thead>
-                        <tr class="bg-info">
+                        <tr class="bg-info ">
                             <th>N°</th>
                             <th>Título</th>
                             <th>Investigador</th>
@@ -59,4 +59,7 @@ block_types:
       mode: htmlmixed
     type: template
     enabled: true
+modal:
+  code: null
+  mode: htmlmixed
 ---

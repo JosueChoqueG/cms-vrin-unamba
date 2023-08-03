@@ -5,31 +5,33 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690299135
+updated_at: 1691048402
 block_types:
   -
     id: lka0v9ms
     title_1: 'Servicios VRIN'
-    template: |-
-      <h2 class="title animate-pulse" style="text-align:center">{{title_1}}</h2>
-      <div class="section ">
-          <div class="team ">
-              <div class="row">
-                  {{collection:servicios_vrin }}
-                  <div class="feat-item mb-md50 col-lg-4 ">
-                      <div class="text-center reveal zoom-in ">
-                          <figure>
-                              <a href="{{enlace}}" {{abrir_en_otra_pagina}}>
-                              <img src="{{imagen_servicio}}" alt="">
-                              </a>
-                          </figure>
-                          <h5 class="card-title">{{title}}</h5>
-                      </div>
-                  </div>
-                  {{/collection:servicios_vrin}}
-              </div>
-          </div>
-      </div>
+    template:
+      code: |-
+        <h2 class="title animate-pulse" style="text-align:center">{{title_1}}</h2>
+        <div class="section ">
+            <div class="team ">
+                <div class="row">
+                    {{collection:servicios_vrin }}
+                    <div class="feat-item mb-md50 col-lg-4 ">
+                        <div class="text-center reveal zoom-in ">
+                            <figure>
+                                <a href="{{enlace ?? slug}}" {{abrir_en_otra_pagina}}>
+                                <img src="{{imagen_servicio}}" alt="">
+                                </a>
+                            </figure>
+                            <h5 class="card-title">{{title}}</h5>
+                        </div>
+                    </div>
+                    {{/collection:servicios_vrin}}
+                </div>
+            </div>
+        </div>
+      mode: htmlmixed
     type: servicios_vrin
     enabled: true
   -

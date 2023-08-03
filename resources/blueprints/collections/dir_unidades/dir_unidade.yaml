@@ -1,4 +1,3 @@
-title: 'Servicios VRIN'
 tabs:
   main:
     display: Main
@@ -13,7 +12,7 @@ tabs:
               validate:
                 - required
           -
-            handle: imagen_servicio
+            handle: imagen_director_unidades
             field:
               max_files: 1
               mode: list
@@ -23,38 +22,38 @@ tabs:
               show_filename: true
               show_set_alt: true
               type: assets
-              display: 'Imagen servicio'
+              display: 'Imagen Director Unidades'
               icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
               hide_display: false
+              validate:
+                - required
           -
-            handle: enlace
+            handle: nombre_director_unidades
             field:
               input_type: text
               antlers: false
               type: text
-              display: Enlace
+              display: 'Nombre Director Unidades'
               icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
               hide_display: false
+              validate:
+                - required
           -
-            handle: abrir_en_otra_pagina
+            handle: direccion_oficina
             field:
               input_type: text
-              default: 'target="_blank"'
               antlers: false
               type: text
-              display: 'Abrir en otra pagina'
+              display: 'Dirección oficina'
               icon: text
-              instructions: |-
-                Para abrir en otra página mantenlo este campo
-                Para abrir pagina en la misma pestaña borrelo
               listable: hidden
-              instructions_position: below
+              instructions_position: above
               visibility: visible
               hide_display: false
   sidebar:
@@ -68,19 +67,12 @@ tabs:
               type: slug
               localizable: true
           -
-            handle: date
-            field:
-              type: date
-              required: true
-              default: now
-              validate:
-                - required
-          -
             handle: parent
             field:
               type: entries
               collections:
-                - servicios_vrin
+                - dir_unidades
               max_items: 1
               listable: false
               localizable: true
+title: 'Dir Unidade'

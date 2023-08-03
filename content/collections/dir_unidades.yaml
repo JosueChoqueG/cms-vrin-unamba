@@ -1,0 +1,15 @@
+title: 'Dir Unidades'
+template: default
+layout: layout
+revisions: false
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
+structure:
+  root: false
