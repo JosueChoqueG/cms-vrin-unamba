@@ -31,9 +31,9 @@ data:
             <li class="nav-item">
                 <a class="nav-link" href="/reglamentos">REGLAMENTOS</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTOS</a>
-            </li>
+    <!-- <li class="nav-item">
+    <a class="nav-link" href="#"></a>
+    </li> -->
             <li class="nav-item">
                 <a class="btn btn-primary btn-round" href="/repositorio-institucional" role="button">REPOSITORIO</a>
             </li>

@@ -1,0 +1,15 @@
+title: Chatbot
+data:
+  template_chat:
+    code: |-
+      <script>
+        window.chatbaseConfig = {
+          chatbotId: "jGeIfjUU1pDSqyOfLFb4l",
+        }
+      </script>
+      <script
+        src="https://www.chatbase.co/embed.min.js"
+        id="jGeIfjUU1pDSqyOfLFb4l"
+        defer>
+      </script>
+    mode: htmlmixed
