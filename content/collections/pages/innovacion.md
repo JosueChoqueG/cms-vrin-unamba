@@ -6,7 +6,7 @@ texto_bienvenida: 'Innovación y Transferencia Tecnológica'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690700570
+updated_at: 1691178210
 titulo_pagina: 'Dirección de Innovación y Transferencia Tecnológica - VRIN UNAMBA'
 block_types:
   -
@@ -143,7 +143,7 @@ block_types:
       </div>
 template_imagen_fondo:
   code: |-
-    <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/a_home_otros/bg4.jpg');">
+    <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/direcciones/innovacion/innovacion.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">

@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691176356
+updated_at: 1691178566
 block_types:
   -
     id: lka0v9ms
@@ -352,7 +352,7 @@ template_imagen_fondo:
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+               
             </ol>
             <div class="carousel-inner">
                 
@@ -380,27 +380,7 @@ template_imagen_fondo:
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="page-header header-filter" style="background-image: url('./assets/img/dg3.jpg');">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-7 ml-auto text-right">
-                                    <h1 class="title">New Collection 50% Off</h1>
-                                    
-                                    <br>
-                                    <div class="buttons">
-                                        <a href="#pablo" class="btn btn-white btn-link btn-lg">
-                                        <i class="material-icons">share</i> Share Offer
-                                        </a>
-                                        <a href="#pablo" class="btn btn-danger btn-lg">
-                                        <i class="material-icons">shopping_cart</i> Shop Now
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <i class="material-icons">keyboard_arrow_left</i>

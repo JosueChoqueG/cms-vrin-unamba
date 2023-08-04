@@ -8,7 +8,7 @@ data:
             </li>
             <li class="dropdown nav-item">
                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                <i class="material-icons">apps</i> Direcciones
+                <!--i class="material-icons">apps</i--> Direcciones
                 </a>
                 <div class="dropdown-menu dropdown-with-icons">
                     <a href="/incubadora" class="dropdown-item">Incubadora de Empresas</a>
@@ -37,11 +37,7 @@ data:
             <li class="nav-item">
                 <a class="btn btn-primary btn-round" href="/repositorio-institucional" role="button">REPOSITORIO</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" rel="tooltip" title data-placement="bottom" href="https://www.facebook.com/unambaoficial" target="_blank" data-original-title="Siguenos en Facebook" >
-                <i class="fa fa-facebook-square"></i>
-                </a>
-            </li>
+            
         </ul>
     </div>
   logo_vrin: a_home_otros/logo_vrin1.png
