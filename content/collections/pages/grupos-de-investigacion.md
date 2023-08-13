@@ -8,7 +8,7 @@ author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 template_imagen_fondo:
   code: |-
-    <div class="page-header header-filter clear-filter purple-filter header-small" data-parallax="true" style="background-image: url('./assets/a_home_otros/font-grupos.jpeg');">
+    <div class="page-header header-filter clear-filter purple-filter header-small" data-parallax="true" style="background-image: url('/assets/a_home_otros/font-grupos.jpeg');">
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto ">
@@ -22,7 +22,7 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691901956
+updated_at: 1691902760
 block_types:
   -
     id: ll8y8w9d
