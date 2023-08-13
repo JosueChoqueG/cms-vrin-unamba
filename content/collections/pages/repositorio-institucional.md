@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691900052
+updated_at: 1691903199
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -14,7 +14,7 @@ template_imagen_fondo:
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto ">
-                    <h1 class="title">{{title}}</h1>
+                    <h1 class="title">{{texto_bienvenida}}</h1>
                 </div>
             </div>
         </div>

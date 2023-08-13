@@ -1,9 +1,9 @@
 ---
 id: 639f2a72-3578-468c-9c9a-81b28496af66
 blueprint: page
-title: 'Grupos de Investigacion'
-titulo_pagina: 'Grupos de Investigacion'
-texto_bienvenida: 'Grupos de Investigacion'
+title: 'Grupos de Investigación'
+titulo_pagina: 'Grupos de Investigación'
+texto_bienvenida: 'Grupos de Investigación'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 template_imagen_fondo:
@@ -22,12 +22,19 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691902760
+updated_at: 1691903412
 block_types:
   -
     id: ll8y8w9d
     template:
       code: |-
+        <style type="text/css">
+             
+            h4{font-size: 14px;text-align: left;color: rgb(138, 43, 226);line-height: 3px;}
+            p{ color: black; font-family: Verdana; text-align: left;font-size: 10px;line-height: 6px;}
+            h5{font-size: 12px;text-align: left;line-height: 5px;color: #706e6e;font-style: normal;}
+            
+          </style>
         <div class="section text-centter">
                 <div class="team">
                   

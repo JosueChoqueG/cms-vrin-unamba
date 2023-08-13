@@ -2,11 +2,11 @@
 id: 87b3fbc4-779b-49e6-bf44-69b5f2a37cb8
 blueprint: page
 title: Reglamentos
-texto_bienvenida: 'Reglamentos - Vicerrectorado de Investigacion'
+texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690009429
+updated_at: 1691903276
 block_types:
   -
     id: lkdih7d4
@@ -143,10 +143,14 @@ template_imagen_fondo:
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto ">
-                    <h1 class="title">Reglamentos</h1>
+                    <h1 class="title">{{texto_bienvenida}}</h1>
                 </div>
             </div>
         </div>
     </div>
+  mode: htmlmixed
+titulo_pagina: 'Reglamentos - Vicerrectorado de Investigacion'
+modal:
+  code: null
   mode: htmlmixed
 ---
