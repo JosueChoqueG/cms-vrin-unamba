@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691178566
+updated_at: 1691901413
 block_types:
   -
     id: lka0v9ms
@@ -99,7 +99,7 @@ block_types:
             <div class="sm-block" id="block2">
                 <div class="icon-img-wrapper">
                     <div class="eb-counter-image-wrapper">
-                        <a title="docentes" target="_blank" href="docentes-renacyt">
+                        <a title="grupos" href="/grupos-de-investigacion">
                         <img class="eb-counter-image" alt="" src="{{icono_grupos_de_investigacion}}"/></a>
                     </div>
                 </div>

@@ -6,13 +6,13 @@ texto_bienvenida: 'Dirección de Producción de Bienes y Servicios'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691039608
+updated_at: 1691900852
 titulo_pagina: 'Dirección de Producción de Bienes y Servicios - VRIN UNAMBA'
 block_types:
   -
     id: lkdgq6ld
-    imagen_director: direcciones/produccion/produccion_bienes.jpg
-    nombre_director: 'Mg. Ayde Kari Ferro'
+    imagen_director: direcciones/produccion/fredy_barrios.png
+    nombre_director: 'Mg. Freddy Barrios Sanchez'
     direccion_oficina: 'AULA 305, PABELLÓN DE AULAS GENERALES.'
     imagen_ci: direcciones/produccion/idiomas.png
     nombre_ci: 'C.P.C. Dina E. Trujillo Huaysara'
@@ -228,7 +228,7 @@ block_types:
       mode: htmlmixed
     type: Director_jefes_produccion_bienes_y_servicios
     enabled: true
-    cargo_director: 'Directora de Producción de Bienes y Servicios'
+    cargo_director: 'Director de Producción de Bienes y Servicios'
     imagen_cpu: direcciones/produccion/cpu.jpg
 template_imagen_fondo:
   code: |-

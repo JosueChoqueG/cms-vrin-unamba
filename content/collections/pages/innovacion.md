@@ -6,17 +6,17 @@ texto_bienvenida: 'Innovación y Transferencia Tecnológica'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691178210
+updated_at: 1691900796
 titulo_pagina: 'Dirección de Innovación y Transferencia Tecnológica - VRIN UNAMBA'
 block_types:
   -
     id: lkc5xwy6
-    nombre_completo: 'Dr. Ecler Mamani Vilca'
+    nombre_completo: 'Mg. Rogelio Sillo Sillo'
     cargo_direccion: 'Director de Innovación y Transferencia Tecnológica'
     correo: TRANSFERENCIATECNOLOGICA@UNAMBA.EDU.PE
     direccion_oficina: '2° PISO DE LA BIBLIOTECA GENERAL.'
     horario: '8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.'
-    imagen: direcciones/innovacion/ecler-mamani.jpg
+    imagen: direcciones/innovacion/direc_rogelio.jpg
     type: director_direcciones_vrin
     enabled: true
     template: |-
