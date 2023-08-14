@@ -8,7 +8,7 @@ author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 template_imagen_fondo:
   code: |-
-    <div class="page-header header-filter clear-filter purple-filter header-small" data-parallax="true" style="background-image: url('/assets/a_home_otros/font-grupos.jpeg');">
+    <div class="page-header header-filter clear-filter purple-filter header-small" data-parallax="true" style="background-image: url('assets/a_home_otros/font-grupos.jpeg');">
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto ">
@@ -22,7 +22,7 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691903412
+updated_at: 1692022928
 block_types:
   -
     id: ll8y8w9d
@@ -42,7 +42,7 @@ block_types:
                     <div class="feat-item mb-md50 col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                <img src="assets/a_home_otros/grupoicono.png">
+                                <img src="/assets/a_home_otros/grupoicono.png">
                             </figure>
                              <h4>Grupo de investigación</h4>
                              <p>YAKU SALDIVAR (GIYS)</p>
@@ -53,7 +53,7 @@ block_types:
                     <div class="feat-item active mb-md50 col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                              <h4>Grupo de investigación</h4>
                              <p>ZAMZA</p>
@@ -64,7 +64,7 @@ block_types:
                     <div class="feat-item  active mb-md50 col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                            <h4>Grupo de investigación</h4>
                              <p >IDEA</p>
@@ -76,7 +76,7 @@ block_types:
                     <div class="feat-item mb-md50 col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                             <h4>Grupo de investigación</h4>
                              <p>MODELOS ALGORITMICOS</p>
@@ -87,7 +87,7 @@ block_types:
                     <div class="feat-item active mb-md50 col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                             <h4>Grupo de investigación</h4>
                               <p>INFORMÁTICA Y SOCIEDAD</p>
@@ -98,7 +98,7 @@ block_types:
                     <div class="feat-item col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                               <h4>Grupo de investigación</h4>
                               <p>BIOQUÍMICA CLÍNICA EN ANIMALES</p>
@@ -109,7 +109,7 @@ block_types:
                     <div class="feat-item mb-md50 col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                               <h4>Grupo de investigación</h4>
                               <p>EPIDEMIOLOGÍA Y ZOONOSIS</p>
@@ -131,7 +131,7 @@ block_types:
                     <div class="feat-item col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                             <h4>Grupo de investigación</h4>
                             <p>EPCSI</p>
@@ -142,7 +142,7 @@ block_types:
                     <div class="feat-item col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                             <h4>Grupo de investigación</h4>
                             <p>DESARROLLO EDUCATIVO Y POLITICO</p>
@@ -153,7 +153,7 @@ block_types:
                     <div class="feat-item col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                             <h4>Grupo de investigación</h4>
                             <p >COVUSBA</p>
@@ -164,7 +164,7 @@ block_types:
                     <div class="feat-item col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                             <h4>Grupo de investigación</h4>
                             <p>EL ABC DE TRANSFORMACIÓN DIGITAL EN LA GESTÍON PUBLICA</p>
@@ -175,7 +175,7 @@ block_types:
                      <div class="feat-item col-lg-4">
                         <div class="text-center">
                             <figure align="left">
-                                  <img src="assets/a_home_otros/grupoicono.png" alt="">
+                                  <img src="/assets/a_home_otros/grupoicono.png" alt="">
                             </figure>
                             <h4>Grupo de investigación</h4>
                             <p>GESTORES DEL CAMBIO ECOAMIGABLE</p>
