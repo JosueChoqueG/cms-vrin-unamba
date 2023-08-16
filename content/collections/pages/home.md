@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1692196763
+updated_at: 1692198323
 block_types:
   -
     id: lka0v9ms
@@ -121,7 +121,7 @@ block_types:
         <!---==end secction count status ==-->
       mode: htmlmixed
     contador_docentes_renacyt: 32
-    contador_grupos_de_investigacion: 18
+    contador_grupos_de_investigacion: 20
     contador_lineas_de_investigacion: 20
     icono_docentes_renacyt: a_home_otros/inves.png
     icono_grupos_de_investigacion: a_home_otros/grupos.png
