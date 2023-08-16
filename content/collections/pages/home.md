@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691901413
+updated_at: 1692196763
 block_types:
   -
     id: lka0v9ms
@@ -109,7 +109,7 @@ block_types:
             <div class="sm-block" id="block3">
                 <div class="icon-img-wrapper">
                     <div class="eb-counter-image-wrapper">
-                        <a title="docentes" target="_blank" href="/lineas-investigacion">
+                        <a title="lineas-de-investigacion" href="/lineas-de-investigacion">
                         <img class="eb-counter-image" alt="" src="{{icono_lineas_de_investigacion}}"/></a>
                     </div>
                 </div>
