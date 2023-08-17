@@ -22,7 +22,7 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1692202920
+updated_at: 1692295461
 block_types:
   -
     id: ll8y8w9d
@@ -37,7 +37,7 @@ block_types:
           </style>
         <div class="section text-centter">
             <div class="team">
-        	
+        	  <!--<h4>{{title}}</h4>-->
                 <div class="row">
         		{{collection:grupos_inv}}
                     <div class="feat-item mb-md50 col-lg-4">
@@ -46,9 +46,9 @@ block_types:
                                 <img src="/assets/a_home_otros/grupoicono.png {{img_grupos}}">
         					  <!--img src="{{img_grupos}}" imagen cp assets-->
                             </figure>
-                            <h4>{{title}}</h4>
+                          
                             <p>{{nombre_grupo}}</p>
-                            <h5><strong>Jefe:</strong>{{jefe_grupo}}</h5>
+                            <h5><strong>Coordinador:</strong>{{jefe_grupo}}</h5>
                         </div>
                     </div>
                    {{/collection:grupos_inv}}
