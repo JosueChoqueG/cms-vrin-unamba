@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691903199
+updated_at: 1692376611
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -58,7 +58,7 @@ block_types:
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100" src="/assets/repositorio/1.png" alt="First slide">
+                                            <img class="d-block w-100" src="/assets/repositorio/1.jpeg" alt="First slide">
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="/assets/repositorio/2.jpg" alt="Second slide">
