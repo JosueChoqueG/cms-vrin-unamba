@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691903199
+updated_at: 1692378681
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -36,7 +36,7 @@ block_types:
                     <div class="row justify-content-center">
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSe--XNcThUYGe6-Gjx9sADcJPX_3fCxjjeOD-FqQRNcYg0geA/viewform" target="_blank" class="btn btn-default btn-round">Inicio de Trámite Online</a>
                         <a href="https://docs.google.com/spreadsheets/d/1a7BKSTnT1cg7sOQoxuvAlpk8bb_ljYn9mT4E9LZIReU/edit#gid=1734435598" target="_blank" class="btn btn-primary btn-round">Estado de Trámite Online</a>
-                        <a href="/lineas-investigacion" class="btn btn-round">Líneas de investigación</a>
+                        <a href="/lineas-de-investigacion" class="btn btn-round">Líneas de investigación</a>
                     </div>
                 </div>
             </div>
