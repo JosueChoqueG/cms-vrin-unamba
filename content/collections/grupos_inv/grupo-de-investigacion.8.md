@@ -5,5 +5,9 @@ title: 'Grupo de investigación'
 nombre_grupo: 'INFORMÁTICA Y SOCIEDAD'
 jefe_grupo: 'Dr. Manuel Jesús Ibarra Cabrera'
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1692202373
+updated_at: 1692898171
+integrantes: |-
+  Mag. Kevin Arnold Arias Figueroa.<br>
+  Mag. Betsabe Milagros Ccolque Ruiz.<br>
+  Ing. Milagros Villafuerte Villavicencio.
 ---

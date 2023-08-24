@@ -56,6 +56,18 @@ tabs:
               hide_display: false
               validate:
                 - required
+          -
+            handle: integrantes
+            field:
+              antlers: true
+              type: textarea
+              display: integrantes
+              icon: textarea
+              listable: true
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              always_save: true
   sidebar:
     display: Sidebar
     sections:

@@ -6,7 +6,7 @@ texto_bienvenida: 'Docentes RENACYT'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690106480
+updated_at: 1692722354
 titulo_pagina: 'Docentes RENACYT - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -45,4 +45,7 @@ block_types:
       mode: htmlmixed
     type: template
     enabled: true
+modal:
+  code: null
+  mode: htmlmixed
 ---

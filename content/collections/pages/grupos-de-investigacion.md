@@ -22,39 +22,38 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1692295461
+updated_at: 1692895275
 block_types:
   -
     id: ll8y8w9d
     template:
       code: |-
-        <style type="text/css">
-             
-            h4{font-size: 14px;text-align: left;color: rgb(138, 43, 226);line-height: 3px;}
-            p{ color: black; font-family: Verdana; text-align: left;font-size: 10px;line-height: 6px;}
-            h5{font-size: 12px;text-align: left;line-height: 5px;color: #706e6e;font-style: normal;}
-            
-          </style>
-        <div class="section text-centter">
-            <div class="team">
-        	  <!--<h4>{{title}}</h4>-->
-                <div class="row">
-        		{{collection:grupos_inv}}
-                    <div class="feat-item mb-md50 col-lg-4">
-                        <div class="text-center">
-                            <figure align="left">
-                                <img src="/assets/a_home_otros/grupoicono.png {{img_grupos}}">
-        					  <!--img src="{{img_grupos}}" imagen cp assets-->
-                            </figure>
-                          
-                            <p>{{nombre_grupo}}</p>
-                            <h5><strong>Coordinador:</strong>{{jefe_grupo}}</h5>
-                        </div>
-                    </div>
-                   {{/collection:grupos_inv}}
-                </div>
-        	
-            </div>
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+        	<link rel="stylesheet" href="estilos.css">
+        </head>
+        <div class="section justify-content-center">
+            <div class="section col-md-12 ml-auto mr-auto">
+                <div class="row ">
+        			{{collection:grupos_inv}}
+        		  <div class="col-md-3"><br>
+              		<div class="card">
+        				<figure>
+        						<!--img src="/assets/a_home_otros/grupoicono.png"-->
+        <img src="https://www.ups.edu.ec/documents/20121/310207/Grupos-de-Investigacion-uio-movil.jpg">
+        				</figure>
+        				<div class="contenido-card">
+        				  <h4><b>{{nombre_grupo}}</b></h4>
+        						<p><strong><b>Coordinador: </strong>{{jefe_grupo}}</b></p>
+        				  	<p><strong><b>Integrantes:</strong></b></p>
+        				  <a href="#">{{integrantes}}</a>
+        				  </div>
+        			</div>
+        		   </div>
+        		
+        			{{/collection:grupos_inv}}
+                 <div class="col-md-1"></div>
         </div>
       mode: htmlmixed
     type: template
