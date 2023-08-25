@@ -22,7 +22,7 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1692895275
+updated_at: 1692976578
 block_types:
   -
     id: ll8y8w9d
@@ -41,7 +41,7 @@ block_types:
               		<div class="card">
         				<figure>
         						<!--img src="/assets/a_home_otros/grupoicono.png"-->
-        <img src="https://www.ups.edu.ec/documents/20121/310207/Grupos-de-Investigacion-uio-movil.jpg">
+        <img src="./assets/grupos-investigacion/grupo2.jpeg">
         				</figure>
         				<div class="contenido-card">
         				  <h4><b>{{nombre_grupo}}</b></h4>
