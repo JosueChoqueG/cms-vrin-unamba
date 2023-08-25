@@ -25,3 +25,7 @@ preferences:
         - slug
         - date
         - status
+  favorites:
+    -
+      name: 'Docentes Inv ‹ Collections'
+      url: collections/docentes_inv
