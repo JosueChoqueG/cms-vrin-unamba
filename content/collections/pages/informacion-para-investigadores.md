@@ -22,7 +22,7 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691044543
+updated_at: 1693240518
 block_types:
   -
     id: lkurd3kx
@@ -188,7 +188,7 @@ block_types:
                                 <div class=" mr-auto ml-auto ">
                                     <img class="img" src="/assets/informacion-docente/reglamento.png">
                                 </div>
-                                <a href="reglamentos.html" target="_blank" class="btn btn-primary btn-round">Ver lineas de Investigacion</a>
+                                <a href="/reglamentos" target="_blank" class="btn btn-primary btn-round">Ver Reglamentos</a>
                             </div>
                         </div>
                     </div>
