@@ -25,7 +25,10 @@ template_imagen_fondo:
       </div>
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690061358
+updated_at: 1696002642
 titulo_pagina: 'Eventos realizados por VRIN'
 texto_bienvenida: 'Eventos realizados por VRIN'
+modal:
+  code: null
+  mode: htmlmixed
 ---
