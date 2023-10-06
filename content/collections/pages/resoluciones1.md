@@ -1,7 +1,7 @@
 ---
 id: cd2268be-2153-4f27-9a2b-ae938b8cef96
 blueprint: page
-title: Resoluciones
+title: resoluciones
 titulo_pagina: 'VRIN UNAMBA'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
@@ -45,6 +45,6 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1696351720
+updated_at: 1696604226
 texto_bienvenida: 'VRIN UNAMBA'
 ---

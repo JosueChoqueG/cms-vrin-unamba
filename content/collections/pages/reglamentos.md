@@ -6,7 +6,7 @@ texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1696352574
+updated_at: 1696604435
 block_types:
   -
     id: lkdih7d4
@@ -34,14 +34,14 @@ block_types:
         							   <th scope="row">1</th>
                                         <td colspan="2">RESOLUCIÓN Nº 199-2023-CU-UNAMBA</td>
         								<td><a 
-        href="/resoluciones-199" 
+        href="/resoluciones1" 
         target="">Ver</a></td>
         							 </tr>
         						  <tr>
         							   <th scope="row">2</th>
                                         <td colspan="2">RESOLUCIÓN Nº 200-2023-CU-UNAMBA</td>
         								<td><a 
-        href="/resoluciones-200" 
+        href="/resoluciones2" 
         target="">Ver</a></td>
         							 </tr>
         						   <tr>
