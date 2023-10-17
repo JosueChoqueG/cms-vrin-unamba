@@ -6,16 +6,16 @@ texto_bienvenida: 'Dirección de Institutos de Investigación'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1690700774
+updated_at: 1697557677
 titulo_pagina: 'Dirección de Institutos de Investigación - VRIN UNAMBA'
 block_types:
   -
     id: lkc86wjr
-    nombre_completo: 'MBA Elio Nolasco Carbajal'
+    nombre_completo: 'DR. Hesmeralda Rojas Enriquez'
     cargo_direccion: 'Director de Instituto de Investigación'
     direccion_oficina: '2° PISO BIBLIOTECA GENERAL.'
     horario: '8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.'
-    imagen: direcciones/institutos/elio-nolasco.jpg
+    imagen: cti-vitae/esmeralda-r.jpg
     template: |-
       <div class="section">
           <div class="row justify-content-center">
@@ -31,8 +31,8 @@ block_types:
                               {{cargo_direccion}}
                           </h4>
                           <b>Correo: <small class="text-muted h6"></small> <br>
-                          Oficina: <small class="text-muted h6">direccion_oficina</small><br>
-                          Horario: <small class="text-muted h6">horario</small></b>
+                          Oficina: <small class="text-muted h6">2° PISO BIBLIOTECA GENERAL.</small><br>
+                          Horario: <small class="text-muted h6">8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.</small></b>
                       </div>
                   </div>
               </div>

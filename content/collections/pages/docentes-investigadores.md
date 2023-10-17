@@ -6,7 +6,7 @@ texto_bienvenida: 'Docentes Investigadores'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691040588
+updated_at: 1697559722
 titulo_pagina: 'Docentes Investigadores - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -34,21 +34,22 @@ block_types:
                     <thead>
                         <tr class="bg-info ">
                             <th>N°</th>
-                            <th>Título</th>
+                            <!--<th>Título</th>-->
                             <th>Investigador</th>
                             <th>Departamento Académico</th>
                             <th>Nombre del Proyecto</th>
-                            <th>Link</th>
+                            <th>correo</th>
                         </tr>
                     </thead>
                     <tbody>
         				{{collection:docentes_inv}}
                         <tr>
                             <td>{{n}}</td>
-                            <td>{{grado_profesional}}</td>
+                           <!-- <td>{{grado_profesional}}</td>-->
                             <td>{{title}}</td>
                             <td>{{departamento_academico}}</td>
                             <td>{{nombre_proyecto}}</td>
+        				 	<td>{{correo}}</td>
                             <td>{{link}}</td>
                         </tr>
         				{{/collection:docentes_inv}}

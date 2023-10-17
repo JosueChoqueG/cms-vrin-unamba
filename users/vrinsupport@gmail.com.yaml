@@ -12,6 +12,7 @@ preferences:
         - title
         - slug
         - status
+      per_page: 100
     alumnos_investigadores:
       columns:
         - title

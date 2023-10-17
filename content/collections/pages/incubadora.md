@@ -6,17 +6,17 @@ texto_bienvenida: 'Dirección de Incubadora de Empresas'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691900718
+updated_at: 1697557625
 titulo_pagina: 'Dirección de Incubadora de Empresas - VRIN UNAMBA'
 block_types:
   -
     id: lkc3kwq7
-    nombre_completo: 'Mag. Gladys Marilú Castro Pérez'
+    nombre_completo: 'DR. Belen Cabrera Navarrete'
     cargo_direccion: 'Directora de Incubadora de Empresas'
     correo: INCUBADORASDEEMPRESAS@UNAMBA.EDU.PE
     direccion_oficina: '2° PISO DE LA BIBLIOTECA GENERAL.'
     horario: '8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.'
-    imagen: direcciones/incubadora/incubadora-1691900490.jpg
+    imagen: direcciones/incubadora/555_mesa-de-trabajo-1.jpg
     template: |-
       <div class="section">
           <div class="row justify-content-center">

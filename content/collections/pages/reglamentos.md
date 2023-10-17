@@ -6,7 +6,7 @@ texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1697126932
+updated_at: 1697565218
 block_types:
   -
     id: lkdih7d4
@@ -30,89 +30,89 @@ block_types:
                                     </tr>
                                 </thead>
                                 <tbody>
-        						  <tr>
+        						 <!-- <tr>
         							   <th scope="row">1</th>
                                         <td colspan="2">BASES-I CONCURSO DE PROYECTOS DE INVESTIGACIÓN CIENTÍFICA Y TECNOLÓGICA DE GRUPOS DE INVESTIGACIÓN</td>
         								<td><a 
         href="https://drive.google.com/file/d/1GShMfz4HCh4DWnEZ0aJvIMUERGSFBRrs/view" 
         target="_blan">Ver</a></td>
-        							 </tr>
+        							 </tr>  -->
                                     <tr>
-        							   <th scope="row">2</th>
+        							   <th scope="row">1</th>
                                         <td colspan="2">RESOLUCIÓN Nº 199-2023-CU-UNAMBA</td>
         								<td><a 
         href="https://drive.google.com/file/d/1nRRZ9k_Wnv6Qo-DrS_C1Af09ANNSkO-d/view?usp=sharing" 
         target="_blan">Ver</a></td>
         							 </tr>
         						  <tr>
-        							   <th scope="row">3</th>
+        							   <th scope="row">2</th>
                                         <td colspan="2">RESOLUCIÓN Nº 200-2023-CU-UNAMBA</td>
         								<td><a 
         href="https://drive.google.com/file/d/1LF1FtZkAzFO4OJf3ONvdal_hftQrpyNv/view?usp=sharing" 
         target="_blan">Ver</a></td>
         							 </tr>
         						   <tr>
-                                        <th scope="row">4</th>
+                                        <th scope="row">3</th>
                                         <td colspan="2">Codigo de Etica.</td>
                                         <td><a href="https://drive.google.com/file/d/1TxdYp8DhPhXSfVItow7kj2rqUPSwMfks/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">5</th>
+                                        <th scope="row">4</th>
                                         <td colspan="2">Reglamento de Año Sabatico</td>
                                         <td><a href="https://drive.google.com/file/d/1VGnXBPWnI0EEhqNWykMU_YOhs2a42SI2/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">6</th>
+                                        <th scope="row">5</th>
                                         <td colspan="2">Reglamento de investigación</td>
                                         <td><a href="https://drive.google.com/file/d/1uO6zv_fg9lNLLspqxNrbyMZ3HQ1XM9qU/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">7</th>
+                                        <th scope="row">6</th>
                                         <td colspan="2">Reglamento Incubadora de Empresa</td>
                                         <td><a href="https://drive.google.com/file/d/12s2Offd0nRyNlPJYgLtKEAn5PNuJetNm/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">8</th>
+                                        <th scope="row">7</th>
                                         <td colspan="2">Reglamentos para la publicacion de Revistas de investigación</td>
                                         <td><a href="https://drive.google.com/file/d/1N3Bb2-RpzGdXm-J4_UkuO6iLNjeeKsOe/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">9</th>
+                                        <th scope="row">8</th>
                                         <td colspan="2">Ejecución y financiamiento de proyectos de tesis para bachillerato</td>
                                         <td><a href="https://drive.google.com/file/d/1BlqskMATI9FlRBYwiYCL1qWJ5e26KjtA/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">10</th>
+                                        <th scope="row">9</th>
                                         <td colspan="2">Financiamiento de investigación con fondos del canon, sobre canon y regalías mineras</td>
                                         <td><a href="https://drive.google.com/file/d/1URRkA9tHi__zPOlBj2bZUCmngfgU9EBw/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">11</th>
+                                        <th scope="row">10</th>
                                         <td colspan="2">Docente investigador</td>
                                         <td><a href="https://drive.google.com/file/d/1z2Du4oIEdh9q8W4ZRuc0d6UMSAc-8XYr/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">12</th>
+                                        <th scope="row">11</th>
                                         <td colspan="2">Propiedad intelectual</td>
                                         <td><a href="https://drive.google.com/file/d/1K8PQ_ellqm-wiLvpx0ILFKoksdb-IKX1/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">13</th>
+                                        <th scope="row">12</th>
                                         <td colspan="2">Creación, modificación y supresión de institutos y centros de investigación</td>
                                         <td><a href="https://drive.google.com/file/d/165t2JTSmfb71bhYb6Z8FepfNMRheVs1b/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">14</th>
+                                        <th scope="row">13</th>
                                         <td colspan="2">Trabajo de Suficiencia Profesional (Modalidad para obtener título profesional)</td>
                                         <td><a href="https://drive.google.com/file/d/1tsB2DX-0LKlLpO6RiJntoBk17HUMm5y3/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">15</th>
+                                        <th scope="row">14</th>
                                         <td colspan="2">Reglamento de Grupos de Investigacion</td>
                                         <td><a href="https://drive.google.com/file/d/1M1BLwxhqxap0jU45kpoUzpsDbGTgZW4M/view" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">16</th>
+                                        <th scope="row">15</th>
                                         <td colspan="2">Reglamento del Repositorio de Institucional</td>
                                         <td><a href="https://drive.google.com/file/d/1FNXxEnW_zWmuuFhHJ7tW2AqECUwekjBc/view" target="_blank">Ver</a></td>
                                     </tr>
