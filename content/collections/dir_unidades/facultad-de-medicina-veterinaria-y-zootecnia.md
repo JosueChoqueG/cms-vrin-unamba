@@ -5,6 +5,6 @@ title: 'Facultad de Medicina Veterinaria y Zootecnia'
 nombre_director_unidades: 'Dr. Virgilio Machaca Machaca'
 direccion_oficina: 'TERCER PISO DEL PABELLON MEDICINA VETERINARIA Y ZOOTECNIA.'
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1701203837
-imagen_director_unidades: unidades-investigacion/virgilio_mm.png
+updated_at: 1701204075
+imagen_director_unidades: unidades-investigacion/facultad_medicina1.png
 ---
