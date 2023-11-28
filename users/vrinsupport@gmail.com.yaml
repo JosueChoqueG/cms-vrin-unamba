@@ -26,6 +26,8 @@ preferences:
         - slug
         - date
         - status
+    blog:
+      after_save: create_another
   favorites:
     -
       name: 'Docentes Inv ‹ Collections'
