@@ -19,7 +19,6 @@ tabs:
               antlers: false
               type: text
               display: 'Titulo Pagina'
-              icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -31,7 +30,6 @@ tabs:
               antlers: false
               type: text
               display: 'Texto Bienvenida'
-              icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -66,6 +64,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: parent
             field:
@@ -103,7 +102,6 @@ tabs:
                             antlers: false
                             display: 'Title 1'
                             type: text
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -122,7 +120,6 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -144,7 +141,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Icono Docentes RENACYT'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -154,7 +150,6 @@ tabs:
                           field:
                             type: integer
                             display: 'Contador Docentes RENACYT'
-                            icon: integer
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -171,7 +166,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Icono Grupos de Investigación'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -181,7 +175,6 @@ tabs:
                           field:
                             type: integer
                             display: 'Contador Grupos de Investigación'
-                            icon: integer
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -198,7 +191,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Icono Lineas de Investigación'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -208,10 +200,36 @@ tabs:
                           field:
                             type: integer
                             display: 'Contador Lineas de Investigación'
-                            icon: integer
                             listable: hidden
                             instructions_position: above
                             visibility: visible
+                            hide_display: false
+                        -
+                          handle: icono_fondo_editorial
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Icono fondo editorial'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: contador_fondo_editorial
+                          field:
+                            type: integer
+                            display: 'Contador fondo editorial'
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
                             hide_display: false
                         -
                           handle: template
@@ -227,7 +245,6 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -249,7 +266,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Imagen Vicerrector'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -261,7 +277,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Nombre Vicerrector'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -273,7 +288,6 @@ tabs:
                             antlers: false
                             type: text
                             display: Cargo
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -292,7 +306,6 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -309,7 +322,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Titulo seccion blog'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -328,7 +340,6 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -345,7 +356,6 @@ tabs:
                             antlers: false
                             type: text
                             display: Direccion
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -357,7 +367,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Correo VRIN'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -369,7 +378,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Horario Atencion'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -388,7 +396,6 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -409,7 +416,6 @@ tabs:
                             max_files: 1
                             display: 'Hero Image'
                             type: assets
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -421,7 +427,6 @@ tabs:
                             default: 'Welcome to Edutel'
                             display: 'Welcome Text'
                             type: text
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -433,7 +438,6 @@ tabs:
                             default: 'Join Us Now!'
                             display: 'Button Text'
                             type: text
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -442,7 +446,6 @@ tabs:
                           field:
                             display: 'Button Link'
                             type: link
-                            icon: link
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -475,7 +478,6 @@ tabs:
                                 <!-- ***** Main Banner Area End ***** -->
                             display: Template
                             type: textarea
-                            icon: textarea
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -491,7 +493,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Nombre Completo'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -505,7 +506,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Cargo Direccion'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -519,7 +519,6 @@ tabs:
                             antlers: false
                             type: text
                             display: Correo
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -531,7 +530,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Dirección Oficina'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -543,7 +541,6 @@ tabs:
                             antlers: false
                             type: text
                             display: Horario
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -560,7 +557,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: Imagen
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -572,7 +568,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Titulo Documento'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -589,7 +584,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: Documento
-                            icon: assets
                             instructions: 'Suba documento pdf'
                             listable: hidden
                             instructions_position: above
@@ -601,7 +595,6 @@ tabs:
                             antlers: true
                             type: textarea
                             display: Template
-                            icon: textarea
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -618,7 +611,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Director Produccion'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -635,7 +627,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Imagen Director'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -647,7 +638,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Nombre Director'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -659,7 +649,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Cargo Director'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -671,7 +660,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Direccion Oficina'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -683,7 +671,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Centro De Idiomas'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -700,7 +687,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Imagen CI'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -712,7 +698,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Nombre CI'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -724,7 +709,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Direccion Oficina CI'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -736,7 +720,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Horario CI'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -748,7 +731,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Centro Informatica internet'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -765,7 +747,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Imagen CII'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -777,7 +758,6 @@ tabs:
                             antlers: false
                             type: text
                             display: Nombre_CII
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -789,7 +769,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Direccion Oficina CII'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -801,7 +780,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Horario CII'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -813,7 +791,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Centros Experimentales'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -830,7 +807,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Imagen CE'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -842,7 +818,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Nombre CE'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -854,7 +829,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Direccion Oficina CE'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -866,7 +840,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Horario CE'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -878,7 +851,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Centro Pre-Universitario'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -895,7 +867,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Imagen CPU'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -907,7 +878,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Nombre CPU'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -919,7 +889,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Direccion Oficina CPU'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -931,7 +900,6 @@ tabs:
                             antlers: false
                             type: text
                             display: 'Horario CPU'
-                            icon: text
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -950,7 +918,6 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -974,7 +941,6 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -995,7 +961,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: Imagen1
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -1007,7 +972,6 @@ tabs:
                             antlers: true
                             type: textarea
                             display: Template
-                            icon: textarea
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -1026,7 +990,6 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -1048,7 +1011,6 @@ tabs:
                             show_set_alt: true
                             type: assets
                             display: 'Imagenes pachachaca'
-                            icon: assets
                             listable: hidden
                             instructions_position: above
                             visibility: visible
@@ -1067,19 +1029,18 @@ tabs:
                             antlers: true
                             type: code
                             display: Template
-                            icon: code
                             listable: hidden
                             instructions_position: above
                             visibility: visible
                             hide_display: false
               display: 'Tipo Bloques'
               type: replicator
-              icon: replicator
               listable: hidden
               instructions_position: above
               visibility: visible
               fullscreen: true
               hide_display: false
+              replicator_preview: true
   bloque_extras:
     display: 'Bloque Extras'
     sections:
@@ -1100,7 +1061,6 @@ tabs:
               antlers: true
               type: code
               display: 'Template imagen fondo'
-              icon: code
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -1125,7 +1085,6 @@ tabs:
               antlers: true
               type: code
               display: Modal
-              icon: code
               listable: hidden
               instructions_position: above
               visibility: visible
