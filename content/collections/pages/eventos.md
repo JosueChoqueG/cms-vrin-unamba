@@ -5,7 +5,7 @@ title: Eventos
 texto_bienvenida: Eventos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1696001578
+updated_at: 1707699836
 template: blog/index
 titulo_pagina: 'Eventos - VRIN UNAMBA'
 template_imagen_fondo:
@@ -53,7 +53,6 @@ block_types:
                             
                         </div>
                     </div>
-                </div>
       mode: htmlmixed
     type: template
     enabled: true
