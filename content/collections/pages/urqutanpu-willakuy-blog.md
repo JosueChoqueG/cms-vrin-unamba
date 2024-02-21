@@ -45,34 +45,26 @@ block_types:
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- <div class="card card-plain card-blog">
+                                        <div class="card card-plain card-blog">
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="card-header card-header-image">
                                                         <a href="#pablo">
-                                                        <img class="img img-raised" src="./assets/img/revista_urqu_willakuy_1.png">
+                                                        <img class="img img-raised" src="./assets/a_home_otros/urqu_tanpu_2.png">
                                                         </a>
-                                                        <div class="colored-shadow" style="background-image: url('./assets/img/examples/blog8.jpg')"></div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <h6 class="card-category text-success">Urqutanpu Willakuy 2</h6>
-                                                    <h3 class="card-title">
-                                                        <a href="#pablo">Lyft launching cross-platform service this week</a>
-                                                    </h3>
                                                     <p class="card-description">
-                                                        Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story — and…
-                                                        <a href="#pablo"> Read More </a>
+                                                        
+        Esta revista en su segunda edición nos habla sobre la importancia de escribir en nuestro propio idioma y de preservar el conocimiento cultural. Se cuestiona si el conocimiento debe almacenarse únicamente en inglés y se menciona la necesidad de mantener la voz propia en la forma en que nos expresamos. También se presenta el segundo número de Urqutampu, donde se compartirá conocimiento sobre diversas comunidades y temas culturales. Finalmente, se anima a seguir adelante juntos en este proceso de preservación y difusión del conocimiento.
                                                     </p>
-                                                    <p class="author">
-                                                        by
-                                                        <a href="#pablo">
-                                                        <b>Megan Rose</b>
-                                                        </a>, 2 days ago
+                                                    <p >
+                                                      <a href="https://drive.google.com/file/d/1O9MHVrTvRWREfXdmqvXF7WrnA6Vw6alo/view" target="_blank"> DESCARGAR</a>
                                                     </p>
                                                 </div>
                                             </div>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -98,5 +90,5 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1707700915
+updated_at: 1708492687
 ---

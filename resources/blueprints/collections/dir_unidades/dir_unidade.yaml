@@ -23,7 +23,6 @@ tabs:
               show_set_alt: true
               type: assets
               display: 'Imagen Director Unidades'
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -37,7 +36,6 @@ tabs:
               antlers: false
               type: text
               display: 'Nombre Director Unidades'
-              icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -45,13 +43,24 @@ tabs:
               validate:
                 - required
           -
+            handle: correo
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: correo
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: direccion_oficina
             field:
               input_type: text
               antlers: false
               type: text
               display: 'Dirección oficina'
-              icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -66,6 +75,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: parent
             field:

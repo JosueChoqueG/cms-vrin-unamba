@@ -47,7 +47,7 @@ modal:
     </div>
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691048080
+updated_at: 1708488277
 block_types:
   -
     id: lkuttke4
@@ -78,8 +78,8 @@ block_types:
                                 <div class="card-body ">
                                     <h4 class="card-title text-center">{{title}}</h4>
                                     <p class="card-title text-center">Director: {{nombre_director_unidades}}</p>
-                                    <p class="text-muted">unidaddeinvestigacion_fi@unamba.edu.pe</p>
-                                    <h6>Oficina: <small class="text-muted h6"> {{direccion_oficina}} </small></h6>
+                                    <p class="text-muted">{{correo}}</p>
+                                    <h6>Oficina: <h5> {{direccion_oficina}} </h5></h6>
                                     <h6>Horario: <small class="text-muted h6">8:00 a.m. – 1:00 pm. y 2:00 pm. – 3:30 pm.</small></h6>
                                 </div>
                             </div>
