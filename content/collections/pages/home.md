@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1707103017
+updated_at: 1708541801
 block_types:
   -
     id: lka0v9ms
@@ -116,17 +116,7 @@ block_types:
                 <h1><span class="block-no">{{contador_lineas_de_investigacion}}</span></h1>
                 <b>LINEAS DE INVESTIGACIÓN</b>
             </div>
-              <div class="sm-block" id="block3">
-                <div class="icon-img-wrapper">
-                    <div class="eb-counter-image-wrapper">
-                        <a title="lineas-de-investigacion" href="#">
-                        <img class="eb-counter-image" alt="" src="{{icono_fondo_editorial}}"/></a>
-                    </div>
-                </div>
-                <h1><span class="block-no">{{contador_fondo_editorial}}</span></h1>
-                <b>FONDO EDITORIAL</b>
-            </div>
-        </div>
+           
         </div>
         <!---==end secction count status ==-->
       mode: htmlmixed
@@ -136,8 +126,6 @@ block_types:
     icono_docentes_renacyt: a_home_otros/inves.png
     icono_grupos_de_investigacion: a_home_otros/grupos.png
     icono_lineas_de_investigacion: a_home_otros/lineas.png
-    contador_fondo_editorial: 0
-    icono_fondo_editorial: a_home_otros/fondo_editorial.png
   -
     id: lka55qtw
     template_vicerrector: |-

@@ -205,33 +205,6 @@ tabs:
                             visibility: visible
                             hide_display: false
                         -
-                          handle: icono_fondo_editorial
-                          field:
-                            max_files: 1
-                            mode: list
-                            container: assets
-                            restrict: false
-                            allow_uploads: true
-                            show_filename: true
-                            show_set_alt: true
-                            type: assets
-                            display: 'Icono fondo editorial'
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            replicator_preview: true
-                            hide_display: false
-                        -
-                          handle: contador_fondo_editorial
-                          field:
-                            type: integer
-                            display: 'Contador fondo editorial'
-                            listable: hidden
-                            instructions_position: above
-                            visibility: visible
-                            replicator_preview: true
-                            hide_display: false
-                        -
                           handle: template
                           field:
                             theme: material
