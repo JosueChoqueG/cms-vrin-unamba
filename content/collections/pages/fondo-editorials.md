@@ -1,7 +1,7 @@
 ---
 id: 154d77aa-1c4a-40dd-9cc3-b92c08c7af8d
 blueprint: page
-title: 'Fondo Editorial'
+title: 'Fondo Editorials'
 titulo_pagina: 'Fondo Editorial'
 texto_bienvenida: 'Fondo Editorial'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
@@ -22,7 +22,7 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1707718149
+updated_at: 1708541376
 block_types:
   -
     id: lsi9492e
