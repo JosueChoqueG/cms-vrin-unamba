@@ -22,7 +22,7 @@ modal:
   code: null
   mode: htmlmixed
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1708541376
+updated_at: 1709060160
 block_types:
   -
     id: lsi9492e
