@@ -2,14 +2,14 @@ title: Chatbot
 data:
   template_chat:
     code: |-
-      <script>
+      <!--script>
         window.chatbaseConfig = {
           chatbotId: "jGeIfjUU1pDSqyOfLFb4l",
         }
-      </script>
-      <script
+      </script -->
+      <!--script
         src="https://www.chatbase.co/embed.min.js"
         id="jGeIfjUU1pDSqyOfLFb4l"
         defer>
-      </script>
+      </script -->
     mode: htmlmixed
