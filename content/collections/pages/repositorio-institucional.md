@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1692378681
+updated_at: 1723153919
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -138,14 +138,14 @@ block_types:
                         </li>
                     </div>
                     <div class="tab-pane" id="proyectos">
-                        <li>Proyecto cuantitativo <a href="https://drive.google.com/file/d/1pBxQbRlyDIIqLapBk_EJ2trkhpUT5Gih/view" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Proyecto cualitativo <a href="https://drive.google.com/file/d/1C2GEgX5Dn9netoZKuqDumEW5F8wZLYAn/view" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Proyecto de Trabajo Profesional <a href="https://docs.google.com/document/d/1yH4oaZ8BX3q-7mZq4fANxLQq-yb3y1ro/edit" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Proyecto cuantitativo <a href="https://docs.google.com/document/d/1iTn97ZG7o1QLXz0fslzclCBaGO131EbR/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Proyecto cualitativo <a href="https://docs.google.com/document/d/1O0mOMvB2ObCxQAVvpnBilfFy_ZksfEl0/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Proyecto de Trabajo Profesional <a href="https://docs.google.com/document/d/1_lL5pM-_BQ9-ftrlAmdaolGztV_av0gv/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
                     </div>
                     <div class="tab-pane" id="informes">
-                        <li>Informe final de investigación cuantitativo <a href="https://drive.google.com/file/d/1AjvGv7n6EzPf2cUb3ugRNSDbL3uRUf4C/view" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe final de investigación cualitativo <a href="https://drive.google.com/file/d/12nIxxRgELEXMPkA3j8Y8ChVGkHIw-xPK/view" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe final de trabajo profesional <a href="https://docs.google.com/document/d/1LLnXLk2a4th8ZGG4_Y0sDuwFEB7cOMam/edit" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Informe final de investigación cuantitativo <a href="https://docs.google.com/document/d/1jN93KjnyVHxMx0G1Kxwiee9zayfcz0X1/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Informe final de investigación cualitativo <a href="https://docs.google.com/document/d/1ej5Gv1GJgZLnoFcuoVePkJvSxiUkzudx/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Informe final de trabajo profesional <a href="https://docs.google.com/document/d/1l9VCsWA6YIdcOkwM4YRzyY4Rp59789rS/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
                     </div>
                     <div class="tab-pane" id="guias">
                         <li>ISO 690 para ingenierías <a href="https://www.iso.org/sites/directives/current/part2/index.xhtml" target="_blank">(clic para descargar)</a>.</li>
@@ -153,10 +153,10 @@ block_types:
                         <li>Vancouver , para MVZ <a href="https://drive.google.com/file/d/1_Co8cqjeeDVZqGXZWdhOxiy_lS2m_mVC/view" target="_blank">(clic para descargar)</a>.</li>
                     </div>
                     <div class="tab-pane" id="posgrado">
-                        <li>Proyecto cuantitativo <a href="https://docs.google.com/document/d/1CA2XnfiIjGkUhyAJFgxaCq70qlSzQAC8/edit" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Proyecto cualitativo <a href="https://docs.google.com/document/d/1gmpAmk0V1h0xp11Ckdv4fUWPX19JxAXo/edit" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe cuantitativo <a href="https://docs.google.com/document/d/1UgPribLw4jWWqOvEHJgrV5nvS58GfCyu/edit" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe cualitativo <a href="https://docs.google.com/document/d/1X1YeVebjaFT8iJz3U2ggCmCHEHcAyr_3/edit" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Proyecto cuantitativo <a href="https://docs.google.com/document/d/1iTn97ZG7o1QLXz0fslzclCBaGO131EbR/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Proyecto cualitativo <a href="https://docs.google.com/document/d/1O0mOMvB2ObCxQAVvpnBilfFy_ZksfEl0/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Informe cuantitativo <a href="https://docs.google.com/document/d/1jN93KjnyVHxMx0G1Kxwiee9zayfcz0X1/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Informe cualitativo <a href="https://docs.google.com/document/d/1ej5Gv1GJgZLnoFcuoVePkJvSxiUkzudx/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
                     </div>
                 </div>
             </div>
