@@ -6,17 +6,17 @@ texto_bienvenida: 'Dirección de Incubadora de Empresas'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1697557625
+updated_at: 1723149104
 titulo_pagina: 'Dirección de Incubadora de Empresas - VRIN UNAMBA'
 block_types:
   -
     id: lkc3kwq7
-    nombre_completo: 'DR. Belen Cabrera Navarrete'
-    cargo_direccion: 'Directora de Incubadora de Empresas'
+    nombre_completo: 'DR. Mauricio Escalante Cardenas'
+    cargo_direccion: 'Director de Incubadora de Empresas'
     correo: INCUBADORASDEEMPRESAS@UNAMBA.EDU.PE
     direccion_oficina: '2° PISO DE LA BIBLIOTECA GENERAL.'
     horario: '8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.'
-    imagen: direcciones/incubadora/555_mesa-de-trabajo-1.jpg
+    imagen: mauricio_encubadoras.jpeg
     template: |-
       <div class="section">
           <div class="row justify-content-center">
@@ -69,8 +69,6 @@ block_types:
       </div>
     type: director_direcciones_vrin
     enabled: true
-    titulo_documento: 'GANADORES DEL II CONCURSO DE INVESTIGACIÓN, DESARROLLO E INNOVACIÓN EMPRESARIAL 2022.'
-    documento: direcciones/incubadora/desarrollo-e-innovacion-empresarial-2022-1.pdf
 template_imagen_fondo:
   code: |-
     <div class="page-header header-filter " data-parallax="true" style="background-image: url('./assets/direcciones/incubadora/incubadora.jpg');">

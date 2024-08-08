@@ -28,7 +28,4 @@ preferences:
         - status
     blog:
       after_save: create_another
-  favorites:
-    -
-      name: 'Docentes Inv ‹ Collections'
-      url: collections/docentes_inv
+      per_page: 100

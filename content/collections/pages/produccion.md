@@ -6,13 +6,13 @@ texto_bienvenida: 'Dirección de Producción de Bienes y Servicios'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1691900852
+updated_at: 1723149592
 titulo_pagina: 'Dirección de Producción de Bienes y Servicios - VRIN UNAMBA'
 block_types:
   -
     id: lkdgq6ld
-    imagen_director: direcciones/produccion/fredy_barrios.png
-    nombre_director: 'Mg. Freddy Barrios Sanchez'
+    imagen_director: almer.jpg
+    nombre_director: 'Mg. Almer Ventura Román'
     direccion_oficina: 'AULA 305, PABELLÓN DE AULAS GENERALES.'
     imagen_ci: direcciones/produccion/idiomas.png
     nombre_ci: 'C.P.C. Dina E. Trujillo Huaysara'
@@ -26,9 +26,6 @@ block_types:
     nombre_ce: 'Luis Gregorio Ibañez Trelles'
     direccion_oficina_ce: '2° Piso Biblioteca General'
     horario_ce: '8:00 a.m. – 1:00 pm. y 2:00 pm. – 3:30 pm.'
-    nombre_cpu: 'Abog. Edilberto Palomino Monzón'
-    direccion_oficina_cpu: '1° Piso Pabellón Aulas Generales'
-    horario_cpu: '8:00 a.m. – 1:00 pm. y 2:00 pm. – 3:30 pm.'
     template:
       code: |-
         <div class="section">
@@ -148,29 +145,7 @@ block_types:
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 justify-content-center">
-                                    <div class="card card-profile ">
-                                        <div class=" card-header-image mr-auto ml-auto">
-                                            <img class="img rounded-circle" src="{{imagen_cpu}}">
-                                        </div>
-                                        <div class="card-body ">
-                                            <h5 class="card-title ">{{nombre_cpu}}<br>
-                                                Jefe Centro Preuniversitario
-                                            </h5>
-                                            <b>
-                                                Correo: 
-                                                <short class="text-muted ">cpu@unamba.edu.pe</short>
-                                                <br>
-                                                Oficina: 
-                                                <short class="text-muted ">{{direccion_oficina_cpu}}</short>
-                                                <br>
-                                                Horario: 
-                                                <short class="text-muted ">{{horario_cpu}}</short>
-                                            </b>
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -229,7 +204,6 @@ block_types:
     type: Director_jefes_produccion_bienes_y_servicios
     enabled: true
     cargo_director: 'Director de Producción de Bienes y Servicios'
-    imagen_cpu: direcciones/produccion/cpu.jpg
 template_imagen_fondo:
   code: |-
     <div class="page-header header-filter " data-parallax="true" style="background-image: url('/assets/direcciones/produccion/produccion1.jpg');">

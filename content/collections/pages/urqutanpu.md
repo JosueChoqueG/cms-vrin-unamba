@@ -52,7 +52,7 @@ block_types:
                                                 <a href="#pablo">Wakichiy umalliq</a>
                                             </h3>
                                             <p class="card-description">
-                                                Dr. Hilda Huayhua Mamani <br>
+                                                Dr. Wilson Jhon Mollocondo Flores <br>
                                                 Av. Tamburco s/n Abancay, Apurimac
                                             </p>
                                             <h3 class="card-title">
@@ -100,7 +100,7 @@ block_types:
                                                 <a href="#pablo">Wakichiy umalliq</a>
                                             </h3>
                                             <p class="card-description">
-                                                Dr. Hilda Huayhua Mamani <br>
+                                                Dr. Wilson Jhon Mollocondo Flores <br>
                                                 Av. Tamburco s/n Abancay, Apurimac
                                             </p>
                                             <h3 class="card-title">

@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1708541801
+updated_at: 1723148510
 block_types:
   -
     id: lka0v9ms
@@ -135,7 +135,7 @@ block_types:
               <div class="container">
                   <div class="row">
                       <div class="col-md-6" style="color: white">
-                          <h2 class="title " style="color: white">Acerca del Vicerrectorado de Investigación</h2>
+                          <h2 class="title " style="color: white">Acerca del Vicerrectorado de Investigación!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</h2>
                           <h5 class="description fs-3" style="color: #e6e0e0">El Vicerrectorado de Investigación es un órgano ejecutivo desconcentrado, de apoyo encargado de implementar y materializar los lineamientos de investigación, buscando el estímulo a la ciencia, investigación y creación.</h5>
                           <h3 class="title" style="color: white">Funciones Generales</h3>
                           <p class="h4">El Vicerrectorado de Investigación tiene las siguientes funciones:</p>
@@ -152,10 +152,10 @@ block_types:
                       </div>
                       <div class="col-md-5 ml-auto text-center">
                           <div class="card card-contact">
-                              <img src="./assets/img/vicerrectora-hilda.jpg" alt="viverrector-investigacion">
+                              <img src="" alt="viverrector-investigacion">
                           </div>
-                          <h5 class="description fs-3" style="color: #e6e0e0">Dr. Hilda Huayhua Mamani</h5>
-                          <h4 class="title" style="color: #e6e0e0">Vicerrectora de Investigación</h4>
+                          <h5 class="description fs-3" style="color: #e6e0e0">Dr. Wilson Jhon Mollocondo Flores</h5>
+                          <h4 class="title" style="color: #e6e0e0">Vicerrector de Investigación</h4>
                       </div>
                   </div>
               </div>
@@ -164,8 +164,7 @@ block_types:
       <!-- fin acerca de vicerrector -->
     type: acerca_vicerrector
     enabled: true
-    imagen_vicerrector: a_home_otros/vicerrectora-hilda.jpg
-    nombre_vicerrector: 'Dr. Hilda Huayhua Mamani'
+    nombre_vicerrector: 'Dr. Wilson Jhon Mollocondo Flores'
     template:
       code: |-
         <!---==inicio acerca de vicerrector ==-->
@@ -202,7 +201,7 @@ block_types:
         </div>
         <!-- fin acerca de vicerrector -->
       mode: htmlmixed
-    cargo: 'Vicerrectora de Investigación'
+    cargo: 'Vicerrector de Investigación'
   -
     id: lkabqlir
     titulo_seccion_blog: 'Eventos Vicerrectorado de Investigación'

@@ -35,6 +35,9 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true,
             "pixelfear/composer-dist-plugin": true
+        },
+        "platform": {
+            "php": "8.0.0"
         }
     },
 	"extra": {
