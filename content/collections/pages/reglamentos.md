@@ -6,7 +6,7 @@ texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1697584425
+updated_at: 1723151931
 block_types:
   -
     id: lkdih7d4
@@ -32,16 +32,16 @@ block_types:
                                 <tbody>
         						  <tr>
         						   <th scope="row">1</th>
-                                        <td colspan="2">RESOLUCIÓN Nº 201-23-SEMILLEROS</td>
+                                        <td colspan="2">RES N° 163-2024-CU-UNAMBA (Reglamento de Semilleros de Investigación) </td>
         								<td><a 
-        									href="https://drive.google.com/file/d/1Ejr0f0yOJOcY99oHgvF1PRJaxwO44S1r/view?usp=sharing" 
+        									href="https://drive.google.com/file/d/1JvnFZezbYfMz09XtTIoF3ZwjbjfWHHq0/view?usp=drive_link" 
         									target="_blan">Ver</a></td>
         							 </tr> 
         						   <tr>
         						   <th scope="row">2</th>
-                                        <td colspan="2">RESOLUCIÓN Nº 193-23-PROYECTO TESIS</td>
+                                        <td colspan="2">RES N° 168-2024-CU-UNAMBA -Reglamento de Investigación 2024</td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1xN-80CkTzMl30rpiNUgtDpDWr7VYF1h6/view?usp=sharing" 
+        								href="https://drive.google.com/file/d/1f8BfyRBpK4xxMfQuUpeLoFPzxohIM0ZU/view?usp=drive_link" 
         								target="_blan">Ver</a></td>
         							 </tr> 
         						   <tr>
@@ -53,9 +53,9 @@ block_types:
         							 </tr> 
         						    <tr>
         						   <th scope="row">4</th>
-                                        <td colspan="2">RESOLUCIÓN Nº 199-23-PONENCIAS</td>
+                                        <td colspan="2">RES N° 162-2024-CU-UNAMBA (Reglamento de docente investigador)</td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1viNTN8_NegsnuIWEhFnHByhyOv9GcKdp/view?usp=sharing" 
+        								href="https://drive.google.com/file/d/1FVPmeAulSTrDLJjSo2hpuBK2l3SlywjT/view?usp=drive_link" 
         								target="_blan">Ver</a></td>
         							 </tr> 
         						  <tr>
