@@ -6,7 +6,7 @@ texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1723151931
+updated_at: 1723568971
 block_types:
   -
     id: lkdih7d4
@@ -32,16 +32,16 @@ block_types:
                                 <tbody>
         						  <tr>
         						   <th scope="row">1</th>
-                                        <td colspan="2">RES N° 163-2024-CU-UNAMBA (Reglamento de Semilleros de Investigación) </td>
+                                        <td colspan="2">Reglamento de Semilleros de Investigación </td>
         								<td><a 
-        									href="https://drive.google.com/file/d/1JvnFZezbYfMz09XtTIoF3ZwjbjfWHHq0/view?usp=drive_link" 
+        									href="https://drive.google.com/file/d/1-0mytOx7Eks1tmIztNBQJqvTR5MHzSV8/view?usp=sharing" 
         									target="_blan">Ver</a></td>
         							 </tr> 
         						   <tr>
         						   <th scope="row">2</th>
-                                        <td colspan="2">RES N° 168-2024-CU-UNAMBA -Reglamento de Investigación 2024</td>
+                                        <td colspan="2">Reglamento de Investigación 2024</td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1f8BfyRBpK4xxMfQuUpeLoFPzxohIM0ZU/view?usp=drive_link" 
+        								href="https://drive.google.com/file/d/1EhiBPyULLpxTiX3ondsHgCkMYh0Y1Z2J/view?usp=sharing" 
         								target="_blan">Ver</a></td>
         							 </tr> 
         						   <tr>
