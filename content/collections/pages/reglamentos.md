@@ -6,7 +6,7 @@ texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1723568971
+updated_at: 1723843372
 block_types:
   -
     id: lkdih7d4
@@ -55,7 +55,7 @@ block_types:
         						   <th scope="row">4</th>
                                         <td colspan="2">RES N° 162-2024-CU-UNAMBA (Reglamento de docente investigador)</td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1FVPmeAulSTrDLJjSo2hpuBK2l3SlywjT/view?usp=drive_link" 
+        								href="https://drive.google.com/file/d/1EdaJBnLTIQ-wbTjT5-k3xUu4OsF2YMio/view?usp=drive_link" 
         								target="_blan">Ver</a></td>
         							 </tr> 
         						  <tr>
