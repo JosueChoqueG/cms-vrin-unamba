@@ -6,7 +6,7 @@ texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1723843372
+updated_at: 1724354870
 block_types:
   -
     id: lkdih7d4
@@ -32,7 +32,7 @@ block_types:
                                 <tbody>
         						  <tr>
         						   <th scope="row">1</th>
-                                        <td colspan="2">Reglamento de Semilleros de Investigación </td>
+                                        <td colspan="2">Reglamento de Semilleros de Investigación 2024 </td>
         								<td><a 
         									href="https://drive.google.com/file/d/1-0mytOx7Eks1tmIztNBQJqvTR5MHzSV8/view?usp=sharing" 
         									target="_blan">Ver</a></td>
@@ -46,136 +46,92 @@ block_types:
         							 </tr> 
         						   <tr>
         						   <th scope="row">3</th>
-                                        <td colspan="2">RESOLUCIÓN Nº 202-23 PUBLICACION ARTICULOS</td>
+                                        <td colspan="2">Reglamento de docente investigador 2024</td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1nJ_cGvlS1gY-SZLvM6OuvhUoZazYtEJh/view?usp=share_link" 
+        								href="https://drive.google.com/file/d/1EdaJBnLTIQ-wbTjT5-k3xUu4OsF2YMio/view?usp=sharing" 
         								target="_blan">Ver</a></td>
         							 </tr> 
         						    <tr>
         						   <th scope="row">4</th>
-                                        <td colspan="2">RES N° 162-2024-CU-UNAMBA (Reglamento de docente investigador)</td>
+                                        <td colspan="2">Reglamento de financiamiento para docentes como ponentes en eventos científicos 2024</td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1EdaJBnLTIQ-wbTjT5-k3xUu4OsF2YMio/view?usp=drive_link" 
+        								href="https://drive.google.com/file/d/1fFR-X5TZJ27-y4zMgOrezdUTl-CjcXRX/view?usp=sharing" 
         								target="_blan">Ver</a></td>
         							 </tr> 
         						  <tr>
         						   <th scope="row">5</th>
-                                        <td colspan="2">FE ERRATAS RESO 193-2023-CU-UNAMBA</td>
+                                        <td colspan="2">Reglamento para el financiamiento de proyectos de investigación a través de grupos de investigación </td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1XdGCoYjAOoCemnM8scbN5-nqnox28NJW/view?usp=sharing" 
+        								href="https://drive.google.com/file/d/1mErWy6M5DRZ_-tc6zfk-bq5OyKAa_NoF/view?usp=sharing" 
         								target="_blan">Ver</a></td>
         							 </tr> 
         						  					  
                                     <tr>
         							   <th scope="row">6</th>
-                                        <td colspan="2">RESOLUCIÓN Nº 199-2023-CU-UNAMBA</td>
+                                        <td colspan="2">Reglamento para el financiamiento de publicaciones en revistas indexadas y gastos de traducción</td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1nRRZ9k_Wnv6Qo-DrS_C1Af09ANNSkO-d/view?usp=sharing" 
+        								href="https://drive.google.com/file/d/1VFNXiuRnUV1lRZY9MYZTLyEA3enyknxW/view?usp=sharing" 
         								target="_blan">Ver</a></td>
         							</tr>
         						  	<tr>
         							   <th scope="row">7</th>
-                                        <td colspan="2">RESOLUCIÓN Nº 200-2023-CU-UNAMBA</td>
+                                        <td colspan="2">Reglamento de  trabajo de suficiencia profesional </td>
         								<td><a 
-        								href="https://drive.google.com/file/d/1LF1FtZkAzFO4OJf3ONvdal_hftQrpyNv/view?usp=sharing" 
+        								href="https://drive.google.com/file/d/1r7FPWC1OSk6oi6i2_Y-aeMphAtkK9UTg/view?usp=sharing" 
         								target="_blan">Ver</a></td>
         							</tr>
         						  	<tr>
                                         <th scope="row">8</th>
-                                        <td colspan="2">Codigo de Etica.</td>
-                                        <td><a href="https://drive.google.com/file/d/1TxdYp8DhPhXSfVItow7kj2rqUPSwMfks/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamento de repositorio institucional de la UNAMBA</td>
+                                        <td><a href="https://drive.google.com/file/d/1dQML3KRWm_PTDde_Lpely_KxO9jjgO6R/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">9</th>
-                                        <td colspan="2">Reglamento de Año Sabatico</td>
-                                        <td><a href="https://drive.google.com/file/d/1VGnXBPWnI0EEhqNWykMU_YOhs2a42SI2/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamento de grupos de investigacion</td>
+                                        <td><a href="https://drive.google.com/file/d/1MaKQLhJ8_SrWz0p9ZMLH6xcjGpGOBjij/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">10</th>
-                                        <td colspan="2">Reglamento de investigación</td>
-                                        <td><a href="https://drive.google.com/file/d/1uO6zv_fg9lNLLspqxNrbyMZ3HQ1XM9qU/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamento de la propiedad intelectual</td>
+                                        <td><a href="https://drive.google.com/file/d/1-SNiMeZY2poQZBaU5B68Bgo5CL5ICJe3/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">11</th>
-                                        <td colspan="2">Reglamento Incubadora de Empresa</td>
-                                        <td><a href="https://drive.google.com/file/d/12s2Offd0nRyNlPJYgLtKEAn5PNuJetNm/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamentos de la Dirección de Incubadoras de Empresas</td>
+                                        <td><a href="https://drive.google.com/file/d/13f3QQlbpMHSWD00sNjEDTX2CGzQigQqW/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12</th>
-                                        <td colspan="2">Reglamentos para la publicacion de Revistas de investigación</td>
-                                        <td><a href="https://drive.google.com/file/d/1N3Bb2-RpzGdXm-J4_UkuO6iLNjeeKsOe/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Código de ética para la investigación</td>
+                                        <td><a href="https://drive.google.com/file/d/1qUXgawJyA5BKh3vg6UY1YKln0DNAehTI/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">13</th>
-                                        <td colspan="2">Ejecución y financiamiento de proyectos de tesis para bachillerato</td>
-                                        <td><a href="https://drive.google.com/file/d/1BlqskMATI9FlRBYwiYCL1qWJ5e26KjtA/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamento año sabático</td>
+                                        <td><a href="https://drive.google.com/file/d/1p0EXliXBw7XpaXJj-3_ksDALMpqJqpus/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">14</th>
-                                        <td colspan="2">Financiamiento de investigación con fondos del canon, sobre canon y regalías mineras</td>
-                                        <td><a href="https://drive.google.com/file/d/1URRkA9tHi__zPOlBj2bZUCmngfgU9EBw/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamento de creación, modificación y supresión de institutos y centros de investigación</td>
+                                        <td><a href="https://drive.google.com/file/d/1Hy3d8PVcuS9mE1g4k0KtRgn0cGzZkyug/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">15</th>
-                                        <td colspan="2">Docente investigador</td>
-                                        <td><a href="https://drive.google.com/file/d/1z2Du4oIEdh9q8W4ZRuc0d6UMSAc-8XYr/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamento para ejecución y financiamiento de proyectos de tesis para bachillerato, título, maestría y doctorado</td>
+                                        <td><a href="https://drive.google.com/file/d/1jcDH-IfDkA5K7Zx-V9Js7RxtE5bs94E3/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">16</th>
-                                        <td colspan="2">Propiedad intelectual</td>
-                                        <td><a href="https://drive.google.com/file/d/1K8PQ_ellqm-wiLvpx0ILFKoksdb-IKX1/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamento para financiamiento de actividades de investigación con fondos de canon, sobrecanon y regalias mineras otorgado a la UNAMBA</td>
+                                        <td><a href="https://drive.google.com/file/d/1p8JsdJKyQdzNTV_-isq6YgSpC1uSNA31/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">17</th>
-                                        <td colspan="2">Creación, modificación y supresión de institutos y centros de investigación</td>
-                                        <td><a href="https://drive.google.com/file/d/165t2JTSmfb71bhYb6Z8FepfNMRheVs1b/view" target="_blank">Ver</a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">18</th>
-                                        <td colspan="2">Trabajo de Suficiencia Profesional (Modalidad para obtener título profesional)</td>
-                                        <td><a href="https://drive.google.com/file/d/1tsB2DX-0LKlLpO6RiJntoBk17HUMm5y3/view" target="_blank">Ver</a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">19</th>
-                                        <td colspan="2">Reglamento de Grupos de Investigacion</td>
-                                        <td><a href="https://drive.google.com/file/d/1M1BLwxhqxap0jU45kpoUzpsDbGTgZW4M/view" target="_blank">Ver</a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">20</th>
-                                        <td colspan="2">Reglamento del Repositorio de Institucional</td>
-                                        <td><a href="https://drive.google.com/file/d/1FNXxEnW_zWmuuFhHJ7tW2AqECUwekjBc/view" target="_blank">Ver</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="tab-pane" id="pill2">
-                            <table class="table table-hover h4">
-                                <thead>
-                                    <tr>
-                                        <th >N°</th>
-                                        <th colspan="2">Reglamento</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td colspan="2">Directiva de Investigacion: Facultad de Administracion</td>
-                                        <td><a href="https://drive.google.com/file/d/1FCbtCIbEuJTy91kZabJWhdH8-_P-y3Jw/view" target="_blank">Ver</a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td colspan="2">Directiva N° 001-2019-VRIN-UNAMBA: Ejecución en Gestión de Apoyo Económico Para Docentes y Estudiantes de UNAMBA</td>
-                                        <td><a href="https://drive.google.com/file/d/18YsfT3OB3iqJIFPclTp-mJ-nLSuRmhaw/view" target="_blank">Ver</a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td colspan="2">Directiva N° 002-2019-VRIN-UNAMBA: Ejecución de Apoyo Económico Para Docentes y Estudiantes Ganadores de Concurso Financiable con Fondos Canon, Sobrecanon y Regalías Mineras de la UNAMBA</td>
-                                        <td><a href="https://drive.google.com/file/d/1m-tVE6y5bul9dts1UWqNavSYmyTflBLg/view" target="_blank">Ver</a></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td colspan="2">Directiva N° 007-2019/OR-DP-UNAMBA: Normas y Procesos Para la Ejecución del Gasto Bajo la Modalidad de Encargos Para el Proceso de Investigación por la Fuente de Financiamiento Canon y regalías Mineras</td>
-                                        <td><a href="https://drive.google.com/file/d/1G-oWTQRbHYyaM2dydJT5Y64_nq36l9Vt/view" target="_blank">Ver</a></td>
+                                        <td colspan="2">Reglamento para publicaciones de revista
+        s de investigación</td>
+                                        <td><a href="https://drive.google.com/file/d/1nSPw9QPiQYHSCkZ4fADWKSRnIQTPjorV/view?usp=sharing" target="_blank">Ver</a></td>
+                                    </tr>  
+                                        
                                     </tr>
                                 </tbody>
                             </table>
