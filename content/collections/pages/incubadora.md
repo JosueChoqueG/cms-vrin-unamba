@@ -6,24 +6,24 @@ texto_bienvenida: 'Dirección de Incubadora de Empresas'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1723149104
+updated_at: 1725289934
 titulo_pagina: 'Dirección de Incubadora de Empresas - VRIN UNAMBA'
 block_types:
   -
     id: lkc3kwq7
-    nombre_completo: 'DR. Mauricio Escalante Cardenas'
+    nombre_completo: 'Dr. Elio Nolasco Carbajal'
     cargo_direccion: 'Director de Incubadora de Empresas'
     correo: INCUBADORASDEEMPRESAS@UNAMBA.EDU.PE
     direccion_oficina: '2° PISO DE LA BIBLIOTECA GENERAL.'
     horario: '8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.'
-    imagen: mauricio_encubadoras.jpeg
+    imagen: direcciones/incubadora/elio.jpeg
     template: |-
       <div class="section">
           <div class="row justify-content-center">
               <div class="col-md-5 ">
                   <div class="card-profile ">
                       <div class=" card-header-image mr-auto ml-auto ">
-                          <img class="img rounded-circle" src="{{imagen}}">
+                          <img class="img rounded-circle" src="{{imagen}}" style="max-width: 40%; height: 50%;">
                       </div>
                       <div class="card-body ">
                           <h4 class="card-title">{{nombre_completo}}<br>
@@ -55,15 +55,7 @@ block_types:
                       </div>
                   </div>
               </div>
-              <!--pdf-->
-              <div class="pdf-container">
-                  <h4 class="pdf-title h4">{{titulo_documento}}
-                  </h4>
-                  <div class="pdf-wrapper">
-                      <iframe
-                          src="{{documento}}"
-                          width="100%" height="560px"></iframe>
-                  </div>
+            
               </div>
           </div>
       </div>

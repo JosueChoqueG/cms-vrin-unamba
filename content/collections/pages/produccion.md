@@ -6,13 +6,13 @@ texto_bienvenida: 'Dirección de Producción de Bienes y Servicios'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1723149592
+updated_at: 1725289836
 titulo_pagina: 'Dirección de Producción de Bienes y Servicios - VRIN UNAMBA'
 block_types:
   -
     id: lkdgq6ld
-    imagen_director: almer.jpg
-    nombre_director: 'Mg. Almer Ventura Román'
+    imagen_director: direcciones/produccion/ernesto.jpeg
+    nombre_director: 'Dr. Alex Muñoz Cáceres'
     direccion_oficina: 'AULA 305, PABELLÓN DE AULAS GENERALES.'
     imagen_ci: direcciones/produccion/idiomas.png
     nombre_ci: 'C.P.C. Dina E. Trujillo Huaysara'
@@ -33,7 +33,7 @@ block_types:
                 <div class="col-md-5 ">
                     <div class="card-profile ">
                         <div class=" card-header-image mr-auto ml-auto "><br>
-                            <img class="img rounded-circle" src="{{imagen_director}}">
+                            <img class="img rounded-circle" src="{{imagen_director}}" style="max-width:40%; height: 30%;">
                         </div>
                         <br>
                         <div class="card-body ">
