@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1723148510
+updated_at: 1727299527
 block_types:
   -
     id: lka0v9ms
@@ -202,6 +202,7 @@ block_types:
         <!-- fin acerca de vicerrector -->
       mode: htmlmixed
     cargo: 'Vicerrector de Investigación'
+    imagen_vicerrector: fotos-rectorado-5.jpg
   -
     id: lkabqlir
     titulo_seccion_blog: 'Eventos Vicerrectorado de Investigación'
