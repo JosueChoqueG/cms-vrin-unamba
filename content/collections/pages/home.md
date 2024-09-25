@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1727299527
+updated_at: 1727300527
 block_types:
   -
     id: lka0v9ms
@@ -178,7 +178,10 @@ block_types:
                             <h3 class="title" style="color: white">Funciones Generales</h3>
                             <p class="h4">El Vicerrectorado de Investigación tiene las siguientes funciones:</p>
                             <br>
-                            <ol>
+
+                            <ol style="
+            margin-left: 20px;
+        ">
                                 <li>Dirigir y ejecutar la política general de investigación en la universidad.</li>
                                 <li>Supervisar las actividades de investigación con la finalidad de garantizar la calidad de las mismas y su concordancia con la misión y metas establecidas por el estatuto de la Universidad.</li>
                                 <li>Organizar la difusión del conocimiento y los resultados de las investigaciones.</li>
@@ -186,6 +189,7 @@ block_types:
                                 <li>Aprobar la realización y ejecución de programas de desarrollo de capacidades y de investigación en los trabajadores administrativos.</li>
                                 <li>Promover la generación de recursos para la universidad a través de la producción de bienes y prestación de servicios derivados de las actividades de investigación y desarrollo, así como mediante la obtención de regalías por patentes u otros derechos de propiedad intelectual.</li>
                             </ol>
+        				 
                             <br>
                         </div>
                         <div class="col-md-5 ml-auto text-center">
