@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1723153919
+updated_at: 1727891251
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -130,9 +130,7 @@ block_types:
                         <li>Hoja de autorización de publicación, descargue, rellene los campos imprima, firme y ponga su huella dactilar 
                             <a href="https://drive.google.com/file/d/1CEGXeUGg0vVGGbAoyxvXvK5GrvryWksF/view" target="_blank">(clic para descargar)</a>.
                         </li>
-                        <li>Guía de errores más comunes, importante, leer por favor 
-                            <a href="https://drive.google.com/file/d/10yNnvHp4i4srIA9KCfxZRBxby6F6DYkE/view" target="_blank">(clic para descargar)</a>.
-                        </li>
+
                         <li>Directiva de similitud, presentación de proyectos y tesis 
                             <a href="https://drive.google.com/file/d/1gFabxYnR9_YqVunBZZSBfbDclrc-hn4H/view" target="_blank">(clic para ver)</a>.
                         </li>
