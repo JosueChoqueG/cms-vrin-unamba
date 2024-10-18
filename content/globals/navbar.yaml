@@ -35,8 +35,12 @@ data:
     <a class="nav-link" href="#"></a>
     </li> -->
             <li class="nav-item">
-                <a class="btn btn-primary btn-round" href="/repositorio-institucional" role="button">REPOSITORIO</a>
+                <a class="btn btn-primary btn-round" href="/repositorio-institucional" role="button"> REPOSITORIO</a>
             </li>
+    </li>
+         <li class="nav-item">
+                <a class="btn btn-round" href="https://observatorio.unamba.edu.pe/" role="button" style="background-color:#60a127 ; border-color:#60a127" target="_blank">OBSERVATORIO</a>
+         </li>
             
         </ul>
     </div>
