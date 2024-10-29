@@ -26,6 +26,7 @@ preferences:
         - slug
         - date
         - status
+      per_page: 100
     blog:
       after_save: create_another
       per_page: 100
