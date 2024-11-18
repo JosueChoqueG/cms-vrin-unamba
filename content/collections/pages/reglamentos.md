@@ -6,7 +6,7 @@ texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1724354870
+updated_at: 1731942356
 block_types:
   -
     id: lkdih7d4
@@ -82,17 +82,17 @@ block_types:
         							</tr>
         						  	<tr>
                                         <th scope="row">8</th>
-                                        <td colspan="2">Reglamento de repositorio institucional de la UNAMBA</td>
+                                        <td colspan="2">Reglamento de Repositorio Institucional de la UNAMBA</td>
                                         <td><a href="https://drive.google.com/file/d/1dQML3KRWm_PTDde_Lpely_KxO9jjgO6R/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">9</th>
-                                        <td colspan="2">Reglamento de grupos de investigacion</td>
+                                        <td colspan="2">Reglamento de grupos de investigación</td>
                                         <td><a href="https://drive.google.com/file/d/1MaKQLhJ8_SrWz0p9ZMLH6xcjGpGOBjij/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">10</th>
-                                        <td colspan="2">Reglamento de la propiedad intelectual</td>
+                                        <td colspan="2">Reglamento de la Propiedad Intelectual</td>
                                         <td><a href="https://drive.google.com/file/d/1-SNiMeZY2poQZBaU5B68Bgo5CL5ICJe3/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
@@ -122,16 +122,15 @@ block_types:
                                     </tr>
                                     <tr>
                                         <th scope="row">16</th>
-                                        <td colspan="2">Reglamento para financiamiento de actividades de investigación con fondos de canon, sobrecanon y regalias mineras otorgado a la UNAMBA</td>
+                                        <td colspan="2">Reglamento para financiamiento de actividades de investigación con fondos de canon, sobrecanon y regalías mineras otorgado a la UNAMBA</td>
                                         <td><a href="https://drive.google.com/file/d/1p8JsdJKyQdzNTV_-isq6YgSpC1uSNA31/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">17</th>
-                                        <td colspan="2">Reglamento para publicaciones de revista
-        s de investigación</td>
+                                        <td colspan="2">Reglamento para publicaciones de revistas de investigación</td>
                                         <td><a href="https://drive.google.com/file/d/1nSPw9QPiQYHSCkZ4fADWKSRnIQTPjorV/view?usp=sharing" target="_blank">Ver</a></td>
                                     </tr>  
-                                        
+                                    
                                     </tr>
                                 </tbody>
                             </table>
