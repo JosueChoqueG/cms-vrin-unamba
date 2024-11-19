@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1731941798
+updated_at: 1732025983
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -56,11 +56,10 @@ block_types:
                                         <li data-target="#carouselE" data-slide-to="4"></li>
                                         <li data-target="#carouselE" data-slide-to="5"></li>
         							  	<li data-target="#carouselE" data-slide-to="6"></li>
-        							  	<li data-target="#carouselE" data-slide-to="7"></li>
                                     </ol>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100" src="/assets/repositorio/infograma_repositorio.png" alt="First slide">
+                                            <img class="d-block w-100" src="/assets/repositorio/infograma_repositorio_rmst.png" alt="First slide">
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="/assets/repositorio/horario_atencion_repositorio.png" alt="Second slide">
@@ -69,16 +68,13 @@ block_types:
                                             <img class="d-block w-100" src="/assets/repositorio/ubicacion_repositorio.png" alt="Third slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="/assets/repositorio/ubi_repo_3.jpeg" alt="Third slide">
+                                            <img class="d-block w-100" src="/assets/repositorio/ubi_repo_1_rmst.png" alt="Third slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="/assets/repositorio/ubi_repo_6.jpeg" alt="Third slide">
+                                            <img class="d-block w-100" src="/assets/repositorio/ubi_repo_2_rmst.png" alt="Third slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="/assets/repositorio/ubi_repo_5.jpeg" alt="Third slide">
-                                        </div>
-        							  	<div class="carousel-item">
-                                            <img class="d-block w-100" src="/assets/repositorio/ubi_repo_9.png" alt="Third slide">
+                                            <img class="d-block w-100" src="/assets/repositorio/ubi_repo_3_rmst.png" alt="Third slide">
                                         </div>
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselE" role="button"
