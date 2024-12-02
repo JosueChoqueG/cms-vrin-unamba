@@ -18,7 +18,7 @@ block_types:
                     <h2><small>&nbsp;Reglamentos</small></h2>
                     <ul class="nav nav-pills  nav-pills-primary ">
                         <li class="nav-item"><a class="nav-link active " href="#pill1" data-toggle="tab">Resoluciones</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#pill2" data-toggle="tab">Directivas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pill2" data-toggle="tab">Bases de Concursos</a></li>
                     </ul>
                     <div class="card tab-content  ">
                         <div class="tab-pane active h4" id="pill1">
@@ -135,6 +135,32 @@ block_types:
                                 </tbody>
                             </table>
                         </div>
+
+                        <!-- Contenido de la pestaña Bases de Concursos -->
+                        <div class="tab-pane fade" id="pill2">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>N°</th>
+                                        <th colspan="2">Base de Concurso</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td colspan="2">Bases del Concurso de Feria de Ciencia y Tecnología 2024</td>
+                                        <td><a href="https://drive.google.com/file/d/1Vbk7oqcTyIoPhAD0HiOhBm4EImqWZQkx/view?usp=drive_link" target="_blank">Ver</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td colspan="2">Bases del Concurso de Subvención de Tesis 2024</td>
+                                        <td><a href="https://drive.google.com/file/d/1AMabG1LLaLffn5z4LE0J07sKgu78E5IG/view?usp=drive_link" target="_blank">Ver</a></td>
+                                    </tr>
+                                    <!-- Puedes agregar más filas aquí -->
+                                </tbody>
+                            </table>
+                        </div>
+
                     </div>
                 </div>
             </div>
