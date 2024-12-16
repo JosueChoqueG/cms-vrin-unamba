@@ -30,3 +30,8 @@ preferences:
     blog:
       after_save: create_another
       per_page: 100
+      columns:
+        - title
+        - slug
+        - status
+        - documentos
