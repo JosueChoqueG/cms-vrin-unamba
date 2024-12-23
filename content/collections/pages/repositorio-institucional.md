@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1733414487
+updated_at: 1734964255
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -152,10 +152,10 @@ block_types:
                         <li>Vancouver , para MVZ <a href="https://drive.google.com/file/d/1_Co8cqjeeDVZqGXZWdhOxiy_lS2m_mVC/view" target="_blank">(clic para descargar)</a>.</li>
                     </div>
                     <div class="tab-pane" id="posgrado">
-                        <li>Proyecto cuantitativo <a href="https://docs.google.com/document/d/1iTn97ZG7o1QLXz0fslzclCBaGO131EbR/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Proyecto cualitativo <a href="https://docs.google.com/document/d/1O0mOMvB2ObCxQAVvpnBilfFy_ZksfEl0/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe cuantitativo <a href="https://docs.google.com/document/d/1jN93KjnyVHxMx0G1Kxwiee9zayfcz0X1/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe cualitativo <a href="https://docs.google.com/document/d/1ej5Gv1GJgZLnoFcuoVePkJvSxiUkzudx/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Proyecto cuantitativo <a href="/assets/repositorio/01_formato-de-proyecto--cuantitativo-epg-(2).docx" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Proyecto cualitativo <a href="/assets/repositorio/02_formato-de-proyecto-cualitativo-epg-(2).docx" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Informe cuantitativo <a href="/assets/repositorio/04_formato-informe-final--cuantitativo-epg-(1).docx" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Informe cualitativo <a href="/assets/repositorio/03_formato-informe-final--cualitativo-epg-(1).docx" target="_blank">(clic para descargar)</a>.</li>
                     </div>
                 </div>
             </div>
