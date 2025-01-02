@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1734964255
+updated_at: 1735835809
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -130,6 +130,15 @@ block_types:
                     <div class="tab-pane active" id="directiva">
                         <li>Hoja de autorización de publicación, descargue, rellene los campos imprima, firme y ponga su huella dactilar 
                             <a href="https://drive.google.com/file/d/1CEGXeUGg0vVGGbAoyxvXvK5GrvryWksF/view" target="_blank">(clic para descargar)</a>.
+                        </li>
+        			  	<li> Errores recurrentes
+                            <a href="https://drive.google.com/file/d/1yUA2CEBWBsgf1o181WaqmomqtHwkiNEK/view" target="_blank">(clic para descargar)</a>.
+                        </li>
+        			  	<li> Ejemplo de tablas y figuras con ISO 690
+                            <a href="https://drive.google.com/file/d/1l5CVe7F8-GY8YQsI7v4a2eW-MjC5iMvF/view" target="_blank">(clic para descargar)</a>.
+                        </li>
+        			  	<li> Formato de tablas y figuras para la Escuela Académico Profesional Medicina Veterinaria y Zootecnia
+                            <a href="https://drive.google.com/file/d/1x2h2vuwoU47j4Ibc46VLWcH1OUPJWC4K/view" target="_blank">(clic para descargar)</a>.
                         </li>
         <!--
                         <li>Directiva de similitud, presentación de proyectos y tesis 
