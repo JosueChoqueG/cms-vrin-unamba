@@ -6,7 +6,7 @@ texto_bienvenida: Reglamentos
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1731942356
+updated_at: 1738771845
 block_types:
   -
     id: lkdih7d4
@@ -45,13 +45,21 @@ block_types:
         								target="_blan">Ver</a></td>
         							 </tr> 
         						   <tr>
-        						   <th scope="row">3</th>
+        						   <!--<th scope="row">3</th>
                                         <td colspan="2">Reglamento de docente investigador 2024</td>
         								<td><a 
         								href="https://drive.google.com/file/d/1EdaJBnLTIQ-wbTjT5-k3xUu4OsF2YMio/view?usp=sharing" 
         								target="_blan">Ver</a></td>
         							 </tr> 
+        						    <tr>-->
+        						   <th scope="row">3</th>
+                                        <td colspan="2">Reglamento del docente investigador 2025</td>
+        								<td><a 
+        								href="/assets/resolucions/resolucion-n0-028-2025-cu-unamba.pdf" 
+        								target="_blan">Ver</a></td>
+        							 </tr> 
         						    <tr>
+        						   
         						   <th scope="row">4</th>
                                         <td colspan="2">Reglamento de financiamiento para docentes como ponentes en eventos científicos 2024</td>
         								<td><a 
