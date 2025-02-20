@@ -15,34 +15,167 @@ data:
                 <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
               </ul>
   footer_template: |-
-    <footer class="footer" data-background-color="black">
-                <div class="container">
-                  <nav class="float-left">
-                    <ul>
-                      <li>
-                        <a href="/"> 
-                          <img src="/assets/a_home_otros/logo-dark.png" alt="logo-vrin-unamba">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/">
-                          Sobre Nosotros
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/eventos">
-                          Eventos
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </nav>
-                  <div class="copyright float-right">
-                    &copy;
-                    2023, VRIN UNAMBA
-                  </div>
-                </div>
-            </footer>
+    <style>
+      .footer {
+        background-color: #0F0411; /* Color azul oscuro */
+        color: white;
+        padding: 40px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .footer h4 {
+        color: white;
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .footer p {
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+
+      .footer a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+
+      .footer .social-icons {
+        margin-top: 10px;
+      }
+
+      .footer .social-icons a {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 20px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 36px;
+        transition: all 0.3s ease;
+      }
+
+      .footer .social-icons a:hover {
+        background-color: white;
+        color: #0c1b2e;
+      }
+
+      .footer .container-footer {
+
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        justify-content: center;
+      }
+
+      .footer .footer-column {
+        flex: 1 1 22%;
+        margin: 10px;
+      }
+
+      .footer .footer-column img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-top: 15px;
+      }
+
+      .footer .footer-column ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer .footer-column ul li {
+        margin-bottom: 10px;
+      }
+
+      .footer .footer-column ul li a {
+        display: inline-block;
+        font-size: 14px;
+      }
+
+      .footer .footer-bottom {
+        margin-top: 20px;
+        border-top: 1px solid white;
+        padding-top: 10px;
+        font-size: 14px;
+        text-align: center;
+      }
+
+    </style>
+
+    <footer class="footer">
+      <div class="container-footer">
+        <!-- Columna 1: Información de VRIN -->
+        <div class="footer-column" style="margin-right: 30px; margin-left: 30px;">
+          <h4>VRIN</h4>
+          <p>El Vicerrectorado de Investigación (VRIN) es el organismo encargado de dirigir el sistema de investigación de la Universidad Nacional Micaela Bastidas de Apurímac (UNAMBA). Conduce, coordina y organiza las actividades de investigación que se desarrollan en la universidad.</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/unambaoficial"><i class="fa fa-facebook"></i></a>
+            <a href="mailto:vrin@unamba.edu.pe"><i class="fa fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Columna 2: Enlaces -->
+        <div class="footer-column" style="margin-right: -90px; margin-left: 30px;">
+          <ul><h4>Enlaces</h4></ul>
+          <ul>
+            <a href="/quienes-somos">Quiénes somos</a>
+            <br>
+            <a href="/repositorio-institucional">Repositorio trámite</a>
+            <br>
+            <a href="/reglamentos">Reglamentos</a>
+            <br>
+            <a href="/noticias-vrin">Noticias - VRIN</a>
+            <br>
+            <a href="/eventos">Eventos - VRIN</a>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Información de Contacto -->
+        <div class="footer-column" style="margin-right: 30px; margin-left: 30px;">
+          <h4 style="text-align: left;">Información de Contacto</h4>
+          <p><strong>Ubicación:</strong> Av. Inca Garcilazo de la Vega, Abancay<br>Segundo Piso de la Biblioteca General</p>
+          <p><strong>Email:</strong> <a href="mailto:vrin@unamba.edu.pe">vrin@unamba.edu.pe</a></p>
+        </div>
+
+        <!-- Columna 4: Mapa -->
+        <div class="footer-column" style="margin-left: 30px;">
+          <h4 style="text-align: left;">Ubícanos</h4>
+          <a href="https://www.google.com/maps/place/Universidad+Nacional+Micaela+Bastidas+de+Apur%C3%ADmac/@-13.6183802,-72.8688935,18z/data=!4m15!1m7!3m6!1s0x916d031110cca7df:0x76b548e9c776d989!2sUniversidad+Nacional+Micaela+Bastidas+de+Apur%C3%ADmac!8m2!3d-13.6175533!4d-72.8681635!16s%2Fg%2F11b6hfw056!3m6!1s0x916d031110cca7df:0x76b548e9c776d989!8m2!3d-13.6175533!4d-72.8681635!15sCgZ1bmFtYmGSARFwdWJsaWNfdW5pdmVyc2l0eeABAA!16s%2Fg%2F11b6hfw056?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D">
+            <img src="assets/ubi_unamba.png" alt="Ubicación UNAMBA" style="width: 250px; height: auto;">
+          </a>
+        </div>
+      </div>
+
+    </footer>
+      
+      <style>
+        .footer-bottom {
+          border-top: 1px solid white;
+          color: white;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          font-size: 14px;
+          text-align: center;
+          background-color: #0F0411;
+        }
+      </style>
+      <div class="footer-bottom" style="">
+        &copy; 2025 Vicerrectorado de Investigación - UNAMBA. Todos los derechos reservados.
+      </div>
   footer_extra: |-
     <!-- core JavaScript -->
     <script src="/vrinstyle/js/core/jquery.min.js" type="text/javascript"></script>

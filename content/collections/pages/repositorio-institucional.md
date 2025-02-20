@@ -10,7 +10,7 @@ updated_at: 1735835809
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
-    <div class="page-header header-filter "  data-parallax="true" style="background-image: url('/assets/a_home_otros/bg4.jpg');">
+    <!--<div class="page-header header-filter "  data-parallax="true" style="background-image: url('/assets/a_home_otros/bg4.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto ">
@@ -18,7 +18,7 @@ template_imagen_fondo:
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
   mode: htmlmixed
 block_types:
   -

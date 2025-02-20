@@ -23,7 +23,6 @@ tabs:
               show_set_alt: true
               type: assets
               display: 'Imagen docente'
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -33,10 +32,67 @@ tabs:
             field:
               type: link
               display: Link
-              icon: link
               listable: hidden
               instructions_position: above
               visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: nombre
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Nombre docente'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: gmail
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Gmail
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: carrera
+            field:
+              options:
+                1: Administración
+                2: 'Educación Inicial Intercultural Bilingüe'
+                3: 'Ciencia Política y Gobernabilidad'
+                4: 'Ingeniería Agroindustrial'
+                5: 'Ingeniería de Minas'
+                6: 'Ingeniería Informática y Sistemas'
+                7: 'Ingeniería Civil'
+                8: 'Ingeniería Agroecológica y Desarrollo Rural'
+                9: 'Medicina Veterinaria y Zootecnia'
+              taggable: false
+              push_tags: false
+              multiple: false
+              max_items: 1
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: Carrera
+              instructions: 'Seleccione la carrera a la que pertenece el Docente'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
               hide_display: false
               validate:
                 - required
@@ -50,6 +106,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: date
             field:

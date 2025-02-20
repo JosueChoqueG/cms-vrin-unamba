@@ -17,9 +17,31 @@ block_types:
       - a_home_otros/alumnosi.png
     template:
       code: |-
+        <style>
+            .title-container {
+                display: inline-block;
+                padding: 10px 20px;
+                border: 2px solid #2980b9; 
+                border-radius: 10px; 
+                background: #f0f8ff;
+                color: #2c3e50; 
+                font-weight: bold;
+                font-size: 1.25rem; 
+                text-align: center;
+                margin: 0 auto 25px auto; 
+            }
+        </style>
+
         <div class="section">
-            <div class="container">
                 <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3 class="title-container">Conoce a nuestros alumnos investigadores financiados a través del Concurso de Subvención de Tesis promovido por el Vicerrectorado de Investigación de la UNAMBA.</h3>
+                    </div>
+                </div>
+            <div class="container">
+                
+                <div class="row">
+                    
                     <!-- Contenido aquí -->
                     <div class="cd-section">
                         <div class="row">
@@ -74,7 +96,7 @@ block_types:
     imagen1: a_home_otros/alumnosi.png
 template_imagen_fondo:
   code: |-
-    <div class="page-header header-filter " data-parallax="true" style="background-image: linear-gradient(195deg, rgb(22 191 105), rgb(85, 8, 116), rgb(167 13 131), rgb(18 3 16), #ff980000, rgb(12 135 11));">
+    <!--<div class="page-header header-filter " data-parallax="true" style="background-image: linear-gradient(195deg, rgb(22 191 105), rgb(85, 8, 116), rgb(167 13 131), rgb(18 3 16), #ff980000, rgb(12 135 11));">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
@@ -84,7 +106,7 @@ template_imagen_fondo:
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
   mode: htmlmixed
 modal:
   code: null

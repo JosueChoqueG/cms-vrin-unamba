@@ -1,0 +1,106 @@
+tabs:
+  main:
+    display: Principal
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: cargo
+            field:
+              options:
+                Vicerrector: 'Vicerrector de Investigación'
+                Incubadora: 'Director de Incubadora de Empresas'
+                Innovación: 'Director de Innovación y Transferencia Tecnológica'
+                Institutos: 'Director de Institutos de Investigación'
+                Producción: 'Director de Producción de Bienes y Servicios'
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: Cargo
+              instructions: 'Seleccione el cargo correspondiente.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: nombre
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Nombre
+              instructions: 'Ingrese el nombre de la autoridad correspondiente.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: foto
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: Foto
+              instructions: 'Ingrese la imagen de la autoridad correspondiente.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              max_files: 1
+              min_files: 1
+          -
+            handle: ficha_cti_vitae
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Ficha CTI Vitae'
+              instructions: 'Ingrese el link de la ficha CTI Vitae correspondiente.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: correo
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Correo
+              instructions: 'Ingrese el correo institucional de la autoridad.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+title: Autoridades

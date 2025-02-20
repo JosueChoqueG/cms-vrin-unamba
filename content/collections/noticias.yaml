@@ -1,0 +1,6 @@
+title: Noticias
+revisions: false
+date: true
+date_behavior:
+  past: public
+  future: private

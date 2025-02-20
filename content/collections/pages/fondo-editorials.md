@@ -8,7 +8,7 @@ author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 template_imagen_fondo:
   code: |-
-    <div class="page-header header-filter clear-filter purple-filter header-small" data-parallax="true" style="background-image: url('./assets/a_home_otros/dondo_editorial_pluma.jpg');">
+    <!--<div class="page-header header-filter clear-filter purple-filter header-small" data-parallax="true" style="background-image: url('./assets/a_home_otros/dondo_editorial_pluma.jpg');">
         <div class="container">
           <div class="row">
             <div class="col-md-8 ml-auto mr-auto ">
@@ -16,7 +16,7 @@ template_imagen_fondo:
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
   mode: htmlmixed
 modal:
   code: null

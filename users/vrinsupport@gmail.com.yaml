@@ -12,6 +12,7 @@ preferences:
         - title
         - slug
         - status
+        - 'n'
       per_page: 100
     alumnos_investigadores:
       columns:
@@ -35,3 +36,9 @@ preferences:
         - slug
         - status
         - documentos
+    reglamentos:
+      columns:
+        - title
+        - slug
+        - status
+        - orden

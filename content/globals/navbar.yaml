@@ -1,10 +1,49 @@
 title: Navbar
 data:
   menu_sitio: |-
+    <style>
+        .navbar {
+            padding: 0px;
+            min-height: 60px;
+            background-color: #fff !important;
+        }
+
+        .navbar:hover, .navbar:focus, .navbar:active {
+            background-color: #fff !important;
+        }
+
+        /* Contenedor del menú */
+        .collapse.navbar-collapse {
+            padding: 0; 
+            margin: 0;
+        }
+
+        .navbar-nav {
+            margin: 0; 
+            padding: 0;
+            display: flex;
+            align-items: center; 
+        }
+
+        .navbar-nav .nav-item {
+            /*margin: 0 5px;
+        }
+
+        .navbar-nav .btn {
+            padding: 5px 15px;
+            font-size: 12px; 
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        }
+
+        .dropdown-menu {
+            font-size: 12px; 
+            padding: 5px 0; 
+        }
+    </style>
     <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
             <li class="dropdown nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/quienes-somos">QUIÉNES SOMOS</a>
             </li>
             <li class="dropdown nav-item">
                 <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
@@ -26,41 +65,106 @@ data:
                     <a href="/docentes-renacyt" class="dropdown-item"> Docentes RENACYT</a>
                     <a href="/docentes-investigadores" class="dropdown-item">Lista de Docentes Investigadores</a>
                     <a href="/alumnos-investigadores" class="dropdown-item">Alumnos Investigadores</a>
+                    <a href="/lineas-de-investigacion" class="dropdown-item">Líneas de Investigación</a>
+                    <a href="/unidades-de-investigacion" class="dropdown-item">Unidades de Investigación</a>
                 </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/reglamentos">REGLAMENTOS</a>
             </li>
-    <!-- <li class="nav-item">
-    <a class="nav-link" href="#"></a>
-    </li> -->
             <li class="nav-item">
-                <a class="btn btn-primary btn-round" href="/repositorio-institucional" role="button"> REPOSITORIO</a>
+                <a class="nav-link" href="/noticias-vrin">NOTICIAS</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="btn btn-primary btn-round" href="/repositorio-institucional" role="button" style="background-color: #6a1b9a;">REPOSITORIO</a>
             </li>
     </li>
          <li class="nav-item">
-                <a class="btn btn-round" href="https://observatorio.unamba.edu.pe/" role="button" style="background-color:#60a127 ; border-color:#60a127" target="_blank">OBSERVATORIO</a>
+                <a class="btn btn-round" href="https://observatorio.unamba.edu.pe/" role="button" style="background-color:#75C530;" target="_blank">OBSERVATORIO</a>
          </li>
             
         </ul>
     </div>
-  logo_vrin: a_home_otros/logo_vrin1.png
+
+  logo_vrin: /assets/dorado_logo.png
   template_navbar: |-
     <!--Inicio nav-->
-    <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
-        <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand " href="/">
-                <img src="{{navbar:logo_vrin}}" alt="logo_vrin">
+
+    <style>
+        /* Contenedor principal de la barra de navegación */
+        .navbar {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            fixed: top;
+            margin-bottom: 0;
+            margin-top: 0;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+        }
+
+        /* Contenedor del logo */
+        .navbar-logo-container {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            margin-top: -20px;
+            margin-left: -20px;
+        }
+
+        /* Logo de la barra de navegación */
+        .navbar-logo {
+            max-height: 55px;
+            width: auto;
+        }
+
+        /* Contenedor del menú */
+        .collapse.navbar-collapse {
+            display: flex;
+            justify-content: flex-end; 
+        }
+
+        /* Enlaces del menú */
+        .navbar-nav .nav-link {
+            white-space: nowrap;
+            color: #000 !important; 
+            margin-left: 0px; 
+            margin-right: 0px;
+        }
+
+        .navbar {
+            background-color: #fff !important;
+        }
+
+        body {
+            padding-top: 60px;
+        }
+        
+    </style>
+
+    <nav class="navbar fixed-top navbar-expand-lg" id="sectionsNav">
+        <div class="container fixed-top container-color-on-scroll container-expand">
+            <!-- Contenedor del logo -->
+            <div class="navbar-logo-container">
+                <a class="navbar-brand" href="/">
+                    <img src="assets/dorado_logo.png" alt="logo_vrin" class="navbar-logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            </div>
+            <!-- Botón para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="navbar-toggler-icon"></span>
                 <span class="navbar-toggler-icon"></span>
                 <span class="navbar-toggler-icon"></span>
-                </button>
+            </button>
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                {{navbar:menu_sitio}}
             </div>
-            {{navbar:menu_sitio}}
         </div>
     </nav>
+
+
+
     <!--Fin nav-->

@@ -4306,8 +4306,9 @@ tbody.collapse.show {
 
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
-  background-color: transparent;
-  border-color: transparent;
+  /*background-color: transparent;*/
+  background-color: #fff;
+  /*border-color: transparent;*/
 }
 
 .nav-tabs .nav-link.active,
@@ -4330,7 +4331,7 @@ tbody.collapse.show {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #9c27b0;
+  background-color: #6a1b9a;
 }
 
 .nav-fill .nav-item {
@@ -11644,11 +11645,11 @@ label {
   font-weight: 400;
 }
 
-.main-raised {
+/*.main-raised {
   margin: -60px 30px 0px;
   border-radius: 6px;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
+}*/
 
 /*           Animations              */
 .animation-transition-general,
@@ -12074,12 +12075,12 @@ label {
   border-radius: 0;
 }
 
-@media (max-width: 830px) {
+/*@media (max-width: 830px) {
   .main-raised {
     margin-left: 10px;
     margin-right: 10px;
   }
-}
+}*/
 
 @media (max-width: 767px) {
   .tab-pane#schedule-2 {
@@ -12111,7 +12112,9 @@ label {
   }
 
   .main.main-raised {
-    margin-top: -30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .form-group.is-focused .bootstrap-datetimepicker-widget {
@@ -15234,7 +15237,7 @@ textarea {
 
 .nav-pills .nav-item .nav-link.active {
   color: #ffffff;
-  background-color: #9c27b0;
+  background-color: #6a1b9a;
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
 }
 
@@ -15579,7 +15582,7 @@ h2.title {
 .nav-tabs .nav-item .nav-link:hover,
 .nav-tabs .nav-item .nav-link:focus {
   border: 0 !important;
-  color: #ffffff !important;
+  color: #000 !important;
   font-weight: 500;
 }
 
@@ -15930,7 +15933,7 @@ h2.title {
 .dropdown-menu .disabled>a:focus,
 .dropdown-menu .disabled>a:hover {
   text-decoration: none;
-  background-color: transparent;
+  *background-color: transparent;
   background-image: none;
   color: #777;
 }
@@ -16818,7 +16821,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   transition: opacity 0.1s linear 0s !important;
 }
 
-.page-header {
+/*.page-header {
   height: 100vh;
   background-position: center center;
   background-size: cover;
@@ -16827,7 +16830,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   border: 0;
   display: flex;
   align-items: center;
-}
+}*/
 
 .page-header .page-header-image {
   position: absolute;
@@ -16913,7 +16916,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 
 footer {
   padding: 0.9375rem 0;
-  text-align: center;
+
   display: -webkit-flex;
   /* Safari */
   /* Safari 6.1+ */
@@ -18275,10 +18278,10 @@ footer .pull-center {
   padding: 70px 0;
 }
 
-.profile-page .page-header {
+/*.profile-page .page-header {
   height: 380px;
   background-position: top center;
-}
+}*/
 
 .profile-page .profile {
   text-align: center;

@@ -1,0 +1,115 @@
+tabs:
+  main:
+    display: Principal
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              type: markdown
+              localizable: true
+          -
+            handle: direccion_o_vrin
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Direccion_o_Vrin
+              instructions: 'Ingrese el nombre de la Dirección a la que pertenece la publicación.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: link
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: link
+              instructions: 'Ingrese el link para redireccionar la publicación.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: plantilla
+            field:
+              hide_partials: true
+              blueprint: false
+              type: template
+              display: Plantilla
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: autor
+            field:
+              mode: select
+              default:
+                - 06ac68ab-d29f-41e9-9b9a-dd4da3996484
+              type: users
+              display: Autor
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: fecha_publicacion
+            field:
+              mode: single
+              inline: false
+              full_width: false
+              columns: 1
+              rows: 1
+              time_enabled: false
+              time_seconds_enabled: false
+              type: date
+              display: 'Fecha Publicacion'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: imagen_principal
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              max_files: 1
+              display: 'Imagen Principal'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+title: Noticia

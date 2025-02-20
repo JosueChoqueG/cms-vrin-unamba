@@ -23,7 +23,6 @@ tabs:
               antlers: false
               type: text
               display: Direccion_O_VRIN
-              icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -36,7 +35,6 @@ tabs:
               mode: select
               type: users
               display: Autor
-              icon: users
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -50,7 +48,6 @@ tabs:
               blueprint: false
               type: template
               display: Template
-              icon: template
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -65,6 +62,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: imagen_principal
             field:
@@ -77,7 +75,6 @@ tabs:
               show_set_alt: true
               type: assets
               display: 'Imagen Principal'
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -112,9 +109,61 @@ tabs:
               show_set_alt: true
               type: assets
               display: documentos
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
+              hide_display: false
+          -
+            handle: modal
+            field:
+              options:
+                si: 'Si, mostrar la publicación en el modal'
+                'no': 'No, no mostrar la publicación en el modal'
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: Modal
+              instructions: 'Desea mostrar la publicación en el modal de la página de VRIN?'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: convocatoria
+            field:
+              options:
+                si: 'Si, la publicación es relevante'
+                'no': 'No, la publicación no es tan relevante'
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: Convocatoria
+              instructions: 'Desea que esta publicación se muestre como relevante en la parte de convocatorias?'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: descripcion
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Descripcion
+              instructions: 'Ingrese una breve descripción de la publicación para mostrarlo en el apartado de convocatorias.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
               hide_display: false
 title: Blog

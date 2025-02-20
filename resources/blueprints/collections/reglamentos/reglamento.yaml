@@ -1,0 +1,66 @@
+tabs:
+  main:
+    display: Principal
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+          -
+            handle: reglamento_o_base
+            field:
+              options:
+                reglamento: Reglamento
+                base: 'Base de concurso'
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: Reglamento_o_base
+              instructions: 'Seleccione si subirá un Reglamento o Base de Concurso.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: orden
+            field:
+              type: integer
+              display: Orden
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: link_documento
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Link_documento
+              instructions: 'Ingrese el link del documento que esta publicando.'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+title: Reglamento
