@@ -95,6 +95,7 @@ template_imagen_fondo:
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto ">
                     <h1 class="title">Noticias VRIN</h1>
+                    <p> En mantenimiento ... gracias por su comprensión. </p>
                 </div>
             </div>
         </div>
