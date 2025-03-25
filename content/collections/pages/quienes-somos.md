@@ -269,7 +269,7 @@ block_types:
             <div class="row">
         		 <!-- Sidebar del miniíndice -->
         				<div class="col-lg-3">
-        					<h3 class="title">NOSOTROS</h3>
+        					<h3 class="title">NOSOTROSSSS</h3>
         				  	<hr>
         					<div class="list-group">
         						<a href="#" class="list-group-item list-group-item-action active" id="link-sobre-vrin">
