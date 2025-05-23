@@ -152,7 +152,7 @@ block_types:
                     </div>
                     <div class="tab-pane" id="informes">
                         <li>Informe final de investigación cuantitativo <a href="https://docs.google.com/document/d/1jN93KjnyVHxMx0G1Kxwiee9zayfcz0X1/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe final de investigación cualitativo <a href="https://docs.google.com/document/d/1ej5Gv1GJgZLnoFcuoVePkJvSxiUkzudx/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Informe final de investigación cualitativo <a href="https://drive.google.com/file/d/1_6ioNrTQCxpofBuyVINiqt2w6v1DyVbV/view" target="_blank">(clic para descargar)</a>.</li>
                         <li>Informe final de trabajo profesional <a href="https://docs.google.com/document/d/1l9VCsWA6YIdcOkwM4YRzyY4Rp59789rS/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
                     </div>
                     <div class="tab-pane" id="guias">
