@@ -28,7 +28,7 @@ block_types:
         <div class=" text-center" >
             <br>
             <h1 class="title">Iniciar Trámite Online</h1>
-            <h6 class="title">POR FAVOR0000 LEER LOS REQUISITOS <br>
+            <h6 class="title">POR FAVOR LEER LOS REQUISITOS <br>
                 LA GENERACIÓN DE CONSTANCIAS REQUIERE 5 DÍAS HÁBILES
             </h6>
             <div class="social-line social-line-white text-center">
