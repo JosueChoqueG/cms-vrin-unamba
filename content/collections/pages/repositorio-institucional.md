@@ -146,7 +146,7 @@ block_types:
                         </li>-->
                     </div>
                     <div class="tab-pane" id="proyectos">
-                        <li>Proyecto cuantitativo <a href="https://docs.google.com/document/d/1iTn97ZG7o1QLXz0fslzclCBaGO131EbR/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
+                        <li>Proyecto cuantitativo <a href="https://drive.google.com/file/d/1A_ISlhNJOwlyVPYGxg4mZNR9doLdxJ9K/view" target="_blank">(clic para descargar)</a>.</li>
                         <li>Proyecto cualitativo <a href="https://drive.google.com/file/d/1AUvcjKR8EtZGv3Z2r6FXCxKTJ6Xsfw9a/view" target="_blank">(clic para descargar)</a>.</li>
                         <li>Proyecto de Trabajo Profesional <a href="https://docs.google.com/document/d/1_lL5pM-_BQ9-ftrlAmdaolGztV_av0gv/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
                     </div>
